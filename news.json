@@ -1,0 +1,25 @@
+{
+  "updated": "27.06.2026",
+  "categories": [
+    {
+      "id": "models",
+      "title": "Neue Modelle & Capabilities",
+      "items": [
+        {
+          "title": "Beispielmeldung — wird beim ersten Lauf ersetzt",
+          "source": "Beispielquelle",
+          "date": "26.06.2026",
+          "image": "",
+          "teaser": "Ein bis zwei Sätze als Teaser. Genug, um zu entscheiden, ob es dich interessiert.",
+          "more": "Die etwas längere Einordnung: was neu ist und warum es relevant sein könnte.",
+          "url": "https://example.com"
+        }
+      ]
+    },
+    { "id": "agentic", "title": "Agentic AI & Tool Use", "items": [] },
+    { "id": "devtools", "title": "Dev & Automatisierung", "items": [] },
+    { "id": "marketing", "title": "Marketing-AI (Bild & Video)", "items": [] },
+    { "id": "regulation", "title": "Regulierung & Data Sovereignty", "items": [] },
+    { "id": "openweight", "title": "Open-Weight-Modelle", "items": [] }
+  ]
+}

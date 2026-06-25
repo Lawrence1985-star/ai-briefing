@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#070b24">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>AI Briefing</title>
+<style>
+  :root{
+    --bg:#070b24;          /* deep ink navy */
+    --bg-card:#0f1638;
+    --bg-card-2:#121a42;
+    --ink:#eef0fb;          /* warm off-white */
+    --muted:#9aa0c4;
+    --line:#21294f;
+    --hero:#f3d27a;         /* morning signal */
+    /* category accents */
+    --c-models:#6aa2ff;
+    --c-agentic:#3fd0c9;
+    --c-devtools:#8bd450;
+    --c-marketing:#f06bc8;
+    --c-regulation:#e8b84b;
+    --c-openweight:#b388ff;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;background:var(--bg);color:var(--ink);
+    font:400 16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    padding:env(safe-area-inset-top) 0 calc(40px + env(safe-area-inset-bottom));
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:620px;margin:0 auto;padding:0 18px}
+
+  /* ---- masthead ---- */
+  header{padding:30px 0 18px;border-bottom:1px solid var(--line);margin-bottom:10px}
+  .eyebrow{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .hero{
+    font-family:Georgia,"Times New Roman",serif;font-weight:600;
+    font-size:clamp(30px,9vw,42px);line-height:1.05;letter-spacing:-.01em;
+    margin:10px 0 6px;color:var(--ink);
+  }
+  .hero em{font-style:italic;color:var(--hero)}
+  .stamp{font-size:13px;color:var(--muted)}
+  .sample{
+    margin-top:12px;font-size:12.5px;color:#0d1023;background:var(--hero);
+    display:inline-block;padding:5px 10px;border-radius:999px;font-weight:600
+  }
+  .sample[hidden]{display:none}
+
+  /* ---- category ---- */
+  .cat{margin:26px 0 0}
+  .cat-head{display:flex;align-items:baseline;gap:9px;margin-bottom:12px}
+  .dot{width:9px;height:9px;border-radius:50%;flex:0 0 auto;transform:translateY(-1px)}
+  .cat-title{font-size:13px;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+  .cat-count{margin-left:auto;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+
+  .empty{color:var(--muted);font-size:14px;padding:4px 0 2px}
+
+  /* ---- card ---- */
+  .card{
+    background:var(--bg-card);border:1px solid var(--line);border-left:3px solid var(--accent,var(--line));
+    border-radius:14px;overflow:hidden;margin-bottom:12px;
+  }
+  .card img{display:block;width:100%;height:158px;object-fit:cover;background:var(--bg-card-2)}
+  .card img.hidden{display:none}
+  .card-body{padding:14px 15px}
+  .card h3{margin:0 0 7px;font-size:18px;line-height:1.3;font-weight:650;letter-spacing:-.01em}
+  .meta{font-size:12px;color:var(--muted);margin-bottom:9px}
+  .meta b{color:var(--accent,var(--ink));font-weight:600}
+  .teaser{margin:0;color:#d6d9f0;font-size:15px}
+
+  details{margin-top:11px;border-top:1px dashed var(--line);padding-top:10px}
+  summary{
+    list-style:none;cursor:pointer;color:var(--accent,var(--ink));font-weight:600;font-size:14px;
+    display:inline-flex;align-items:center;gap:6px;min-height:30px;-webkit-tap-highlight-color:transparent
+  }
+  summary::-webkit-details-marker{display:none}
+  summary .chev{transition:transform .2s ease}
+  details[open] summary .chev{transform:rotate(90deg)}
+  .more{margin:9px 0 2px;color:#cdd1ec;font-size:14.5px}
+  .src{display:inline-flex;align-items:center;gap:5px;margin-top:12px;color:var(--accent,var(--ink));font-size:14px;text-decoration:none;font-weight:600;min-height:32px}
+  .src:hover{text-decoration:underline}
+  .card h3 a.title-link{color:inherit;text-decoration:none}
+  .card h3 a.title-link:hover,.card h3 a.title-link:active{color:var(--accent,var(--ink))}
+
+  footer{margin-top:34px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;text-align:center}
+
+  a{color:inherit}
+  :focus-visible{outline:2px solid var(--hero);outline-offset:2px;border-radius:6px}
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">AI Briefing · Mo &amp; Fr</div>
+    <h1 class="hero" id="hero">Guten <em>Morgen</em></h1>
+    <div class="stamp" id="stamp">Wird beim ersten Lauf aktualisiert</div>
+    <div class="sample" id="sampleNote" hidden>Beispieldaten — wird beim ersten Lauf ersetzt</div>
+  </header>
+  <main id="feed"></main>
+  <footer>Persönliches AI-Briefing · Quellen jeweils verlinkt</footer>
+</div>
+
+<script>
+const COLORS = {
+  models:"--c-models", agentic:"--c-agentic", devtools:"--c-devtools",
+  marketing:"--c-marketing", regulation:"--c-regulation", openweight:"--c-openweight"
+};
+
+const SAMPLE = {
+  updated:"Beispiel",
+  categories:[
+    {id:"models",title:"Neue Modelle & Capabilities",items:[
+      {title:"So sieht eine Meldung aus",source:"Beispielquelle",date:"—",
+       teaser:"Kurzer Teaser in ein bis zwei Sätzen. Sobald die Routine läuft, stehen hier die echten News.",
+       more:"Im aufgeklappten Bereich kommt die etwas längere Einordnung, plus der Link zur Originalquelle.",
+       url:"https://example.com"}
+    ]},
+    {id:"agentic",title:"Agentic AI & Tool Use",items:[]},
+    {id:"devtools",title:"Dev & Automatisierung",items:[]},
+    {id:"marketing",title:"Marketing-AI (Bild & Video)",items:[]},
+    {id:"regulation",title:"Regulierung & Data Sovereignty",items:[]},
+    {id:"openweight",title:"Open-Weight-Modelle",items:[]}
+  ]
+};
+
+function el(t,c){const e=document.createElement(t);if(c)e.className=c;return e;}
+
+function card(item,varName){
+  const c=el("div","card");
+  c.style.setProperty("--accent",`var(${varName})`);
+  if(item.image){
+    const img=el("img");img.loading="lazy";img.src=item.image;img.alt="";
+    img.onerror=()=>img.classList.add("hidden");
+    if(item.url){const ia=el("a");ia.href=item.url;ia.target="_blank";ia.rel="noopener";ia.appendChild(img);c.appendChild(ia);}
+    else c.appendChild(img);
+  }
+  const b=el("div","card-body");
+  const h=el("h3");
+  if(item.url){
+    const ha=el("a","title-link");ha.href=item.url;ha.target="_blank";ha.rel="noopener";
+    ha.textContent=item.title||"";h.appendChild(ha);
+  } else h.textContent=item.title||"";
+  b.appendChild(h);
+  const m=el("div","meta");
+  m.innerHTML=`<b>${item.source||""}</b>${item.date?" · "+item.date:""}`;
+  b.appendChild(m);
+  if(item.teaser){const p=el("p","teaser");p.textContent=item.teaser;b.appendChild(p);}
+  if(item.more){
+    const d=el("details");
+    const s=el("summary");s.innerHTML=`<span class="chev">›</span> Mehr lesen`;
+    d.appendChild(s);
+    const mp=el("p","more");mp.textContent=item.more;d.appendChild(mp);
+    b.appendChild(d);
+  }
+  if(item.url){
+    const a=el("a","src");a.href=item.url;a.target="_blank";a.rel="noopener";
+    a.textContent="Quelle öffnen ↗";b.appendChild(a);
+  }
+  c.appendChild(b);
+  return c;
+}
+
+function render(data,isSample){
+  document.getElementById("sampleNote").hidden=!isSample;
+  const stamp=document.getElementById("stamp");
+  stamp.textContent = isSample ? "Vorschau" : ("Aktualisiert: "+(data.updated||""));
+  const feed=document.getElementById("feed");
+  feed.innerHTML="";
+  (data.categories||[]).forEach(cat=>{
+    const sec=el("section","cat");
+    const head=el("div","cat-head");
+    const dot=el("span","dot");
+    const varName=COLORS[cat.id]||"--line";
+    dot.style.background=`var(${varName})`;
+    head.appendChild(dot);
+    const t=el("span","cat-title");t.textContent=cat.title;head.appendChild(t);
+    const items=cat.items||[];
+    const cnt=el("span","cat-count");cnt.textContent=items.length?items.length:"";head.appendChild(cnt);
+    sec.appendChild(head);
+    if(!items.length){const e=el("div","empty");e.textContent="Nichts Neues.";sec.appendChild(e);}
+    else items.forEach(it=>sec.appendChild(card(it,varName)));
+    feed.appendChild(sec);
+  });
+}
+
+fetch("./news.json",{cache:"no-store"})
+  .then(r=>{if(!r.ok)throw 0;return r.json();})
+  .then(d=>render(d,false))
+  .catch(()=>render(SAMPLE,true));
+</script>
+</body>
+</html>
