@@ -1,25 +1,176 @@
 {
-  "updated": "27.06.2026",
+  "updated": "26.06.2026",
   "categories": [
     {
       "id": "models",
       "title": "Neue Modelle & Capabilities",
       "items": [
         {
-          "title": "Beispielmeldung — wird beim ersten Lauf ersetzt",
-          "source": "Beispielquelle",
-          "date": "26.06.2026",
+          "title": "Claude Fable 5 ab 23. Juni kostenpflichtig – Free-Phase beendet",
+          "source": "Anthropic",
+          "date": "23.06.2026",
           "image": "",
-          "teaser": "Ein bis zwei Sätze als Teaser. Genug, um zu entscheiden, ob es dich interessiert.",
-          "more": "Die etwas längere Einordnung: was neu ist und warum es relevant sein könnte.",
-          "url": "https://example.com"
+          "teaser": "Anthropic beendet die kostenfreie Testphase von Claude Fable 5: Ab dem 23. Juni fallen Nutzungskosten von $10/$50 pro Million Tokens an – weniger als die Hälfte des bisherigen Claude-Mythos-Previews.",
+          "more": "Fable 5 war am 9. Juni gelauncht worden und hatte mit 95% auf SWE-Bench einen neuen Rekord aufgestellt. Nach einem kurzzeitigen Offline-Gang wegen eines US-Exportdekrets läuft das Modell wieder stabil. Parallel ist Claude Mythos 5 – dasselbe Basismodell mit gelockerten Safeguards – für einen kleinen Kreis aus Cyberverteidigern und Infrastrukturanbietern verfügbar.",
+          "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+        },
+        {
+          "title": "OpenAI startet GPT-5.5-Cyber als Vollversion für Sicherheitsoperationen",
+          "source": "BuildFastWithAI",
+          "date": "22.06.2026",
+          "image": "",
+          "teaser": "OpenAI hat GPT-5.5-Cyber im Rahmen seines erweiterten Daybreak-Cybersicherheitsprogramms als Vollversion freigegeben – mit 85,6% auf dem CyberGym-Benchmark.",
+          "more": "Standard-GPT-5.5 erreicht auf demselben Benchmark 81,8%. Das Modell ist speziell auf Bedrohungsanalyse, Sicherheitsoperationen und Incident Response ausgerichtet. Mit diesem Schritt intensiviert OpenAI seinen Fokus auf sicherheitskritische Unternehmensanwendungen.",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-23-2026"
+        },
+        {
+          "title": "Gemini 3.5 Pro: 2-Millionen-Token-Modell noch immer ohne GA-Datum",
+          "source": "TechTimes",
+          "date": "23.06.2026",
+          "image": "",
+          "teaser": "Googles Gemini 3.5 Pro mit 2-Millionen-Token-Kontext und \"Deep Think\"-Reasoning ist Stand 23. Juni weiterhin nur für ausgewählte Enterprise-Kunden auf Vertex AI zugänglich.",
+          "more": "Das auf Google I/O (19. Mai) angekündigte Modell absorbiert die Aufgaben der bisherigen Ultra-Tier und bietet frontier-fähige Multimodalität. Ein verbindliches GA-Datum gibt es nicht; der Deep Think-Modus bleibt exklusiv für Ultra-Abonnenten ($250/Monat). Gemini 3.5 Flash ist dagegen bereits allgemein verfügbar.",
+          "url": "https://www.techtimes.com/articles/317919/20260606/google-gemini-35-pro-nears-june-launch-2-million-token-context-deep-think-reasoning.htm"
         }
       ]
     },
-    { "id": "agentic", "title": "Agentic AI & Tool Use", "items": [] },
-    { "id": "devtools", "title": "Dev & Automatisierung", "items": [] },
-    { "id": "marketing", "title": "Marketing-AI (Bild & Video)", "items": [] },
-    { "id": "regulation", "title": "Regulierung & Data Sovereignty", "items": [] },
-    { "id": "openweight", "title": "Open-Weight-Modelle", "items": [] }
+    {
+      "id": "agentic",
+      "title": "Agentic AI & Tool Use",
+      "items": [
+        {
+          "title": "Gartner: KI-Agenten-Softwaremarkt wächst 2026 auf $206 Mrd. (+139 %)",
+          "source": "AI Business / Gartner",
+          "date": "24.06.2026",
+          "image": "",
+          "teaser": "Eine neue Gartner-Prognose sieht den globalen KI-Agenten-Softwaremarkt 2026 bei rund 206 Milliarden Dollar – das schnellste Wachstum aller Enterprise-Software-Segmente.",
+          "more": "Das entspricht einem Anstieg von 139% gegenüber $86,4 Mrd. in 2025. Unternehmen verlagern sich von Einzel-Agenten auf Multi-Agenten-Systeme, die mehrstufige Workflows autonom abarbeiten. Dieser Shift markiert nach Einschätzung von Gartner einen Paradigmenwechsel in der Unternehmens-IT vergleichbar mit dem Cloud-Übergang.",
+          "url": "https://aibusiness.com/generative-ai/agentic-ai"
+        },
+        {
+          "title": "HPE und NVIDIA erweitern AI Factory für autonome Multi-Agenten-Systeme",
+          "source": "Crescendo AI",
+          "date": "23.06.2026",
+          "image": "",
+          "teaser": "HPE hat sein AI-Factory-Portfolio mit NVIDIA um den Vera CPU für Agent-Orchestrierung und den NVIDIA Agent Toolkit für sichere Agentenverwaltung in Produktionsumgebungen ergänzt.",
+          "more": "Ziel ist die Industrialisierung von KI-Agenten: Unternehmen sollen autonome Systeme sicher skalieren können, ohne auf spezialisierte AI-Engineering-Teams angewiesen zu sein. HPE positioniert sich damit als Infrastrukturanbieter für die nächste Welle unternehmenskritischer Agentic-AI-Deployments.",
+          "url": "https://www.crescendo.ai/news/latest-ai-news-and-updates"
+        },
+        {
+          "title": "MoEngage übernimmt Aampe – erste vereinte Marketing-Agent-Plattform",
+          "source": "The Agile Brand Guide",
+          "date": "25.06.2026",
+          "image": "",
+          "teaser": "MoEngage hat das KI-Infrastruktur-Unternehmen Aampe übernommen und baut damit die erste Plattform, die Workflow-Agenten für Marketer und Decisioning-Agenten für Endnutzer auf einem einheitlichen System vereint.",
+          "more": "Bisher liefen Marketer-seitige Workflow-Agenten und nutzerseitige Entscheidungsagenten auf getrennten Systemen. Die Integration verspricht konsistentere und personalisiertere Customer Journeys. Der Deal illustriert, wie Agentic AI im Marketing-Stack von der Experimentierphase in produktive Unternehmensstrukturen wandert.",
+          "url": "https://agilebrandguide.com/yesterdays-marketing-technology-ai-news-june-25-2026/"
+        }
+      ]
+    },
+    {
+      "id": "devtools",
+      "title": "Dev & Automatisierung",
+      "items": [
+        {
+          "title": "Claude Code: Sandbox Credential Blocking, Remote MCP und VS-Code-Stabilität",
+          "source": "Releasebot / Anthropic",
+          "date": "22.06.2026",
+          "image": "",
+          "teaser": "Claude Code erhält ein Sicherheits- und Stabilitätsupdate: Sandbox Credential Blocking verhindert ungewollte Credential-Leaks, org-weite Modell-Restriktionen sind neu konfigurierbar.",
+          "more": "Weitere Verbesserungen betreffen Remote-MCP-Verbindungen, Session-Handling, GitHub-App-Setup sowie die Befehle /btw und /plugin. Anthropic hat das Release-Tempo für Claude Code in Q2 2026 deutlich erhöht – nahezu wöchentliche Updates zeigen, wie stark das Tool im Mittelpunkt der Produktstrategie steht.",
+          "url": "https://releasebot.io/updates/anthropic/claude-code"
+        },
+        {
+          "title": "MCP v2.1: Zero-Config-Integration verbindet KI direkt mit Datenbanken und internen Tools",
+          "source": "Claude Code Docs",
+          "date": "20.06.2026",
+          "image": "",
+          "teaser": "Das Model Context Protocol (MCP) in Version 2.1 ermöglicht eine Zero-Config-Anbindung von KI-Assistenten an Datenbanken, Jira, Slack oder interne Systeme – ohne manuellen Glue-Code.",
+          "more": "MCP hat sich als offener Standard für KI-Tool-Anbindung etabliert; Claude Code nutzt es, um direkt auf Design-Dokumente, Ticketsysteme und Messaging zugreifen. Die Zero-Config-Funktion senkt die Einstiegshürde für Teams ohne dediziertes AI-Engineering erheblich und beschleunigt den Rollout von Unternehmens-KI-Automatisierungen.",
+          "url": "https://code.claude.com/docs/en/overview"
+        }
+      ]
+    },
+    {
+      "id": "marketing",
+      "title": "Marketing-AI (Bild & Video)",
+      "items": [
+        {
+          "title": "Seedance 2.0 führt Text-to-Video-Rankings für kommerzielle Produktionen an",
+          "source": "BuildMVPFast",
+          "date": "24.06.2026",
+          "image": "",
+          "teaser": "Seedance 2.0 belegt in aktuellen Benchmarks den Spitzenplatz für KI-generierte Videoinhalte im Werbebereich, gefolgt von Google Veo 3.1 (Realismus + Audio) und Kling 3.0 (Storytelling).",
+          "more": "Die Modelle haben klare Spezialstärken: Seedance 2.0 überzeugt bei Werbeschnipseln, Veo 3.1 bei naturgetreuer Darstellung mit nativem Audio, Kling 3.0 bei stilisierten Narrativen. Laut einer 2026er Studie steigert KI-generiertes Video die Konversionsrate gegenüber statischen Bildern um 23%. 42% der Marketing-Teams testen inzwischen mindestens einen KI-Video-Workflow produktiv.",
+          "url": "https://www.buildmvpfast.com/articles/best-llms-2026-guide/video-generation-ai"
+        },
+        {
+          "title": "Amazon Ads automatisiert Videoanzeigen-Lokalisierung mit Long-Video-Agenten",
+          "source": "Mean CEO Blog",
+          "date": "22.06.2026",
+          "image": "",
+          "teaser": "Amazon Ads setzt KI-gestützte Long-Video-Agenten ein, um Werbeinhalte automatisiert für verschiedene Regionen und Sprachen anzupassen – professionelle Lokalisierung in Minuten statt Wochen.",
+          "more": "Gemeinsam mit Plattformen wie Synthesia und Novi AI gehört Amazon zu den Vorreitern, die skalierte Videoproduktion für Marketing-Teams ohne großes Produktionsbudget ermöglichen. Der durchschnittliche Betrieb nutzt 2026 bereits 2,3 verschiedene KI-Video-Tools parallel – je nach Projektanforderung.",
+          "url": "https://blog.mean.ceo/ai-video-generation-trends-june-2026/"
+        }
+      ]
+    },
+    {
+      "id": "regulation",
+      "title": "Regulierung & Data Sovereignty",
+      "items": [
+        {
+          "title": "EU verabschiedet Cloud and AI Development Act (CADA) – Vier-Stufen-Souveränitätsrahmen",
+          "source": "EU-Kommission",
+          "date": "03.06.2026",
+          "image": "",
+          "teaser": "Die EU-Kommission hat den Cloud and AI Development Act (CADA) formell angenommen – das Gesetz führt ein vierstufiges Souveränitäts-Klassifizierungssystem für Cloud-Anbieter im öffentlichen Sektor ein.",
+          "more": "Stufe 4 (höchste Einstufung) verlangt vollständige EU-Eigentümerschaft, EU-geprüftes Personal und keinerlei Transfer von KI-Inferenzdaten außerhalb der EU. Hintergrund: Der EU-Marktanteil europäischer Cloud-Anbieter sank von 29% (2017) auf 15% (2022). Öffentliche Stellen müssen künftig \"EU Added Value\" als Vergabekriterium in Cloud-Beschaffungen berücksichtigen; zusätzlich soll die Rechenzentrumskapazität der EU binnen 5-7 Jahren verdreifacht werden.",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/cloud-and-ai-development-act"
+        },
+        {
+          "title": "EU AI Act: Rat und Parlament einigen sich auf Vereinfachung und Timeline-Verlängerung",
+          "source": "EU-Rat",
+          "date": "07.05.2026",
+          "image": "",
+          "teaser": "Rat und Europaparlament haben sich auf eine Vereinfachung des EU AI Acts geeinigt: Umsetzungsfristen für Hochrisiko-KI-Systeme werden um bis zu 16 Monate verlängert.",
+          "more": "KMU-Ausnahmen werden auf kleinere Mid-Cap-Unternehmen ausgeweitet, in einigen Fällen werden Anforderungen reduziert, und die Verarbeitung sensibler Daten für Bias-Tests wird erleichtert. Der AI Act tritt vollständig am 2. August 2026 in Kraft; für in Produkte eingebettete Hochrisiko-KI gilt eine Übergangsfrist bis August 2028.",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/"
+        }
+      ]
+    },
+    {
+      "id": "openweight",
+      "title": "Open-Weight-Modelle",
+      "items": [
+        {
+          "title": "Zhipu GLM 5.2: 744-Milliarden-MoE-Modell mit MIT-Lizenz und 1-Millionen-Token-Kontext",
+          "source": "devFlokers",
+          "date": "13.06.2026",
+          "image": "",
+          "teaser": "Zhipu AI hat GLM 5.2 veröffentlicht – ein 744-Milliarden-Parameter-MoE-Modell, das nur 40 Milliarden Parameter pro Token aktiviert, über einen 1-Millionen-Token-Kontext verfügt und unter MIT-Lizenz steht.",
+          "more": "Die permissive MIT-Lizenz macht GLM 5.2 besonders attraktiv für kommerzielle Deployments ohne Auflagen. Zhipu ist bekannt für starke mehrsprachige Performance; GLM 5.2 soll westliche Open-Weight-Frontendmodelle auch auf Englisch überbieten. Das Modell ist auf Hugging Face verfügbar.",
+          "url": "https://www.devflokers.com/blog/open-source-ai-roundup-june-2026"
+        },
+        {
+          "title": "MiniMax M3: erstes Open-Weight-Modell mit Frontier-Coding und 1-Millionen-Token-Kontext",
+          "source": "The Decoder",
+          "date": "01.06.2026",
+          "image": "",
+          "teaser": "MiniMax (Shanghai) hat M3 als Open-Weight-Modell mit 1-Millionen-Token-Kontext, nativer Multimodalität und 59% auf SWE-Bench Pro veröffentlicht – und übertrifft damit laut eigenen Angaben GPT-5.5.",
+          "more": "Die neue MiniMax Sparse Attention (MSA) Architektur reduziert den Compute-Aufwand bei 1M-Token auf ein Zwanzigstel der Vorgängergeneration und liefert über 15-fach schnelleres Decoding. Die API kostet nur $0,60/$2,40 pro Million Tokens – ein Bruchteil geschlossener Konkurrenten. Gewichte sind auf Hugging Face verfügbar.",
+          "url": "https://the-decoder.com/minimax-m3-open-weight-model-with-a-million-token-context-challenges-proprietary-leaders/"
+        },
+        {
+          "title": "Kimi K2.7 Code (Moonshot): 1-Billion-Parameter-Coding-MoE unter Modified MIT",
+          "source": "Flowtivity",
+          "date": "12.06.2026",
+          "image": "",
+          "teaser": "Moonshot AI hat Kimi K2.7 Code mit 1 Billion Gesamtparametern (32 Mrd. aktiv pro Token), einem 256K-Token-Kontext und Modified-MIT-Lizenz als Open-Weight-Modell veröffentlicht.",
+          "more": "Das Modell richtet sich gezielt an professionelle Coding-Anwendungen und ist als Open-Weight-Alternative zu geschlossenen Code-Modellen positioniert. In derselben Woche wurden über 25 Open-Weight-Modelle verschiedener Modalitäten veröffentlicht – ein Rekord, der den anhaltenden Trend zur Open-Weight-Demokratisierung von KI bestätigt.",
+          "url": "https://flowtivity.ai/blog/open-weight-insanity-week-june-2026/"
+        }
+      ]
+    }
   ]
 }
