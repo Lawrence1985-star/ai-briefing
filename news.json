@@ -1,36 +1,27 @@
 {
-  "updated": "26.06.2026",
+  "updated": "03.07.2026",
   "categories": [
     {
       "id": "models",
       "title": "Neue Modelle & Capabilities",
       "items": [
         {
-          "title": "OpenAI GPT-5.5-Cyber: Security-Variante übertrifft Allrounder auf SEC-bench",
-          "source": "OpenAI",
-          "date": "25.06.2026",
+          "title": "Claude Sonnet 5: agentischstes Sonnet-Modell wird neuer Standard",
+          "source": "Anthropic",
+          "date": "30.06.2026",
           "image": "",
-          "teaser": "OpenAI hat GPT-5.5-Cyber veröffentlicht – eine auf Cybersecurity spezialisierte Modellvariante, die mit 69,8 % auf SEC-bench Pro den Allrounder GPT-5.5 (63,1 %) klar übertrifft.",
-          "more": "Das Modell markiert OpenAIs Strategiewechsel hin zu vertikalen Domänen-Varianten neben dem Allround-Flaggschiff. Für Security-Teams könnte GPT-5.5-Cyber zum Standard-Tool für Code-Audits, Bedrohungsanalysen und Penetrationstests werden. Parallel dazu kündigte OpenAI Jalapeño an – seinen ersten eigenen LLM-Inferenz-Chip, entwickelt mit Broadcom.",
-          "url": "https://openai.com/news/"
+          "teaser": "Anthropic hat Claude Sonnet 5 veröffentlicht und zum neuen Standardmodell für Free- und Pro-Nutzer gemacht. Es kommt nah an die Leistung von Opus 4.8 heran, bei deutlich niedrigeren Kosten.",
+          "more": "Sonnet 5 ist laut Anthropic das bisher agentischste Sonnet-Modell: Es plant selbstständig, nutzt Browser und Terminals und arbeitet autonomer als Vorgängermodelle. Bis Ende August gilt Einführungspreis von 2 $ / 10 $ pro Million Tokens. Sicherheitstests zeigen zudem weniger unerwünschtes Verhalten als bei Sonnet 4.6.",
+          "url": "https://www.anthropic.com/news/claude-sonnet-5"
         },
         {
-          "title": "Claude Fable 5: 95 % SWE-bench, 1M-Token-Kontext, 1.000 parallele Subagenten",
-          "source": "Anthropic / LM Council",
-          "date": "09.06.2026",
+          "title": "xAI zeigt Grok 4.5 in privater Beta bei Tesla und SpaceX",
+          "source": "xAI / TechTimes",
+          "date": "28.06.2026",
           "image": "",
-          "teaser": "Anthropics Claude Fable 5 setzt mit 95 % auf SWE-bench einen neuen Rekord (Opus 4.8: 88 %) und unterstützt bis zu 1.000 parallele Subagenten sowie einen 1-Million-Token-Kontext.",
-          "more": "Fable 5 ist auf mehrtägige Multi-Agenten-Workflows ausgelegt: Ganze Codebasen lassen sich in einem Kontext halten, parallele Workstreams koordinieren. Als Nachfolger von Opus 4.8 stellt es das bisher leistungsstärkste Anthropic-Modell für Engineering-Aufgaben dar und bildet die Grundlage für Claude Code.",
-          "url": "https://lmcouncil.ai/benchmarks"
-        },
-        {
-          "title": "Microsoft startet eigene KI-Modellfamilie: 7 MAI-Modelle inklusive MAI-Thinking-1",
-          "source": "Microsoft AI / CNBC",
-          "date": "02.06.2026",
-          "image": "",
-          "teaser": "Microsoft hat sieben intern entwickelte MAI-Modelle vorgestellt, darunter das Reasoning-Flaggschiff MAI-Thinking-1, um die Abhängigkeit von OpenAI zu reduzieren und Kosten für Azure-Entwickler zu senken.",
-          "more": "MAI-Thinking-1 erzielt starke Ergebnisse auf Software-Engineering- und Mathematik-Benchmarks und konkurriert direkt mit GPT-5.5 und Claude Fable 5. Die Eigenentwicklung gibt Microsoft mehr Kontrolle über Roadmap, Preisgestaltung und strategische Unabhängigkeit im KI-Segment.",
-          "url": "https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/"
+          "teaser": "xAI hat Grok 4.5 auf Basis des neuen 1,5-Billionen-Parameter-Modells V9 vorgestellt – vorerst exklusiv als private Beta bei Tesla und SpaceX, ohne öffentlichen Zugang oder unabhängige Benchmarks.",
+          "more": "Das Training wurde laut xAI gezielt mit Cursor-Daten angereichert, um Coding-Fähigkeiten zu schärfen. Musk zufolge soll die Leistung an Claude Opus heranreichen, dies lässt sich aber mangels Zugangs bislang nicht unabhängig prüfen. Ein öffentlicher Release-Termin steht noch nicht fest.",
+          "url": "https://www.techtimes.com/articles/319314/20260629/grok-45-enters-private-beta-spacex-tesla-no-public-access-no-independent-benchmark.htm"
         }
       ]
     },
@@ -39,22 +30,22 @@
       "title": "Agentic AI & Tool Use",
       "items": [
         {
-          "title": "Anthropic Agentic Coding Trends Report: 57 % der Firmen haben Agents in Produktion",
-          "source": "Anthropic",
-          "date": "06.2026",
+          "title": "Google bringt Computer-Use in Gemini 3.5 Flash",
+          "source": "Google",
+          "date": "30.06.2026",
           "image": "",
-          "teaser": "Anthropics aktueller Agentic Coding Trends Report zeigt: Mehr als die Hälfte aller befragten Organisationen betreibt KI-Agenten bereits in produktiven Workflows – Agentic AI ist kein Experiment mehr.",
-          "more": "Der Report dokumentiert, wie Coding-Agents die Software-Entwicklung umgestalten, welche Frameworks dominieren und wo Unternehmen die größten Produktivitätsgewinne verzeichnen. Die Daten basieren auf Anthropics Kundendaten und Partnerumfragen und geben erstmals quantitativen Einblick in die Verbreitung agentenbasierter Entwicklung.",
-          "url": "https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf"
+          "teaser": "Google hat Computer-Use-Fähigkeiten in Gemini 3.5 Flash integriert: Entwickler können damit Agenten bauen, die Desktop, Mobile und Browser sehen, planen und eigenständig bedienen.",
+          "more": "Der Fokus liegt auf lang laufenden Enterprise-Automatisierungen, bei denen Agenten mehrere Anwendungen und Oberflächen selbstständig steuern müssen. Damit zieht Google mit ähnlichen Computer-Use-Funktionen von Anthropic und OpenAI gleich und macht Gemini 3.5 Flash zur Basis für eigene Agenten-Produkte.",
+          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/"
         },
         {
-          "title": "MCP als Universalstandard: Alle führenden Agenten-Frameworks mit nativer Integration",
-          "source": "JetBrains Blog",
-          "date": "06.2026",
+          "title": "Microsoft holt Legal-AI-Agenten von Eudia in Word und Outlook",
+          "source": "Microsoft / Eudia",
+          "date": "25.06.2026",
           "image": "",
-          "teaser": "Das von Anthropic eingeführte Model Context Protocol (MCP) hat sich als de-facto-Standard für die Anbindung von KI-Agenten an externe Tools und Datenquellen etabliert – mit nativer Unterstützung in LangChain, CrewAI, AutoGen und weiteren Frameworks.",
-          "more": "MCP-Server lassen sich einmal bauen und funktionieren mit jedem kompatiblen Framework. Unternehmen verbinden damit Claude und andere Agenten mit Jira, Slack, Google Drive und eigenen Systemen ohne proprietäre Glue-Code-Schichten. JetBrains dokumentiert MCP als Top-Architekturmuster für Agenten-Applikationen 2026.",
-          "url": "https://blog.jetbrains.com/pycharm/2026/06/top-agentic-frameworks-for-building-applications-2026/"
+          "teaser": "Eudia und Microsoft bringen spezialisierte Rechts-Agenten samt personalisierter 'Expert Digital Twins' direkt in Word, Outlook und Azure – mit gestaffeltem Rollout ab Juli 2026 für Microsoft-365-E5-Kunden.",
+          "more": "Die Agenten unterstützen beim Entwurf von Dokumenten, bei der Zitatprüfung und E-Mail-Priorisierung, basierend auf individuellem Schreibstil und Entscheidungsmuster einzelner Juristen. Governance-Funktionen wie rollenbasierter Zugriff und Audit-Trails sollen den produktiven Einsatz in Rechtsabteilungen absichern.",
+          "url": "https://windowsnews.ai/article/eudia-partners-with-microsoft-to-infuse-legal-ai-agents-into-word-outlook-and-azure.430850"
         }
       ]
     },
@@ -63,22 +54,22 @@
       "title": "Dev & Automatisierung",
       "items": [
         {
-          "title": "OpenAI Jalapeño: Erster eigener LLM-Inferenz-Chip mit Broadcom vorgestellt",
-          "source": "OpenAI",
-          "date": "25.06.2026",
+          "title": "MCP wird zustandslos: Release Candidate für neue Spezifikation veröffentlicht",
+          "source": "Model Context Protocol Blog",
+          "date": "29.06.2026",
           "image": "",
-          "teaser": "OpenAI hat Jalapeño präsentiert – seinen ersten eigenen Custom-Chip für LLM-Inferenz, entwickelt in Kooperation mit Broadcom zur Reduktion der Nvidia-Abhängigkeit.",
-          "more": "Mit Jalapeño verfolgt OpenAI eine vertikale Integrationsstrategie, ähnlich wie Google mit TPUs. Eigene Inferenz-Hardware gibt dem Unternehmen mehr Kontrolle über Latenz, Kosten und Kapazität. Für Enterprise-Kunden könnte das mittelfristig günstigere API-Preise und höhere Verfügbarkeit bedeuten.",
-          "url": "https://openai.com/news/"
+          "teaser": "Das Model Context Protocol bekommt mit dem Release Candidate vom 28. Juli 2026 einen zustandslosen Protokollkern, ein Extensions-Framework, Tasks und MCP Apps. Finale Spezifikation und SDKs folgen bis 28.07.2026.",
+          "more": "Bisher benötigten Remote-MCP-Server Sticky Sessions und einen geteilten Session-Store; künftig reicht ein simpler Round-Robin-Loadbalancer. Für Entwickler bedeutet das einfacher zu betreibende, besser skalierbare MCP-Server – ein wichtiger Schritt, da MCP sich als Standard für Tool-Anbindung an Agenten etabliert hat.",
+          "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/"
         },
         {
-          "title": "Anthropic Advanced Tool Use: Tool Search spart massiv Token im Agenten-Kontext",
-          "source": "Anthropic Engineering Blog",
-          "date": "06.2026",
+          "title": "X launcht eigenen MCP-Server für KI-Tools",
+          "source": "TechCrunch",
+          "date": "30.06.2026",
           "image": "",
-          "teaser": "Anthropic hat Advanced Tool Use für die Claude Developer Platform veröffentlicht: Ein Tool-Search-Tool findet benötigte Tools on-demand, statt alle Definitionen vorab zu laden – das spart erheblich Kontext-Token.",
-          "more": "Bei großen Tool-Bibliotheken belegen Definitionen typischerweise einen Großteil des Kontextfensters. Tool Search reduziert diese Auslastung um 85 % und erhöht damit den für echte Inhalte verfügbaren Kontext drastisch. Besonders relevant für komplexe Agenten-Setups mit Hunderten verfügbarer Tools.",
-          "url": "https://www.anthropic.com/engineering/advanced-tool-use"
+          "teaser": "X (vormals Twitter) bietet jetzt einen eigenen MCP-Server an, über den KI-Assistenten und Agenten direkt und standardisiert auf die Plattform zugreifen können.",
+          "more": "Damit reiht sich X in die wachsende Zahl großer Plattformen ein, die MCP-Server für Agenten-Integrationen bereitstellen. Entwickler können X-Daten und -Funktionen so ohne proprietäre API-Wrapper in Claude, ChatGPT & Co. einbinden.",
+          "url": "https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/"
         }
       ]
     },
@@ -87,22 +78,22 @@
       "title": "Marketing-AI (Bild & Video)",
       "items": [
         {
-          "title": "Seedance 2.0, Veo 3.1 und Kling 3.0 setzen neue Maßstäbe für Marketing-Video",
-          "source": "BuildMVPFast / AI Video Rankings",
-          "date": "06.2026",
+          "title": "Google stellt Gemini 3.1 Flash Image und Gemini 3 Pro Image vor",
+          "source": "Google",
+          "date": "30.06.2026",
           "image": "",
-          "teaser": "Die aktuellen Spitzenmodelle für KI-Video im Juni 2026: Seedance 2.0 (kommerzieller Einsatz), Veo 3.1 (Realismus) und Kling 3.0 (stilisiertes Storytelling) – alle mit Character Consistency, Audio-Sync und Plattformadaption.",
-          "more": "Marketing-Teams können damit produktionsreife Video-Assets in Minuten erzeugen: Produktspots, Explainer-Videos und lokalisierte Ad-Varianten ohne klassische Postproduktion. Die Modelle haben Party-Trick-Phase verlassen – Workflow-Integration ist das neue Differenzierungsmerkmal.",
-          "url": "https://www.buildmvpfast.com/articles/best-llms-2026-guide/video-generation-ai"
+          "teaser": "Google hat zwei neue Bildgenerierungsmodelle allgemein verfügbar gemacht: Gemini 3.1 Flash Image ('Nano Banana 2') für schnelle, günstige Bild-Workflows und Gemini 3 Pro Image für hochwertige Ergebnisse.",
+          "more": "Neu ist unter anderem Video-zu-Bild: Aus einem Videoclip lassen sich per Prompt Thumbnails, Kino-Poster oder Infografiken erzeugen – exklusiv im Flash-Modell. Für Marketing-Teams sinken damit Kosten und Latenz bei Bild-Assets für Kampagnen weiter.",
+          "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-image"
         },
         {
-          "title": "42 % der Marketing-Teams nutzen KI-Video produktiv – Markt erreicht Mainstream",
-          "source": "AI Video Generation Trends Report",
-          "date": "06.2026",
+          "title": "Runway veröffentlicht Seed Audio 1.0 für Sound und Sprache",
+          "source": "Runway",
+          "date": "30.06.2026",
           "image": "",
-          "teaser": "Laut aktuellem Marktreport testen im zweiten Quartal 2026 bereits 42 % aller Marketing-Teams KI-Videogenerierung in mindestens einem produktiven Workflow.",
-          "more": "Der Fokus verlagert sich von Einzelclips zu integrierten Produktions-Pipelines mit automatischer Caption-Generierung, Plattformformatierung und Lokalisierung. KI-Video ist damit für einen Großteil der Marketingbranche kein Hype mehr, sondern eingesetztes Werkzeug – mit konkreten Zeitersparnissen bei Ads, Explainern und Branded Content.",
-          "url": "https://blog.mean.ceo/ai-video-generation-trends-june-2026/"
+          "teaser": "Runway hat Seed Audio 1.0 über seine API freigegeben: Das Modell erzeugt Sprache und Soundeffekte aus Text, optional gesteuert durch bis zu 30 Sekunden Referenzaudio.",
+          "more": "Erzeugt werden können bis zu 120 Sekunden Audio pro Lauf. Für Marketing-Video-Produktionen schließt das eine wichtige Lücke: Bild- und Videogenerierung lassen sich jetzt direkt mit passendem Sound und Voiceover kombinieren, ohne externe Audio-Tools.",
+          "url": "https://releasebot.io/updates/runwayai"
         }
       ]
     },
@@ -111,31 +102,13 @@
       "title": "Regulierung & Data Sovereignty",
       "items": [
         {
-          "title": "EU verabschiedet Cloud and AI Development Act (CADA) mit 4-Stufen-Souveränitätsrahmen",
-          "source": "Europäische Kommission",
-          "date": "03.06.2026",
+          "title": "EU-Rat gibt endgültig grünes Licht für Digital Omnibus on AI",
+          "source": "Rat der Europäischen Union",
+          "date": "29.06.2026",
           "image": "",
-          "teaser": "Die EU-Kommission hat den Cloud and AI Development Act (CADA) verabschiedet: ein vierstufiges Souveränitätssystem für Cloud-Anbieter, das EU-Behörden bei der Beschaffung zu europäischen Lösungen lenken soll.",
-          "more": "Level 4 erfordert vollständige EU-Eigentümerschaft, EU-zugelassenes Personal und keinerlei Datentransfer außerhalb der EU. Ziel: die EU-Rechenzentrums­kapazität bis 2035 verdreifachen und den Marktanteil europäischer Cloud-Anbieter zurückgewinnen – aktuell nur noch ~15 % (2022). Für Unternehmen bedeutet CADA neue Compliance-Anforderungen bei öffentlichen Ausschreibungen.",
-          "url": "https://digital-strategy.ec.europa.eu/en/policies/cloud-and-ai-development-act"
-        },
-        {
-          "title": "EU Technologie-Souveränitätspaket: Chips, KI, Cloud und Open Source",
-          "source": "Europäische Kommission",
-          "date": "03.06.2026",
-          "image": "",
-          "teaser": "Parallel zum CADA hat die EU-Kommission ihr Technologie-Souveränitätspaket vorgestellt – Maßnahmen zu Halbleitern, KI, Cloud und Open Source zur Stärkung der digitalen Unabhängigkeit Europas.",
-          "more": "Das Paket kombiniert Regulierung (CADA), gezielte Investitionsanreize und einen europäischen Open-Source-Förderrahmen. Es adressiert die strukturelle Abhängigkeit von US- und asiatischen Tech-Anbietern. Für Unternehmen entstehen neue Chancen bei EU-geförderten KI-Projekten und Ausschreibungen mit „Union added value”-Kriterium.",
-          "url": "https://commission.europa.eu/news-and-media/news/strengthening-europes-tech-sovereignty-2026-06-03_en"
-        },
-        {
-          "title": "EU AI Act: Vollständige Anwendung ab 2. August 2026 – letzte Wochen zur Compliance",
-          "source": "EU Digital Strategy",
-          "date": "06.2026",
-          "image": "",
-          "teaser": "Ab dem 2. August 2026 gilt der EU AI Act vollständig. Unternehmen haben noch wenige Wochen, um Hochrisiko-KI-Systeme zu klassifizieren, Transparenzpflichten umzusetzen und Governance-Strukturen aufzubauen.",
-          "more": "Verbotene KI-Praktiken (Social Scoring, biometrische Massenüberwachung) sind bereits seit Februar 2025 untersagt. Das August-Datum schärft nun alle verbleibenden Hochrisiko- und Transparenzanforderungen. Parallel läuft das AI-Omnibus-Vereinfachungspaket (politische Einigung Mai 2026), das besonders KMUs entlasten soll.",
-          "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+          "teaser": "Der EU-Rat hat am 29.06.2026 die finale Fassung des 'Digital Omnibus on AI' verabschiedet: Die Pflichten für Hochrisiko-KI-Systeme verschieben sich von August 2026 auf Dezember 2027 bzw. August 2028.",
+          "more": "Neu im Gesetz ist zudem ein explizites Verbot von KI-Systemen zur Erstellung nicht-einvernehmlicher intimer Inhalte (Nudification) und von CSAM, das bereits ab Dezember 2026 gilt. Für Unternehmen bedeutet die Verschiebung mehr Zeit zur Vorbereitung auf die Hochrisiko-Pflichten, während neue Verbote schneller greifen.",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/"
         }
       ]
     },
@@ -144,31 +117,13 @@
       "title": "Open-Weight-Modelle",
       "items": [
         {
-          "title": "MiniMax M3: Erstes Open-Weight-Modell mit Frontier-Coding, 1M-Kontext und Computer Use",
-          "source": "Flowtivity",
-          "date": "06.2026",
+          "title": "Meituan öffnet LongCat-2.0: 1,6-Billionen-Parameter-Modell komplett auf chinesischen Chips trainiert",
+          "source": "VentureBeat",
+          "date": "30.06.2026",
           "image": "",
-          "teaser": "MiniMax M3 kombiniert als erstes Open-Weight-Modell Frontier-Coding-Fähigkeiten (59,0 % auf SWE-Bench Pro), 1-Million-Token-Kontext und nativen Computer-Use in einem Modell.",
-          "more": "M3 führt damit das Open-Weight-Coding-Ranking an und verdrängt Kimi K2.6 (58,6 % aus April 2026). Für Entwickler bedeutet das erstmals: Ein Self-Hosted-Modell erreicht Frontier-Niveau bei Software-Engineering inklusive eigenständiger Computersteuerung – ein Meilenstein für Open-Source-Agenten-Infrastruktur.",
-          "url": "https://flowtivity.ai/blog/open-weight-insanity-week-june-2026/"
-        },
-        {
-          "title": "Zhipu GLM 5.2: 744B-MoE mit 1M-Kontext und MIT-Lizenz",
-          "source": "devFlokers",
-          "date": "13.06.2026",
-          "image": "",
-          "teaser": "Zhipu AI hat GLM 5.2 veröffentlicht – ein 744-Milliarden-Parameter-MoE-Modell mit 1M-Token-Kontext unter MIT-Lizenz, das pro Token nur 40 Milliarden Parameter aktiviert.",
-          "more": "Die MIT-Lizenz macht GLM 5.2 besonders attraktiv für kommerzielle Deployments ohne Nutzungseinschränkungen. Mit 1M-Token-Kontext übertrifft es viele proprietäre Modelle. GLM 5.2 ist Chinas stärkstes open-weight Modell mit permissiver Lizenz und ein ernsthafter Konkurrent zu westlichen Open-Modellen.",
-          "url": "https://www.devflokers.com/blog/open-source-ai-roundup-june-2026"
-        },
-        {
-          "title": "Google Gemma 4 12B Unified: Multimodales Open-Weight-Modell für Text, Bild, Audio und Video",
-          "source": "devFlokers",
-          "date": "03.06.2026",
-          "image": "",
-          "teaser": "Google hat Gemma 4 12B Unified veröffentlicht – das erste Gemma-Modell, das Text, Bild, nativen Audio-Input und Video-Verständnis in einem einzigen Open-Weight-Modell vereint.",
-          "more": "Mit 12 Milliarden Parametern ist Gemma 4 12B Unified auf moderner Consumer-Hardware lauffähig und eignet sich für multimodale Agenten-Pipelines. Es ist Googles multimodalste Open-Weight-Veröffentlichung bisher und setzt einen neuen Standard für kompakte Multimodal-Modelle.",
-          "url": "https://www.devflokers.com/blog/open-source-ai-roundup-june-2026"
+          "teaser": "Meituan hat LongCat-2.0 unter MIT-Lizenz veröffentlicht – ein 1,6-Billionen-Parameter-MoE-Modell mit 1M-Token-Kontext, das laut Anbieter komplett auf über 50.000 chinesischen ASIC-Chips ohne Nvidia-GPUs trainiert wurde.",
+          "more": "Mit 59,5 % auf SWE-bench Pro liegt LongCat-2.0 knapp vor GPT-5.5 und positioniert sich als eines der stärksten Open-Weight-Modelle für autonomes Coding und Agenten. Die permissive MIT-Lizenz erlaubt kommerzielle Nutzung ohne Open-Source-Pflicht für abgeleitete Software. Zuvor war das Modell anonym als 'Owl Alpha' auf OpenRouter unterwegs.",
+          "url": "https://venturebeat.com/technology/meituan-open-sources-longcat-2-0-the-1-6t-near-frontier-agentic-coding-model-thats-been-leading-openrouter-trained-entirely-on-chinese-chips"
         }
       ]
     }
