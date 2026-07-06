@@ -1,27 +1,18 @@
 {
-  "updated": "03.07.2026",
+  "updated": "06.07.2026",
   "categories": [
     {
       "id": "models",
       "title": "Neue Modelle & Capabilities",
       "items": [
         {
-          "title": "Claude Sonnet 5: agentischstes Sonnet-Modell wird neuer Standard",
+          "title": "Anthropic reaktiviert Claude Fable 5 nach Aufhebung der US-Exportkontrollen",
           "source": "Anthropic",
-          "date": "30.06.2026",
+          "date": "01.07.2026",
           "image": "",
-          "teaser": "Anthropic hat Claude Sonnet 5 veröffentlicht und zum neuen Standardmodell für Free- und Pro-Nutzer gemacht. Es kommt nah an die Leistung von Opus 4.8 heran, bei deutlich niedrigeren Kosten.",
-          "more": "Sonnet 5 ist laut Anthropic das bisher agentischste Sonnet-Modell: Es plant selbstständig, nutzt Browser und Terminals und arbeitet autonomer als Vorgängermodelle. Bis Ende August gilt Einführungspreis von 2 $ / 10 $ pro Million Tokens. Sicherheitstests zeigen zudem weniger unerwünschtes Verhalten als bei Sonnet 4.6.",
-          "url": "https://www.anthropic.com/news/claude-sonnet-5"
-        },
-        {
-          "title": "xAI zeigt Grok 4.5 in privater Beta bei Tesla und SpaceX",
-          "source": "xAI / TechTimes",
-          "date": "28.06.2026",
-          "image": "",
-          "teaser": "xAI hat Grok 4.5 auf Basis des neuen 1,5-Billionen-Parameter-Modells V9 vorgestellt – vorerst exklusiv als private Beta bei Tesla und SpaceX, ohne öffentlichen Zugang oder unabhängige Benchmarks.",
-          "more": "Das Training wurde laut xAI gezielt mit Cursor-Daten angereichert, um Coding-Fähigkeiten zu schärfen. Musk zufolge soll die Leistung an Claude Opus heranreichen, dies lässt sich aber mangels Zugangs bislang nicht unabhängig prüfen. Ein öffentlicher Release-Termin steht noch nicht fest.",
-          "url": "https://www.techtimes.com/articles/319314/20260629/grok-45-enters-private-beta-spacex-tesla-no-public-access-no-independent-benchmark.htm"
+          "teaser": "Nachdem die USA am 30.06.2026 die Exportkontrollen für Claude Fable 5 und Mythos 5 aufgehoben haben, hat Anthropic beide Modelle ab dem 1. Juli weltweit wieder freigeschaltet.",
+          "more": "Die Modelle waren seit dem 12. Juni gesperrt, nachdem ein Bericht zu einer möglichen Jailbreak-Methode für Sicherheitslücken-Analysen die US-Regierung alarmiert hatte. Zur Wiederinbetriebnahme führte Anthropic einen neuen Cybersecurity-Classifier ein, der die betroffene Anfrageart in über 99 % der Fälle blockiert und auf Opus 4.8 umleitet. Fable 5 gilt mit 80,3 % auf SWE-Bench Pro weiterhin als eines der stärksten Coding-Modelle.",
+          "url": "https://www.anthropic.com/news/redeploying-fable-5"
         }
       ]
     },
@@ -30,22 +21,13 @@
       "title": "Agentic AI & Tool Use",
       "items": [
         {
-          "title": "Google bringt Computer-Use in Gemini 3.5 Flash",
-          "source": "Google",
-          "date": "30.06.2026",
+          "title": "Anthropic startet Claude Science: KI-Workbench für Forschung und eigene Wirkstoffentwicklung",
+          "source": "Anthropic",
+          "date": "01.07.2026",
           "image": "",
-          "teaser": "Google hat Computer-Use-Fähigkeiten in Gemini 3.5 Flash integriert: Entwickler können damit Agenten bauen, die Desktop, Mobile und Browser sehen, planen und eigenständig bedienen.",
-          "more": "Der Fokus liegt auf lang laufenden Enterprise-Automatisierungen, bei denen Agenten mehrere Anwendungen und Oberflächen selbstständig steuern müssen. Damit zieht Google mit ähnlichen Computer-Use-Funktionen von Anthropic und OpenAI gleich und macht Gemini 3.5 Flash zur Basis für eigene Agenten-Produkte.",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/"
-        },
-        {
-          "title": "Microsoft holt Legal-AI-Agenten von Eudia in Word und Outlook",
-          "source": "Microsoft / Eudia",
-          "date": "25.06.2026",
-          "image": "",
-          "teaser": "Eudia und Microsoft bringen spezialisierte Rechts-Agenten samt personalisierter 'Expert Digital Twins' direkt in Word, Outlook und Azure – mit gestaffeltem Rollout ab Juli 2026 für Microsoft-365-E5-Kunden.",
-          "more": "Die Agenten unterstützen beim Entwurf von Dokumenten, bei der Zitatprüfung und E-Mail-Priorisierung, basierend auf individuellem Schreibstil und Entscheidungsmuster einzelner Juristen. Governance-Funktionen wie rollenbasierter Zugriff und Audit-Trails sollen den produktiven Einsatz in Rechtsabteilungen absichern.",
-          "url": "https://windowsnews.ai/article/eudia-partners-with-microsoft-to-infuse-legal-ai-agents-into-word-outlook-and-azure.430850"
+          "teaser": "Anthropic hat mit Claude Science eine spezialisierte Agenten-Workbench für Wissenschaftler vorgestellt und kündigt zugleich ein eigenes Programm zur Wirkstoffentwicklung für vernachlässigte Krankheiten an.",
+          "more": "Ein koordinierender Agent hat Zugriff auf über 60 vorkonfigurierte Skills und Connectors für Bereiche wie Genomik, Proteomik und Strukturbiologie und übernimmt komplette Forschungs-Workflows von der Literaturanalyse bis zum publikationsreifen Manuskript. Damit positioniert sich Anthropic nicht mehr nur als Tool-Anbieter, sondern auch als eigenständiger Akteur in der Arzneimittelforschung.",
+          "url": "https://www.anthropic.com/news/claude-science-ai-workbench"
         }
       ]
     },
@@ -54,61 +36,42 @@
       "title": "Dev & Automatisierung",
       "items": [
         {
-          "title": "MCP wird zustandslos: Release Candidate für neue Spezifikation veröffentlicht",
-          "source": "Model Context Protocol Blog",
-          "date": "29.06.2026",
+          "title": "GitHub Copilot: Auto-Modellwahl wird Enterprise-Standard, neue AI-Credit-Pools für Cost Center",
+          "source": "GitHub Changelog",
+          "date": "02.07.2026",
           "image": "",
-          "teaser": "Das Model Context Protocol bekommt mit dem Release Candidate vom 28. Juli 2026 einen zustandslosen Protokollkern, ein Extensions-Framework, Tasks und MCP Apps. Finale Spezifikation und SDKs folgen bis 28.07.2026.",
-          "more": "Bisher benötigten Remote-MCP-Server Sticky Sessions und einen geteilten Session-Store; künftig reicht ein simpler Round-Robin-Loadbalancer. Für Entwickler bedeutet das einfacher zu betreibende, besser skalierbare MCP-Server – ein wichtiger Schritt, da MCP sich als Standard für Tool-Anbindung an Agenten etabliert hat.",
-          "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/"
-        },
-        {
-          "title": "X launcht eigenen MCP-Server für KI-Tools",
-          "source": "TechCrunch",
-          "date": "30.06.2026",
-          "image": "",
-          "teaser": "X (vormals Twitter) bietet jetzt einen eigenen MCP-Server an, über den KI-Assistenten und Agenten direkt und standardisiert auf die Plattform zugreifen können.",
-          "more": "Damit reiht sich X in die wachsende Zahl großer Plattformen ein, die MCP-Server für Agenten-Integrationen bereitstellen. Entwickler können X-Daten und -Funktionen so ohne proprietäre API-Wrapper in Claude, ChatGPT & Co. einbinden.",
-          "url": "https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/"
+          "teaser": "GitHub erlaubt Unternehmen ab sofort, Copilots automatische Modellauswahl unternehmensweit als Standard zu setzen, und führt gedeckelte AI-Credit-Pools für einzelne Kostenstellen ein.",
+          "more": "Auto wählt je nach Aufgabe (Reasoning, Codegenerierung, Debugging, Tool-Orchestrierung) automatisch das passende Modell und ist laut GitHub rund 10 % günstiger als die manuelle Modellwahl. Die neuen Credit-Pools verhindern, dass einzelne Teams mehr KI-Guthaben verbrauchen, als ihre zugewiesenen Lizenzen hergeben – wichtig für die Kostenkontrolle beim Copilot-Rollout in großen Organisationen.",
+          "url": "https://github.blog/changelog/2026-07-01-enterprises-can-default-to-auto-model-selection/"
         }
       ]
     },
     {
       "id": "marketing",
       "title": "Marketing-AI (Bild & Video)",
-      "items": [
-        {
-          "title": "Google stellt Gemini 3.1 Flash Image und Gemini 3 Pro Image vor",
-          "source": "Google",
-          "date": "30.06.2026",
-          "image": "",
-          "teaser": "Google hat zwei neue Bildgenerierungsmodelle allgemein verfügbar gemacht: Gemini 3.1 Flash Image ('Nano Banana 2') für schnelle, günstige Bild-Workflows und Gemini 3 Pro Image für hochwertige Ergebnisse.",
-          "more": "Neu ist unter anderem Video-zu-Bild: Aus einem Videoclip lassen sich per Prompt Thumbnails, Kino-Poster oder Infografiken erzeugen – exklusiv im Flash-Modell. Für Marketing-Teams sinken damit Kosten und Latenz bei Bild-Assets für Kampagnen weiter.",
-          "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-image"
-        },
-        {
-          "title": "Runway veröffentlicht Seed Audio 1.0 für Sound und Sprache",
-          "source": "Runway",
-          "date": "30.06.2026",
-          "image": "",
-          "teaser": "Runway hat Seed Audio 1.0 über seine API freigegeben: Das Modell erzeugt Sprache und Soundeffekte aus Text, optional gesteuert durch bis zu 30 Sekunden Referenzaudio.",
-          "more": "Erzeugt werden können bis zu 120 Sekunden Audio pro Lauf. Für Marketing-Video-Produktionen schließt das eine wichtige Lücke: Bild- und Videogenerierung lassen sich jetzt direkt mit passendem Sound und Voiceover kombinieren, ohne externe Audio-Tools.",
-          "url": "https://releasebot.io/updates/runwayai"
-        }
-      ]
+      "items": []
     },
     {
       "id": "regulation",
       "title": "Regulierung & Data Sovereignty",
       "items": [
         {
-          "title": "EU-Rat gibt endgültig grünes Licht für Digital Omnibus on AI",
-          "source": "Rat der Europäischen Union",
-          "date": "29.06.2026",
+          "title": "UN startet erstes globales KI-Governance-Forum in Genf",
+          "source": "UN News",
+          "date": "06.07.2026",
           "image": "",
-          "teaser": "Der EU-Rat hat am 29.06.2026 die finale Fassung des 'Digital Omnibus on AI' verabschiedet: Die Pflichten für Hochrisiko-KI-Systeme verschieben sich von August 2026 auf Dezember 2027 bzw. August 2028.",
-          "more": "Neu im Gesetz ist zudem ein explizites Verbot von KI-Systemen zur Erstellung nicht-einvernehmlicher intimer Inhalte (Nudification) und von CSAM, das bereits ab Dezember 2026 gilt. Für Unternehmen bedeutet die Verschiebung mehr Zeit zur Vorbereitung auf die Hochrisiko-Pflichten, während neue Verbote schneller greifen.",
-          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/06/29/artificial-intelligence-council-gives-final-green-light-to-simplify-and-streamline-rules/"
+          "teaser": "Am 6. und 7. Juli 2026 findet in Genf die erste Sitzung des UN Global Dialogue on AI Governance statt, an der alle 193 UN-Mitgliedstaaten sowie Wirtschaft, Zivilgesellschaft und Wissenschaft teilnehmen.",
+          "more": "Der Dialog ist kein Regulierungsgremium und trifft keine bindenden Entscheidungen, soll aber gemeinsame Standards und Best Practices für KI-Governance anstoßen. Parallel finden das WSIS-Forum und der ITU-Gipfel 'AI for Good' statt – ein Signal, dass Regulierungs- und Datenhoheitsfragen zunehmend auf globaler statt nur regionaler Ebene verhandelt werden.",
+          "url": "https://news.un.org/en/story/2026/07/1167862"
+        },
+        {
+          "title": "Studie: EU-Datenschutzregeln bremsen Rollout von KI-Sprachmodellen",
+          "source": "Euronews",
+          "date": "03.07.2026",
+          "image": "",
+          "teaser": "Eine neue Studie zeigt: Globale Tech-Konzerne verzögern oder verschieben KI-Angebote in der EU zunehmend unter Verweis auf Datenschutz- und Regulierungsauflagen wie DSGVO, Digital Markets Act und AI Act.",
+          "more": "Der Befund verschärft die Debatte um europäische Datenhoheit: Einerseits sollen strenge Regeln Nutzer schützen, andererseits sehen Kritiker die Gefahr, dass Europa bei modernster KI ins Hintertreffen gerät. Die Studie erscheint kurz vor dem 2. August 2026, an dem die Hochrisiko-Pflichten des AI Acts vollständig greifen.",
+          "url": "https://www.euronews.com/next/2026/07/03/data-protection-rules-slow-llm-rollout-in-europe-study-says"
         }
       ]
     },
@@ -117,13 +80,13 @@
       "title": "Open-Weight-Modelle",
       "items": [
         {
-          "title": "Meituan öffnet LongCat-2.0: 1,6-Billionen-Parameter-Modell komplett auf chinesischen Chips trainiert",
-          "source": "VentureBeat",
-          "date": "30.06.2026",
+          "title": "Poolside veröffentlicht offenes Coding-Modell Laguna XS 2.1",
+          "source": "Tech Times",
+          "date": "02.07.2026",
           "image": "",
-          "teaser": "Meituan hat LongCat-2.0 unter MIT-Lizenz veröffentlicht – ein 1,6-Billionen-Parameter-MoE-Modell mit 1M-Token-Kontext, das laut Anbieter komplett auf über 50.000 chinesischen ASIC-Chips ohne Nvidia-GPUs trainiert wurde.",
-          "more": "Mit 59,5 % auf SWE-bench Pro liegt LongCat-2.0 knapp vor GPT-5.5 und positioniert sich als eines der stärksten Open-Weight-Modelle für autonomes Coding und Agenten. Die permissive MIT-Lizenz erlaubt kommerzielle Nutzung ohne Open-Source-Pflicht für abgeleitete Software. Zuvor war das Modell anonym als 'Owl Alpha' auf OpenRouter unterwegs.",
-          "url": "https://venturebeat.com/technology/meituan-open-sources-longcat-2-0-the-1-6t-near-frontier-agentic-coding-model-thats-been-leading-openrouter-trained-entirely-on-chinese-chips"
+          "teaser": "Poolside hat mit Laguna XS 2.1 ein kostenloses Open-Weight-Modell für Coding-Aufgaben veröffentlicht, das auf einer einzelnen GPU läuft und über Hugging Face sowie OpenRouter verfügbar ist.",
+          "more": "Das 33-Milliarden-Parameter-Mixture-of-Experts-Modell wurde mit Reinforcement Learning aus echten Code-Ausführungsergebnissen (RLCEF) trainiert statt mit menschlichem Feedback, was laut Poolside die Qualität bei agentischen Coding-Aufgaben verbessert. Die neue, eigens für Modellgewichte entwickelte Lizenz OpenMDW-1.1 erlaubt kommerzielle Nutzung. Eine Upgrade-Deadline zum 9. Juli deutet auf ein schnelles Update-Tempo hin.",
+          "url": "https://www.techtimes.com/articles/319676/20260704/poolside-releases-free-open-weight-coding-model-july-9-upgrade-deadline.htm"
         }
       ]
     }
