@@ -1,18 +1,27 @@
 {
-  "updated": "06.07.2026",
+  "updated": "10.07.2026",
   "categories": [
     {
       "id": "models",
       "title": "Neue Modelle & Capabilities",
       "items": [
         {
-          "title": "Anthropic reaktiviert Claude Fable 5 nach Aufhebung der US-Exportkontrollen",
-          "source": "Anthropic",
-          "date": "01.07.2026",
+          "title": "xAI veröffentlicht Grok 4.5: coding-fokussiertes Flaggschiff-Modell",
+          "source": "x.ai (SpaceXAI)",
+          "date": "08.07.2026",
           "image": "",
-          "teaser": "Nachdem die USA am 30.06.2026 die Exportkontrollen für Claude Fable 5 und Mythos 5 aufgehoben haben, hat Anthropic beide Modelle ab dem 1. Juli weltweit wieder freigeschaltet.",
-          "more": "Die Modelle waren seit dem 12. Juni gesperrt, nachdem ein Bericht zu einer möglichen Jailbreak-Methode für Sicherheitslücken-Analysen die US-Regierung alarmiert hatte. Zur Wiederinbetriebnahme führte Anthropic einen neuen Cybersecurity-Classifier ein, der die betroffene Anfrageart in über 99 % der Fälle blockiert und auf Opus 4.8 umleitet. Fable 5 gilt mit 80,3 % auf SWE-Bench Pro weiterhin als eines der stärksten Coding-Modelle.",
-          "url": "https://www.anthropic.com/news/redeploying-fable-5"
+          "teaser": "xAI hat mit Grok 4.5 sein bisher stärkstes Modell vorgestellt, das gezielt für Coding, agentische Aufgaben und Wissensarbeit trainiert wurde und laut Elon Musk 'Opus-Klasse' erreicht.",
+          "more": "Das Modell basiert auf der 1,5-Billionen-Parameter-Architektur V9 und wurde unter anderem mit echten Cursor-Sessiondaten trainiert. Mit 2 $ / 6 $ pro Million Tokens ist es über 60 % günstiger als Opus 4.8 oder GPT-5.5. Grok 4.5 ist ab sofort in Grok Build, Cursor und der SpaceXAI-Konsole verfügbar; in der EU startet es erst Mitte Juli.",
+          "url": "https://x.ai/news/grok-4-5"
+        },
+        {
+          "title": "OpenAI stellt GPT-5.6-Familie (Sol, Terra, Luna) vor",
+          "source": "OpenAI",
+          "date": "09.07.2026",
+          "image": "",
+          "teaser": "OpenAI hat die neue GPT-5.6-Modellreihe allgemein verfügbar gemacht: Sol für anspruchsvolle Aufgaben wie Coding und Security-Research, Terra als Allrounder und Luna als schnelles, günstiges Einstiegsmodell.",
+          "more": "Mit dem neuen Namensschema stehen 'Sol', 'Terra' und 'Luna' künftig für eigenständige Fähigkeitsstufen, die sich unabhängig voneinander weiterentwickeln lassen. Die Preise reichen von 1 $ / 6 $ (Luna) bis 5 $ / 30 $ (Sol) pro Million Tokens. GPT-5.6 bildet zugleich die Basis für den neuen Agenten ChatGPT Work.",
+          "url": "https://openai.com/index/gpt-5-6/"
         }
       ]
     },
@@ -21,13 +30,13 @@
       "title": "Agentic AI & Tool Use",
       "items": [
         {
-          "title": "Anthropic startet Claude Science: KI-Workbench für Forschung und eigene Wirkstoffentwicklung",
-          "source": "Anthropic",
-          "date": "01.07.2026",
+          "title": "OpenAI launcht ChatGPT Work: Agent für fertige Arbeitsergebnisse",
+          "source": "OpenAI / Axios",
+          "date": "09.07.2026",
           "image": "",
-          "teaser": "Anthropic hat mit Claude Science eine spezialisierte Agenten-Workbench für Wissenschaftler vorgestellt und kündigt zugleich ein eigenes Programm zur Wirkstoffentwicklung für vernachlässigte Krankheiten an.",
-          "more": "Ein koordinierender Agent hat Zugriff auf über 60 vorkonfigurierte Skills und Connectors für Bereiche wie Genomik, Proteomik und Strukturbiologie und übernimmt komplette Forschungs-Workflows von der Literaturanalyse bis zum publikationsreifen Manuskript. Damit positioniert sich Anthropic nicht mehr nur als Tool-Anbieter, sondern auch als eigenständiger Akteur in der Arzneimittelforschung.",
-          "url": "https://www.anthropic.com/news/claude-science-ai-workbench"
+          "teaser": "Mit ChatGPT Work bringt OpenAI einen Agenten, der aus einem Auftrag eigenständig fertige Sheets, Slides, Docs oder kleine Web-Apps erstellt und dafür auch stundenlang eigenständig weiterarbeitet.",
+          "more": "Der Agent verbindet sich über Plugins mit Slack, Microsoft Teams, Google Drive, SharePoint, E-Mail, Kalendern und CRM-Systemen und kann über geplante Aufgaben auch weiterlaufen, wenn niemand aktiv am Rechner ist. Angetrieben wird ChatGPT Work vom neuen Modell GPT-5.6. Der Start erfolgt für Pro-, Enterprise- und Edu-Pläne, Plus und Business folgen in den kommenden Tagen.",
+          "url": "https://www.axios.com/2026/07/09/ai-openai-gpt-release"
         }
       ]
     },
@@ -36,42 +45,61 @@
       "title": "Dev & Automatisierung",
       "items": [
         {
-          "title": "GitHub Copilot: Auto-Modellwahl wird Enterprise-Standard, neue AI-Credit-Pools für Cost Center",
-          "source": "GitHub Changelog",
-          "date": "02.07.2026",
+          "title": "JetBrains bündelt KI-Tools für Teams: Governance über Claude Code, Codex & Gemini CLI",
+          "source": "JetBrains Blog",
+          "date": "07.07.2026",
           "image": "",
-          "teaser": "GitHub erlaubt Unternehmen ab sofort, Copilots automatische Modellauswahl unternehmensweit als Standard zu setzen, und führt gedeckelte AI-Credit-Pools für einzelne Kostenstellen ein.",
-          "more": "Auto wählt je nach Aufgabe (Reasoning, Codegenerierung, Debugging, Tool-Orchestrierung) automatisch das passende Modell und ist laut GitHub rund 10 % günstiger als die manuelle Modellwahl. Die neuen Credit-Pools verhindern, dass einzelne Teams mehr KI-Guthaben verbrauchen, als ihre zugewiesenen Lizenzen hergeben – wichtig für die Kostenkontrolle beim Copilot-Rollout in großen Organisationen.",
-          "url": "https://github.blog/changelog/2026-07-01-enterprises-can-default-to-auto-model-selection/"
+          "teaser": "JetBrains AI for Teams and Organizations soll den Wildwuchs an KI-Coding-Tools in Unternehmen eindämmen und bietet eine herstellerneutrale Governance-Schicht über verschiedene Agenten hinweg.",
+          "more": "Externe Tools werden über das Model Context Protocol (MCP), externe Agenten wie Claude Code, Codex oder Gemini CLI über das neue Agent Client Protocol (ACP) angebunden. Unternehmen erhalten damit einheitliche Kosten- und Nutzungskontrolle, statt jedes Tool separat verwalten zu müssen. Der Rollout für Geschäftskunden erfolgt schrittweise über Juli und August.",
+          "url": "https://blog.jetbrains.com/blog/2026/07/07/jetbrains-ai-for-teams-and-organizations-from-fragmented-ai-usage-to-coordinated-software-development/"
+        },
+        {
+          "title": "GPT-5.6 (Sol, Terra, Luna) ab sofort in GitHub Copilot verfügbar",
+          "source": "GitHub Changelog",
+          "date": "09.07.2026",
+          "image": "",
+          "teaser": "GitHub hat OpenAIs neue Modellfamilie GPT-5.6 mit den Varianten Sol, Terra und Luna direkt am Tag der Veröffentlichung in Copilot integriert.",
+          "more": "Entwickler können damit je nach Aufgabe zwischen dem leistungsstarken Sol, dem ausgewogenen Terra und dem schnellen, günstigen Luna wählen, ohne Copilot zu verlassen. Die schnelle Integration zeigt, wie eng Microsoft/GitHub und OpenAI ihre Modell-Rollouts inzwischen synchronisieren.",
+          "url": "https://github.blog/changelog/2026-07-09-openais-gpt-5-6-sol-terra-and-luna-are-now-available-in-github-copilot/"
         }
       ]
     },
     {
       "id": "marketing",
       "title": "Marketing-AI (Bild & Video)",
-      "items": []
+      "items": [
+        {
+          "title": "Meta launcht Bildgenerator Muse Image, Muse Video in der Vorschau",
+          "source": "Meta AI Blog",
+          "date": "07.07.2026",
+          "image": "",
+          "teaser": "Meta Superintelligence Labs hat mit Muse Image sein erstes eigenes Bildgenerierungsmodell veröffentlicht und zeigt mit Muse Video bereits eine Vorschau auf ein Videomodell mit nativer Audio-Unterstützung.",
+          "more": "Muse Image ist ab sofort in Meta AI, WhatsApp und Instagram nutzbar, folgt Anweisungen präzise, kann aus mehreren Referenzbildern komponieren und nutzt Instagram-Daten für sozialen Kontext. Muse Video baut auf derselben Basis auf, ist aber vorerst nur eine Vorschau für Creator. Für Marketing-Teams ist relevant, dass Meta damit erstmals eine eigene End-to-End-Bild/Video-Pipeline direkt in seinen Consumer-Apps anbietet.",
+          "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/"
+        }
+      ]
     },
     {
       "id": "regulation",
       "title": "Regulierung & Data Sovereignty",
       "items": [
         {
-          "title": "UN startet erstes globales KI-Governance-Forum in Genf",
-          "source": "UN News",
+          "title": "BSI veröffentlicht Prüfarchitektur A5 für vertrauenswürdige KI-Systeme",
+          "source": "BSI",
           "date": "06.07.2026",
           "image": "",
-          "teaser": "Am 6. und 7. Juli 2026 findet in Genf die erste Sitzung des UN Global Dialogue on AI Governance statt, an der alle 193 UN-Mitgliedstaaten sowie Wirtschaft, Zivilgesellschaft und Wissenschaft teilnehmen.",
-          "more": "Der Dialog ist kein Regulierungsgremium und trifft keine bindenden Entscheidungen, soll aber gemeinsame Standards und Best Practices für KI-Governance anstoßen. Parallel finden das WSIS-Forum und der ITU-Gipfel 'AI for Good' statt – ein Signal, dass Regulierungs- und Datenhoheitsfragen zunehmend auf globaler statt nur regionaler Ebene verhandelt werden.",
-          "url": "https://news.un.org/en/story/2026/07/1167862"
+          "teaser": "Das deutsche Bundesamt für Sicherheit in der Informationstechnik (BSI) hat einen Community Draft der 'AI Audit and Assurance Assessment Architecture' (A5) veröffentlicht, einem Prüfkatalog für KI-Systeme entlang des gesamten Lebenszyklus.",
+          "more": "A5 orientiert sich methodisch am etablierten Cloud-Prüfstandard C5 und richtet sich an Anbieter, Betreiber und Verantwortliche für Entwicklung und Betrieb von KI-Systemen. Der Entwurf ist bis 31. August 2026 offen für Kommentare und soll perspektivisch als Nachweisinstrument im Kontext des EU AI Acts dienen – relevant für Unternehmen, die europäische Datenhoheit und Prüfbarkeit ernst nehmen.",
+          "url": "https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2026/260706_KI_A5-Community-Draft.html"
         },
         {
-          "title": "Studie: EU-Datenschutzregeln bremsen Rollout von KI-Sprachmodellen",
-          "source": "Euronews",
-          "date": "03.07.2026",
+          "title": "EU AI Act: Geschäftsführer haften seit 1. Juli persönlich für KI-Risiken",
+          "source": "IT-BOLTWISE",
+          "date": "01.07.2026",
           "image": "",
-          "teaser": "Eine neue Studie zeigt: Globale Tech-Konzerne verzögern oder verschieben KI-Angebote in der EU zunehmend unter Verweis auf Datenschutz- und Regulierungsauflagen wie DSGVO, Digital Markets Act und AI Act.",
-          "more": "Der Befund verschärft die Debatte um europäische Datenhoheit: Einerseits sollen strenge Regeln Nutzer schützen, andererseits sehen Kritiker die Gefahr, dass Europa bei modernster KI ins Hintertreffen gerät. Die Studie erscheint kurz vor dem 2. August 2026, an dem die Hochrisiko-Pflichten des AI Acts vollständig greifen.",
-          "url": "https://www.euronews.com/next/2026/07/03/data-protection-rules-slow-llm-rollout-in-europe-study-says"
+          "teaser": "Seit dem 1. Juli 2026 können Geschäftsführungen in der EU parallel nach AI Act und NIS2-Richtlinie persönlich für KI- und Cyberrisiken haftbar gemacht werden.",
+          "more": "Verstöße können mit bis zu 10 Millionen Euro oder 2 % des weltweiten Jahresumsatzes (NIS2) beziehungsweise bis zu 35 Millionen Euro oder 7 % des Jahresumsatzes (AI Act) geahndet werden. Damit wird KI-Governance von einer freiwilligen Best Practice zu einer nicht delegierbaren Pflicht auf Führungsebene – zusätzlich zu den ab 2. August greifenden Transparenzpflichten für Hochrisiko-Systeme.",
+          "url": "https://www.it-boltwise.de/eu-ai-act-ab-juli-geschaeftsfuehrer-haften-persoenlich-fuer-ki-risiken.html"
         }
       ]
     },
@@ -80,13 +108,22 @@
       "title": "Open-Weight-Modelle",
       "items": [
         {
-          "title": "Poolside veröffentlicht offenes Coding-Modell Laguna XS 2.1",
-          "source": "Tech Times",
-          "date": "02.07.2026",
+          "title": "Tencent veröffentlicht offenes MoE-Modell Hy3 mit 295 Mrd. Parametern",
+          "source": "MarkTechPost",
+          "date": "06.07.2026",
           "image": "",
-          "teaser": "Poolside hat mit Laguna XS 2.1 ein kostenloses Open-Weight-Modell für Coding-Aufgaben veröffentlicht, das auf einer einzelnen GPU läuft und über Hugging Face sowie OpenRouter verfügbar ist.",
-          "more": "Das 33-Milliarden-Parameter-Mixture-of-Experts-Modell wurde mit Reinforcement Learning aus echten Code-Ausführungsergebnissen (RLCEF) trainiert statt mit menschlichem Feedback, was laut Poolside die Qualität bei agentischen Coding-Aufgaben verbessert. Die neue, eigens für Modellgewichte entwickelte Lizenz OpenMDW-1.1 erlaubt kommerzielle Nutzung. Eine Upgrade-Deadline zum 9. Juli deutet auf ein schnelles Update-Tempo hin.",
-          "url": "https://www.techtimes.com/articles/319676/20260704/poolside-releases-free-open-weight-coding-model-july-9-upgrade-deadline.htm"
+          "teaser": "Tencent hat mit Hy3 ein offenes Mixture-of-Experts-Modell mit 295 Milliarden Gesamt- und 21 Milliarden aktiven Parametern unter Apache-2.0-Lizenz veröffentlicht.",
+          "more": "Das Modell unterstützt einen Kontext von 256K Tokens und erreicht 78,0 auf SWE-Bench Verified sowie 57,9 auf SWE-Bench Pro – Werte, die es unter die stärksten offenen Coding-Modelle einordnen. Die permissive Apache-2.0-Lizenz macht Hy3 auch für kommerzielle Selbst-Hosting-Szenarien interessant.",
+          "url": "https://www.marktechpost.com/2026/07/06/tencent-releases-hy3-open-295b-moe-model/"
+        },
+        {
+          "title": "Mistral AI kündigt neues offenes Modell mit Early Access an",
+          "source": "Tech Times",
+          "date": "06.07.2026",
+          "image": "",
+          "teaser": "Mistral AI lässt ab Juli ausgewählte Forschungs-, Behörden- und Industriepartner in einer frühen Vorschau auf ein neues Open-Weight-Modell zugreifen, das laut CEO Arthur Mensch den Beginn einer neuen Modellfamilie markiert.",
+          "more": "Parameterzahl, Benchmarks und Lizenzbedingungen sind noch nicht bekannt; ein breiterer Release ist für später im Sommer angekündigt. Mistral positioniert sich damit erneut als europäische Alternative zu den vorwiegend US-amerikanischen und chinesischen Anbietern offener Spitzenmodelle.",
+          "url": "https://www.techtimes.com/articles/319798/20260706/mistral-ai-targets-frontier-gap-open-weight-model-entering-july-early-access.htm"
         }
       ]
     }
