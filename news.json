@@ -1,42 +1,32 @@
 {
-  "updated": "13.07.2026",
+  "updated": "17.07.2026",
   "categories": [
     {
       "id": "models",
       "title": "Neue Modelle & Capabilities",
-      "items": [
-        {
-          "title": "OpenAI veröffentlicht Sprachmodell-Reihe GPT-Live für natürlichere Gespräche",
-          "source": "OpenAI",
-          "date": "08.07.2026",
-          "image": "",
-          "teaser": "OpenAI hat mit GPT-Live-1 und GPT-Live-1 mini eine neue Generation von Sprachmodellen vorgestellt, die dank Full-Duplex-Architektur gleichzeitig zuhören und sprechen können.",
-          "more": "Die Modelle lösen die bisherige ChatGPT-Sprachfunktion ab und sollen sich durch Echtzeit-Reaktionen und Unterbrechbarkeit deutlich natürlicher anfühlen. GPT-Live-1 ist ab sofort Standard in bezahlten ChatGPT-Plänen, GPT-Live-1 mini treibt die kostenlose Stufe an. Der Start erfolgte einen Tag vor der breiten Verfügbarkeit von GPT-5.6.",
-          "url": "https://openai.com/index/introducing-gpt-live/"
-        }
-      ]
+      "items": []
     },
     {
       "id": "agentic",
       "title": "Agentic AI & Tool Use",
       "items": [
         {
-          "title": "Peraton launcht Peraton[x]: Agentic-AI-Plattform für US-Behörden",
-          "source": "Peraton",
-          "date": "07.07.2026",
+          "title": "Dovetail startet grosses Plattform-Update mit autonomen AI Agents und Digital Twins",
+          "source": "PR Newswire / Dovetail",
+          "date": "14.07.2026",
           "image": "",
-          "teaser": "Der US-Regierungsdienstleister Peraton hat mit Peraton[x] eine eigene Enterprise-Agentic-AI-Plattform vorgestellt, die KI-Agenten direkt in kritische Behördenabläufe einbindet statt sie nur als Zusatzwerkzeug anzubieten.",
-          "more": "Die Plattform lässt sich laut Peraton in wenigen Stunden ausrollen und per einfacher Sprache konfigurieren, etwa für Lagebild-Analyse, Programmsteuerung, Risikoprognosen oder Dokumentenforensik. Peraton[x] basiert auf einer Zero-Trust-Architektur und ist FedRAMP-Moderate-konform mit Weg zu FedRAMP High – ein Signal, dass agentische KI nun auch in hochsicheren Regierungsumgebungen ankommt.",
-          "url": "https://www.peraton.com/news/peraton-unveils-peraton-x-the-first-true-enterprise-agentic-ai-platform-built-for-the-nations-most-critical-operations-and-missions"
+          "teaser": "Die Customer-Intelligence-Plattform Dovetail hat mit ihrem Sommer-Release AI Agents eingeführt, die eigenständig im Hintergrund Kundensignale überwachen und relevante Erkenntnisse automatisch an die richtigen Teams weiterleiten.",
+          "more": "Neu sind zudem 'Digital Twins': KI-Abbilder von Kunden oder Personas, die auf echten Calls, Tickets und Research basieren und sich direkt befragen lassen. Über MCP-Konnektoren fliessen Erkenntnisse automatisch in Slack, Linear, Claude oder Microsoft Copilot – ein Beispiel dafür, wie Agentic AI zunehmend proaktiv statt nur reaktiv eingesetzt wird.",
+          "url": "https://www.prnewswire.com/news-releases/dovetail-launches-major-ai-powered-platform-expansion-including-agents-and-category-defining-digital-twins-to-close-the-gap-between-customer-signal-and-business-outcomes-302824839.html"
         },
         {
-          "title": "Akeneo bringt agentische Produktdaten-Plattform Agentic Ziggy",
-          "source": "PR Newswire / Akeneo",
-          "date": "08.07.2026",
+          "title": "BMC bringt governance-gesicherte AI Agents auf Mainframe und Enterprise-Workflows",
+          "source": "BMC Software / PR Newswire",
+          "date": "14.07.2026",
           "image": "",
-          "teaser": "Mit seinem Sommer-Release führt Akeneo 'Agentic Ziggy' ein, eine Agenten-Ebene direkt in der Akeneo Product Cloud, mit der Teams Produktdaten per natürlicher Sprache pflegen und Fehler automatisiert beheben lassen.",
-          "more": "Über 'Ask and Act' lösen Freitext-Anweisungen komplette Workflows aus, komplexe Syndication-Fehler werden verständlich aufbereitet, und eine KI-Bildbearbeitung im Akeneo-DAM erlaubt es, Produktvisuals per Prompt anzupassen. Akeneo positioniert den Release als ersten Schritt einer mehrjährigen Agentic-Commerce-Strategie.",
-          "url": "https://www.prnewswire.com/news-releases/akeneo-introduces-the-first-truly-agentic-product-experience-platform-302819885.html"
+          "teaser": "BMC Software hat neue Funktionen vorgestellt, mit denen KI-Agenten sicher auf Mainframe-, Cloud- und Hybrid-Umgebungen zugreifen können, unter anderem über einen neuen MCP-Client für den BMC AMI Assistant und einen MCP-Server für Control-M.",
+          "more": "Agenten können damit Produktionsprozesse in Control-M auslösen, überwachen und untersuchen, während enterprise-taugliche Governance, Sichtbarkeit und Richtlinienkontrolle erhalten bleiben. Der Schritt zeigt, dass Agentic AI nun gezielt auch in besonders kritische, klassische IT-Umgebungen wie Mainframes vordringt.",
+          "url": "https://www.prnewswire.com/news-releases/bmc-brings-governed-ai-agents-to-enterprise-workflows-and-mainframe-operations-302824542.html"
         }
       ]
     },
@@ -45,22 +35,22 @@
       "title": "Dev & Automatisierung",
       "items": [
         {
-          "title": "Anthropic verlängert Claude-Fable-5-Zugang und höhere Claude-Code-Limits bis 19. Juli",
-          "source": "Anthropic / BleepingComputer",
-          "date": "13.07.2026",
+          "title": "Claude Code erhält grosses Stabilitäts- und Workflow-Update",
+          "source": "Claude Code Changelog",
+          "date": "16.07.2026",
           "image": "",
-          "teaser": "Anthropic hat den kostenlosen Zugang zu Claude Fable 5 in bezahlten Plänen sowie die um 50 % erhöhten wöchentlichen Claude-Code-Limits zum zweiten Mal verlängert – nun bis zum 19. Juli.",
-          "more": "Betroffen sind Pro-, Max-, Team- und Enterprise-Sitzplätze; Nutzer können bis zur Hälfte ihres Wochenlimits mit Fable 5 verbrauchen, danach greifen Nutzungscredits oder ein Wechsel auf ein anderes Modell. Die wiederholten Last-Minute-Verlängerungen (zunächst bis 7., dann 12., jetzt 19. Juli) deuten auf Konkurrenzdruck durch Codex und andere Agentic-Coding-Tools hin.",
-          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/"
+          "teaser": "Anthropic hat für Claude Code ein breites Update ausgerollt: Subagent-Textstreaming, verbessertes Rechte- und Upload-Handling, ein Screenreader-Modus, Vim-Insert-Remaps sowie Maus-Unterstützung.",
+          "more": "Dazu kommen ein smarterer /doctor-Check, schnelleres Terminal-Rendering und zahlreiche Fixes für Chrome, Windows, Bedrock, Vertex, Hooks und die Session-Wiederherstellung. Die Häufung von Zugänglichkeits- und Stabilitätsverbesserungen zeigt, dass Claude Code zunehmend auf breitere Nutzergruppen und produktive Alltagsnutzung zielt.",
+          "url": "https://code.claude.com/docs/en/changelog"
         },
         {
-          "title": "Claude Code: Neue /doctor-Checks und automatisches Push-Handling",
-          "source": "Claude Code Changelog",
-          "date": "09.07.2026",
+          "title": "GitHub Copilot CLI blockiert Dateiänderungen im Plan-Modus komplett",
+          "source": "GitHub Changelog",
+          "date": "15.07.2026",
           "image": "",
-          "teaser": "Ein aktuelles Claude-Code-Update lässt /doctor nun unnötig aufgeblähte CLAUDE.md-Dateien automatisch kürzen und erweitert /commit-push-pr um automatisches Push-Erlauben auf den konfigurierten Standard-Remote.",
-          "more": "Zusätzlich fragt EnterWorktree künftig nach, bevor ein Git-Worktree ausserhalb des Projektverzeichnisses .claude/worktrees/ angelegt wird, und /cd erhält Pfad-Vorschläge analog zu /add-dir. Die Änderungen zeigen die fortlaufende Feinarbeit an Sicherheits- und Komfort-Details rund um Claude Code.",
-          "url": "https://code.claude.com/docs/en/changelog"
+          "teaser": "GitHub hat eine Sicherheitslücke im Plan-Modus der Copilot CLI geschlossen: Werkzeugaufrufe, die den Workspace verändern würden, werden nun direkt auf Ebene der Tool-Ausführung blockiert – unabhängig davon, was das Sprachmodell anfordert.",
+          "more": "Betroffen sind eingebaute Mutatoren wie das Öffnen von Pull Requests; MCP- und externe Tools bleiben weiterhin erlaubt. Die Änderung reagiert auf eine reale Schwachstelle agentischer Coding-Tools, bei der ein Planungsmodus versehentlich produktive Änderungen auslösen konnte.",
+          "url": "https://github.blog/changelog/label/copilot/"
         }
       ]
     },
@@ -69,13 +59,22 @@
       "title": "Marketing-AI (Bild & Video)",
       "items": [
         {
-          "title": "Google Photos startet KI-Tool 'Video Remix' für Kurzclips",
-          "source": "Google Blog",
-          "date": "08.07.2026",
+          "title": "Digital.Marketing erweitert Agentic-AI-Marketing für White-Label-Partner",
+          "source": "Digital.Marketing / Manila Times",
+          "date": "14.07.2026",
           "image": "",
-          "teaser": "Google rollt in Google Photos das neue Feature 'Video Remix' aus, mit dem sich aus vorhandenen Videos in Sekunden stilisierte, teilbare Kurzclips erzeugen lassen – angetrieben vom Modell Gemini Omni.",
-          "more": "Zur Auswahl stehen Vorlagen wie filmisches Relighting, Hintergrundaustausch oder künstlerische Stile wie Aquarell und Skizze. Der Rollout startet für Abonnenten von Google AI Plus, Pro und Ultra in ausgewählten Ländern, darunter die USA, Indien und Brasilien. Für Marketing-Teams zeigt das Beispiel, wie Kurzvideo-Generierung zunehmend direkt in Consumer-Apps wandert.",
-          "url": "https://blog.google/products-and-platforms/products/photos/video-remix/"
+          "teaser": "Der Anbieter Digital.Marketing hat sein Angebot an agentischen KI-Marketinglösungen für White-Label-Partner ausgebaut, sodass Agenturen und Dienstleister KI-gestützte Marketingausführung unter eigener Marke anbieten können.",
+          "more": "Die Agenten übernehmen mehrstufige Workflows über SEO, Content, Paid Media, Lead-Generierung und Analytics hinweg und passen die Ausführung laufend an Performance-Daten an, während menschliche Kontrolle über Freigaben erhalten bleibt. Zeigt den Trend, dass Marketing-Agenturen zunehmend fertige Agentic-AI-Stacks statt einzelner Tools einkaufen.",
+          "url": "https://www.manilatimes.net/2026/07/14/tmt-newswire/plentisoft/digitalmarketing-expands-agentic-ai-marketing-solutions-for-white-label-partners/2383751"
+        },
+        {
+          "title": "Vivideo.ai vereint Text-, Bild- und Video-Workflows in einer Plattform",
+          "source": "MarTech Series",
+          "date": "15.07.2026",
+          "image": "",
+          "teaser": "Vivideo.ai hat sein KI-Video-Tool um einen einheitlichen Multi-Model-Workflow sowie erweiterte Avatar- und Sprachfunktionen ausgebaut, sodass Text-zu-Video, Bild-zu-Video und Editing in einem einzigen Projekt kombiniert werden können.",
+          "more": "Bisher mussten Nutzer für einzelne Schritte zwischen verschiedenen Anwendungen wechseln. Laut Anbieter reagiert der Ausbau auf die Nachfrage von kleinen Unternehmen, Marketingteams und Creators, die ohne grosses Produktionsbudget Social-Content, Produktvideos und Schulungsmaterial erstellen wollen.",
+          "url": "https://martechseries.com/predictive-ai/ai-platforms-machine-learning/vivideo-ai-expands-ai-video-platform-with-unified-multi-model-workflow-and-expanded-avatar-and-voice-tools/"
         }
       ]
     },
@@ -84,12 +83,12 @@
       "title": "Regulierung & Data Sovereignty",
       "items": [
         {
-          "title": "EU-Verordnung zur Cloud- und KI-Souveränität steht vor Veröffentlichung",
+          "title": "EU-Cloud- und KI-Souveränitätsgesetz im Amtsblatt veröffentlicht",
           "source": "Europäische Kommission",
-          "date": "13.07.2026",
+          "date": "15.07.2026",
           "image": "",
-          "teaser": "Der Cloud and AI Development Act, Kernstück von Europas 'Tech Sovereignty Package', soll am 15. Juli 2026 im EU-Amtsblatt veröffentlicht werden und tritt damit im August in Kraft.",
-          "more": "Die Verordnung führt ein vierstufiges Souveränitäts-Framework für Cloud- und KI-Anbieter ein, gestaffelt nach Standort der Infrastruktur in der EU, operativer Unabhängigkeit und EU-Eigentum. Ziel ist es, die Abhängigkeit von wenigen nicht-europäischen Cloud-Anbietern zu verringern und Europas Rechenzentrumskapazität zu verdreifachen – ein zentraler Baustein für europäische Datenhoheit, dessen höchste Stufe schrittweise bis 2028 verpflichtend wird.",
+          "teaser": "Der Cloud and AI Development Act ist am 15. Juli 2026 offiziell im Amtsblatt der EU veröffentlicht worden und tritt damit am 4. August 2026 formell in Kraft – zuvor stand die Verordnung nur kurz vor der Veröffentlichung.",
+          "more": "Die Verordnung führt ein vierstufiges Souveränitäts-Framework für Cloud- und KI-Anbieter ein: Ab Level 2 müssen Anbieter Unabhängigkeit von Drittstaaten und Transparenz über ihre Software-Lieferkette nachweisen, ab Level 3 EU-Eigentum und -Kontrolle. Die erste Souveränitätsstufe gilt ab Februar 2028 für öffentliche Auftraggeber, die höchste ab August 2029 – ein zentraler Baustein gegen die Abhängigkeit von den drei US-Cloud-Anbietern, die aktuell über 70 % des EU-Marktes kontrollieren.",
           "url": "https://digital-strategy.ec.europa.eu/en/policies/cloud-and-ai-development-act"
         }
       ]
@@ -97,7 +96,26 @@
     {
       "id": "openweight",
       "title": "Open-Weight-Modelle",
-      "items": []
+      "items": [
+        {
+          "title": "Thinking Machines veröffentlicht erstes offenes Modell 'Inkling'",
+          "source": "Thinking Machines Lab",
+          "date": "15.07.2026",
+          "image": "",
+          "teaser": "Das von Ex-OpenAI-CTO Mira Murati gegründete Startup Thinking Machines Lab hat mit Inkling sein erstes komplett offenes, von Grund auf trainiertes Modell veröffentlicht – ein Mixture-of-Experts-System mit 975 Milliarden Gesamt- und rund 41 Milliarden aktiven Parametern.",
+          "more": "Trainiert auf 45 Billionen Tokens aus Text, Bild, Audio und Video, versteht und verarbeitet Inkling alle vier Modalitäten nativ. Statt auf reine Spitzenleistung zielt Thinking Machines auf ein anpassbares Basismodell, das sich über die eigene Fine-Tuning-Plattform Tinker gezielt für spezifische Anwendungen zuschneiden lässt.",
+          "url": "https://thinkingmachines.ai/news/introducing-inkling/"
+        },
+        {
+          "title": "Moonshot AI launcht Kimi K3 als grösstes Open-Source-Modell der Welt",
+          "source": "Moonshot AI",
+          "date": "16.07.2026",
+          "image": "",
+          "teaser": "Das chinesische Startup Moonshot AI hat Kimi K3 vorgestellt, ein Mixture-of-Experts-Modell mit 2,8 Billionen Parametern, 1-Million-Token-Kontext und permanentem 'Thinking Mode' – laut Anbieter das grösste Open-Source-Modell überhaupt.",
+          "more": "Neu sind die intern entwickelten Architektur-Bausteine Kimi Delta Attention und Attention Residuals für effizienteres Skalieren. K3 ist bereits über API und Kimi-App nutzbar, die vollständigen offenen Gewichte sollen bis zum 27. Juli folgen. Mit Preisen von 3 $ / 15 $ pro Million Input-/Output-Tokens positioniert sich Moonshot direkt gegen Anthropic und OpenAI.",
+          "url": "https://www.marktechpost.com/2026/07/16/moonshot-ai-releases-kimi-k3-a-2-8-trillion-parameter-open-moe-model-with-kimi-delta-attention-and-1m-context/"
+        }
+      ]
     }
   ]
 }
