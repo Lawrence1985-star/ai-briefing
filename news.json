@@ -1,18 +1,18 @@
 {
-  "updated": "13.07.2026",
+  "updated": "20.07.2026",
   "categories": [
     {
       "id": "models",
       "title": "Neue Modelle & Capabilities",
       "items": [
         {
-          "title": "OpenAI veröffentlicht Sprachmodell-Reihe GPT-Live für natürlichere Gespräche",
-          "source": "OpenAI",
-          "date": "08.07.2026",
+          "title": "Nvidia stellt Cosmos 3 Edge für Roboter und Vision-AI vor",
+          "source": "Nvidia Newsroom / CNBC",
+          "date": "16.07.2026",
           "image": "",
-          "teaser": "OpenAI hat mit GPT-Live-1 und GPT-Live-1 mini eine neue Generation von Sprachmodellen vorgestellt, die dank Full-Duplex-Architektur gleichzeitig zuhören und sprechen können.",
-          "more": "Die Modelle lösen die bisherige ChatGPT-Sprachfunktion ab und sollen sich durch Echtzeit-Reaktionen und Unterbrechbarkeit deutlich natürlicher anfühlen. GPT-Live-1 ist ab sofort Standard in bezahlten ChatGPT-Plänen, GPT-Live-1 mini treibt die kostenlose Stufe an. Der Start erfolgte einen Tag vor der breiten Verfügbarkeit von GPT-5.6.",
-          "url": "https://openai.com/index/introducing-gpt-live/"
+          "teaser": "Nvidia hat mit Cosmos 3 Edge ein kompaktes 'World Model' mit 4 Milliarden Parametern vorgestellt, das Robotern und Vision-AI-Agenten hilft, physische Umgebungen in Echtzeit zu erkennen und zu navigieren.",
+          "more": "Das auf Nemotron basierende Modell läuft direkt auf Nvidia-Edge-Hardware wie Jetson Thor und lässt sich laut Nvidia in rund einem Tag auf spezifische Roboter, Fahrzeuge oder Sensoren anpassen. Zum Launch bauen japanische Industriekonzerne wie Fujitsu, Hitachi, Sony und Kawasaki Heavy Industries auf der Cosmos-Plattform auf – ein Zeichen, wie stark 'Physical AI' gerade an Fahrt gewinnt.",
+          "url": "https://nvidianews.nvidia.com/news/japans-robotics-and-manufacturing-leaders-build-on-nvidia-cosmos-to-advance-physical-ai-frontier"
         }
       ]
     },
@@ -21,22 +21,22 @@
       "title": "Agentic AI & Tool Use",
       "items": [
         {
-          "title": "Peraton launcht Peraton[x]: Agentic-AI-Plattform für US-Behörden",
-          "source": "Peraton",
-          "date": "07.07.2026",
+          "title": "1Password für Claude: Agentisches Browsen ohne Passwort-Zugriff",
+          "source": "1Password",
+          "date": "16.07.2026",
           "image": "",
-          "teaser": "Der US-Regierungsdienstleister Peraton hat mit Peraton[x] eine eigene Enterprise-Agentic-AI-Plattform vorgestellt, die KI-Agenten direkt in kritische Behördenabläufe einbindet statt sie nur als Zusatzwerkzeug anzubieten.",
-          "more": "Die Plattform lässt sich laut Peraton in wenigen Stunden ausrollen und per einfacher Sprache konfigurieren, etwa für Lagebild-Analyse, Programmsteuerung, Risikoprognosen oder Dokumentenforensik. Peraton[x] basiert auf einer Zero-Trust-Architektur und ist FedRAMP-Moderate-konform mit Weg zu FedRAMP High – ein Signal, dass agentische KI nun auch in hochsicheren Regierungsumgebungen ankommt.",
-          "url": "https://www.peraton.com/news/peraton-unveils-peraton-x-the-first-true-enterprise-agentic-ai-platform-built-for-the-nations-most-critical-operations-and-missions"
+          "teaser": "1Password und Anthropic ermöglichen es Claude, sich per hinterlegten Zugangsdaten in Webseiten einzuloggen und Aufgaben zu erledigen, ohne dass Passwort oder Einmalcode je an das Modell gelangen.",
+          "more": "Die Zugangsdaten werden über einen sicheren Kanal direkt in die Seite injiziert; Claude sieht selbst den Tresor-Eintrag nie. Zugriff ist strikt auf die aktuelle Aufgabe begrenzt und endet automatisch danach. Der 'Agentic Mode' in der Browser-Erweiterung gibt Nutzenden zusätzlich volle Kontrolle darüber, welche Logins ein KI-Agent verwenden darf – ein wichtiger Schritt für sicheres agentisches Surfen.",
+          "url": "https://1password.com/blog/1password-for-claude"
         },
         {
-          "title": "Akeneo bringt agentische Produktdaten-Plattform Agentic Ziggy",
-          "source": "PR Newswire / Akeneo",
-          "date": "08.07.2026",
+          "title": "Alibaba Cloud launcht 'Agent Native Cloud' mit AgentTeams",
+          "source": "Alibaba Cloud",
+          "date": "18.07.2026",
           "image": "",
-          "teaser": "Mit seinem Sommer-Release führt Akeneo 'Agentic Ziggy' ein, eine Agenten-Ebene direkt in der Akeneo Product Cloud, mit der Teams Produktdaten per natürlicher Sprache pflegen und Fehler automatisiert beheben lassen.",
-          "more": "Über 'Ask and Act' lösen Freitext-Anweisungen komplette Workflows aus, komplexe Syndication-Fehler werden verständlich aufbereitet, und eine KI-Bildbearbeitung im Akeneo-DAM erlaubt es, Produktvisuals per Prompt anzupassen. Akeneo positioniert den Release als ersten Schritt einer mehrjährigen Agentic-Commerce-Strategie.",
-          "url": "https://www.prnewswire.com/news-releases/akeneo-introduces-the-first-truly-agentic-product-experience-platform-302819885.html"
+          "teaser": "Auf der WAIC 2026 in Shanghai hat Alibaba Cloud seine 'Agent Native Cloud' vorgestellt, eine Infrastruktur speziell für den Betrieb vieler koordinierter KI-Agenten im Unternehmenseinsatz.",
+          "more": "Kernstücke sind AgentTeams zur Orchestrierung spezialisierter Agenten sowie 'Agentic Computer' für sichere, isolierte Ausführung in der Cloud, ergänzt um native Sandbox-Umgebungen, elastische Skalierung und Enterprise-Identitätsanbindung. Der Schritt zeigt, wie chinesische Cloud-Anbieter gezielt auf agentische Workloads statt einzelner Modelle setzen.",
+          "url": "https://www.alibabacloud.com/en/press-room/alibaba-cloud-unveil-advanced-agentic-ai-ecosystem"
         }
       ]
     },
@@ -45,22 +45,22 @@
       "title": "Dev & Automatisierung",
       "items": [
         {
-          "title": "Anthropic verlängert Claude-Fable-5-Zugang und höhere Claude-Code-Limits bis 19. Juli",
-          "source": "Anthropic / BleepingComputer",
-          "date": "13.07.2026",
+          "title": "Claude Code: Live-MCP-Daten in Artifacts und neue Team-Freigaben",
+          "source": "Anthropic / Claude Code Changelog",
+          "date": "17.07.2026",
           "image": "",
-          "teaser": "Anthropic hat den kostenlosen Zugang zu Claude Fable 5 in bezahlten Plänen sowie die um 50 % erhöhten wöchentlichen Claude-Code-Limits zum zweiten Mal verlängert – nun bis zum 19. Juli.",
-          "more": "Betroffen sind Pro-, Max-, Team- und Enterprise-Sitzplätze; Nutzer können bis zur Hälfte ihres Wochenlimits mit Fable 5 verbrauchen, danach greifen Nutzungscredits oder ein Wechsel auf ein anderes Modell. Die wiederholten Last-Minute-Verlängerungen (zunächst bis 7., dann 12., jetzt 19. Juli) deuten auf Konkurrenzdruck durch Codex und andere Agentic-Coding-Tools hin.",
-          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-stays-free-for-paid-users-until-july-19-as-anthropic-buys-more-time/"
+          "teaser": "Claude Code kann veröffentlichte Artifacts nun bei jedem Aufruf live über MCP-Connectoren mit aktuellen Daten befüllen, statt nur einen Snapshot vom Erstellungszeitpunkt zu zeigen. Dazu kommen ein Screenreader-Modus und neue Freigabeoptionen für Team/Enterprise.",
+          "more": "Ein Dashboard-Artifact kann so bei jedem Öffnen frische Daten abrufen und sogar Aktionen auslösen. Zusätzlich wurden Subagent-Workflows, Hintergrund-Sessions und Berechtigungen weiter gehärtet. Für Entwicklerteams heisst das: Artifacts werden von statischen Snapshots zu echten, wiederverwendbaren Mini-Apps.",
+          "url": "https://code.claude.com/docs/en/changelog"
         },
         {
-          "title": "Claude Code: Neue /doctor-Checks und automatisches Push-Handling",
-          "source": "Claude Code Changelog",
-          "date": "09.07.2026",
+          "title": "n8n schliesst grosses Stabilitäts-Update für KI-Workflows ab",
+          "source": "n8n",
+          "date": "15.07.2026",
           "image": "",
-          "teaser": "Ein aktuelles Claude-Code-Update lässt /doctor nun unnötig aufgeblähte CLAUDE.md-Dateien automatisch kürzen und erweitert /commit-push-pr um automatisches Push-Erlauben auf den konfigurierten Standard-Remote.",
-          "more": "Zusätzlich fragt EnterWorktree künftig nach, bevor ein Git-Worktree ausserhalb des Projektverzeichnisses .claude/worktrees/ angelegt wird, und /cd erhält Pfad-Vorschläge analog zu /add-dir. Die Änderungen zeigen die fortlaufende Feinarbeit an Sicherheits- und Komfort-Details rund um Claude Code.",
-          "url": "https://code.claude.com/docs/en/changelog"
+          "teaser": "n8n hat ein breites Stabilitäts-Update ausgeliefert, das Fehler im AI Builder, im Editor, in der Core-Runtime und in zahlreichen Nodes behebt.",
+          "more": "Verbessert wurden unter anderem Credential-Handling, Workflow-Erstellung sowie Webhook- und Ausführungs-Zuverlässigkeit, zudem wurden Sicherheits-Abhängigkeiten aktualisiert. Für Teams, die n8n mit Claude oder anderen Modellen über MCP verbinden, sinkt damit das Risiko flackernder Automatisierungen im Alltagsbetrieb.",
+          "url": "https://blog.n8n.io/"
         }
       ]
     },
@@ -69,13 +69,13 @@
       "title": "Marketing-AI (Bild & Video)",
       "items": [
         {
-          "title": "Google Photos startet KI-Tool 'Video Remix' für Kurzclips",
-          "source": "Google Blog",
-          "date": "08.07.2026",
+          "title": "Tec-Do launcht Navos 2.0: Multi-Agenten-System für globales Marketing",
+          "source": "PR Newswire / Tec-Do",
+          "date": "17.07.2026",
           "image": "",
-          "teaser": "Google rollt in Google Photos das neue Feature 'Video Remix' aus, mit dem sich aus vorhandenen Videos in Sekunden stilisierte, teilbare Kurzclips erzeugen lassen – angetrieben vom Modell Gemini Omni.",
-          "more": "Zur Auswahl stehen Vorlagen wie filmisches Relighting, Hintergrundaustausch oder künstlerische Stile wie Aquarell und Skizze. Der Rollout startet für Abonnenten von Google AI Plus, Pro und Ultra in ausgewählten Ländern, darunter die USA, Indien und Brasilien. Für Marketing-Teams zeigt das Beispiel, wie Kurzvideo-Generierung zunehmend direkt in Consumer-Apps wandert.",
-          "url": "https://blog.google/products-and-platforms/products/photos/video-remix/"
+          "teaser": "Auf der WAIC 2026 hat Tec-Do mit Navos 2.0 ein Multi-Agenten-System vorgestellt, das Marktanalyse, Creative-Produktion und Influencer-Ansprache in einem Workflow bündelt.",
+          "more": "Spezialisierte Agenten wählen Produkte aus, erstellen automatisiert Werbemittel und stellen Kontakt zu einem Netzwerk von über 150 Millionen Creators her. Neu ist ein 'AI Desktop Assistant', der mit Freigabe auch direkt in Office-Anwendungen und Lark Aufgaben ausführt – ein Beispiel, wie Marketing-Tools von reiner Content-Erzeugung zu ausführenden Agenten übergehen.",
+          "url": "https://www.prnewswire.com/apac/news-releases/tec-do-launches-navos-2-0-at-waic-advancing-the-next-era-of-agentic-commerce-302828632.html"
         }
       ]
     },
@@ -84,20 +84,48 @@
       "title": "Regulierung & Data Sovereignty",
       "items": [
         {
-          "title": "EU-Verordnung zur Cloud- und KI-Souveränität steht vor Veröffentlichung",
+          "title": "EU-Cloud- und KI-Souveränitätsgesetz im Amtsblatt veröffentlicht",
           "source": "Europäische Kommission",
-          "date": "13.07.2026",
+          "date": "15.07.2026",
           "image": "",
-          "teaser": "Der Cloud and AI Development Act, Kernstück von Europas 'Tech Sovereignty Package', soll am 15. Juli 2026 im EU-Amtsblatt veröffentlicht werden und tritt damit im August in Kraft.",
-          "more": "Die Verordnung führt ein vierstufiges Souveränitäts-Framework für Cloud- und KI-Anbieter ein, gestaffelt nach Standort der Infrastruktur in der EU, operativer Unabhängigkeit und EU-Eigentum. Ziel ist es, die Abhängigkeit von wenigen nicht-europäischen Cloud-Anbietern zu verringern und Europas Rechenzentrumskapazität zu verdreifachen – ein zentraler Baustein für europäische Datenhoheit, dessen höchste Stufe schrittweise bis 2028 verpflichtend wird.",
+          "teaser": "Der Cloud and AI Development Act, Herzstück des europäischen 'Tech Sovereignty Package', wurde am 15. Juli im EU-Amtsblatt veröffentlicht und tritt im August 2026 formell in Kraft.",
+          "more": "Die Verordnung führt ein vierstufiges Souveränitäts-Framework für Cloud- und KI-Anbieter ein, gestaffelt nach Standort, operativer Unabhängigkeit und Eigentümerstruktur. Die erste Stufe wird ab Februar 2028 verbindlich, die strengste ab August 2029 – ein zentraler Baustein für europäische Datenhoheit, der auch Schweizer Anbieter mit EU-Geschäft betrifft.",
           "url": "https://digital-strategy.ec.europa.eu/en/policies/cloud-and-ai-development-act"
+        },
+        {
+          "title": "EU verpflichtet Google zur Öffnung von Android für KI-Konkurrenten",
+          "source": "Europäische Kommission (DMA)",
+          "date": "16.07.2026",
+          "image": "",
+          "teaser": "Die EU-Kommission hat Google unter dem Digital Markets Act verbindlich aufgefordert, Android für konkurrierende KI-Assistenten zu öffnen und Teile der Google-Suchdaten mit Wettbewerbern zu teilen.",
+          "more": "Rivalisierende Assistenten erhalten Zugriff auf elf Android-Systemfunktionen, etwa Sprachaktivierung und App-übergreifende Aktionen; das Teilen anonymisierter Suchdaten beginnt im Januar 2027, die Android-Interoperabilität muss bis Juli 2027 umgesetzt sein. Die Entscheidung zeigt, wie EU-Wettbewerbsrecht gezielt gegen die Marktmacht grosser KI-Plattformen eingesetzt wird.",
+          "url": "https://digital-markets-act.ec.europa.eu/commission-provides-guidance-google-ai-interoperability-android-and-sharing-google-search-data-under-2026-07-16_en"
         }
       ]
     },
     {
       "id": "openweight",
       "title": "Open-Weight-Modelle",
-      "items": []
+      "items": [
+        {
+          "title": "Moonshot AI veröffentlicht Kimi K3 – grösstes Open-Weight-Modell bisher",
+          "source": "Moonshot AI",
+          "date": "16.07.2026",
+          "image": "",
+          "teaser": "Moonshot AI hat mit Kimi K3 ein Mixture-of-Experts-Modell mit 2,8 Billionen Parametern und 1-Millionen-Token-Kontext vorgestellt, das in Benchmarks bereits an Claude Fable 5 und GPT-5.6 heranreicht.",
+          "more": "Das Modell ist ab sofort über Kimis Apps und API nutzbar, die vollständigen offenen Gewichte sollen bis zum 27. Juli folgen. Kimi K3 gilt als bislang grösstes je veröffentlichtes Open-Weight-Modell und unterstreicht, wie schnell chinesische Anbieter im Open-Source-Rennen zu den US-Spitzenmodellen aufschliessen.",
+          "url": "https://mlq.ai/news/moonshot-ai-releases-kimi-k3-a-28-trillion-parameter-open-weight-model-rivaling-top-us-systems/"
+        },
+        {
+          "title": "Thinking Machines veröffentlicht offenes Modell 'Inkling'",
+          "source": "Thinking Machines Lab",
+          "date": "15.07.2026",
+          "image": "",
+          "teaser": "Das von Ex-OpenAI-CTO Mira Murati gegründete Thinking Machines Lab hat mit Inkling sein erstes eigenes Modell veröffentlicht – als Open Weight unter Apache-2.0-Lizenz direkt auf Hugging Face verfügbar.",
+          "more": "Inkling ist ein Mixture-of-Experts-Modell mit 975 Milliarden Gesamt- und rund 41 Milliarden aktiven Parametern, unterstützt Bild, Audio und Text und ist auf agentische Aufgaben ausgelegt. Der Schritt ist bemerkenswert, weil ein prominenter Name aus der Closed-Model-Welt hier bewusst auf offene Gewichte setzt statt ein proprietäres Angebot zu starten.",
+          "url": "https://thinkingmachines.ai/news/introducing-inkling/"
+        }
+      ]
     }
   ]
 }
