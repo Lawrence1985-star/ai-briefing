@@ -1,18 +1,27 @@
 {
-  "updated": "20.07.2026",
+  "updated": "27.07.2026",
   "categories": [
     {
       "id": "models",
       "title": "Neue Modelle & Capabilities",
       "items": [
         {
-          "title": "Nvidia stellt Cosmos 3 Edge für Roboter und Vision-AI vor",
-          "source": "Nvidia Newsroom / CNBC",
-          "date": "16.07.2026",
+          "title": "Anthropic veröffentlicht Claude Opus 5",
+          "source": "Anthropic",
+          "date": "24.07.2026",
           "image": "",
-          "teaser": "Nvidia hat mit Cosmos 3 Edge ein kompaktes 'World Model' mit 4 Milliarden Parametern vorgestellt, das Robotern und Vision-AI-Agenten hilft, physische Umgebungen in Echtzeit zu erkennen und zu navigieren.",
-          "more": "Das auf Nemotron basierende Modell läuft direkt auf Nvidia-Edge-Hardware wie Jetson Thor und lässt sich laut Nvidia in rund einem Tag auf spezifische Roboter, Fahrzeuge oder Sensoren anpassen. Zum Launch bauen japanische Industriekonzerne wie Fujitsu, Hitachi, Sony und Kawasaki Heavy Industries auf der Cosmos-Plattform auf – ein Zeichen, wie stark 'Physical AI' gerade an Fahrt gewinnt.",
-          "url": "https://nvidianews.nvidia.com/news/japans-robotics-and-manufacturing-leaders-build-on-nvidia-cosmos-to-advance-physical-ai-frontier"
+          "teaser": "Anthropic hat mit Opus 5 sein neues Flaggschiffmodell vorgestellt, das nahe an die Fähigkeiten von Fable 5 herankommt – zum halben Preis.",
+          "more": "Neu ist ein Effort-Regler (niedrig/mittel/hoch), mit dem Nutzende gezielt zwischen Kosten und Denktiefe abwägen können. Auf Coding- und Wissensarbeits-Benchmarks setzt Opus 5 neue Bestwerte innerhalb der Claude-5-Familie und zeigt, wie schnell Anthropic seine Modellreihe weiter verdichtet.",
+          "url": "https://www.anthropic.com/news/claude-opus-5"
+        },
+        {
+          "title": "Black Forest Labs stellt multimodales Frontier-Modell FLUX 3 vor",
+          "source": "VentureBeat / Black Forest Labs",
+          "date": "23.07.2026",
+          "image": "",
+          "teaser": "Das deutsche Labor Black Forest Labs hat mit FLUX 3 ein Modell vorgestellt, das Bild, Video (bis 20 Sekunden mit Ton) und sogar Roboter-Aktionen aus einer gemeinsamen Architektur erzeugt.",
+          "more": "Video-Zugang startet zunächst nur für ausgewählte Partner, Bildgenerierung soll in den kommenden Wochen folgen; eine offene FLUX-3-Dev-Version ist für später angekündigt. Bemerkenswert ist der Schritt in die Robotik über Partner wie mimic robotics, die das Modell bereits bei Audi testen.",
+          "url": "https://venturebeat.com/technology/black-forest-labs-launches-flux-3-capable-of-generating-images-and-20-second-video-with-audio-but-in-limited-release-to-start"
         }
       ]
     },
@@ -21,22 +30,22 @@
       "title": "Agentic AI & Tool Use",
       "items": [
         {
-          "title": "1Password für Claude: Agentisches Browsen ohne Passwort-Zugriff",
-          "source": "1Password",
-          "date": "16.07.2026",
+          "title": "OpenAI startet Enterprise-Agentenplattform 'Presence'",
+          "source": "OpenAI",
+          "date": "22.07.2026",
           "image": "",
-          "teaser": "1Password und Anthropic ermöglichen es Claude, sich per hinterlegten Zugangsdaten in Webseiten einzuloggen und Aufgaben zu erledigen, ohne dass Passwort oder Einmalcode je an das Modell gelangen.",
-          "more": "Die Zugangsdaten werden über einen sicheren Kanal direkt in die Seite injiziert; Claude sieht selbst den Tresor-Eintrag nie. Zugriff ist strikt auf die aktuelle Aufgabe begrenzt und endet automatisch danach. Der 'Agentic Mode' in der Browser-Erweiterung gibt Nutzenden zusätzlich volle Kontrolle darüber, welche Logins ein KI-Agent verwenden darf – ein wichtiger Schritt für sicheres agentisches Surfen.",
-          "url": "https://1password.com/blog/1password-for-claude"
+          "teaser": "OpenAI hat mit Presence eine Plattform für den Unternehmenseinsatz von Voice- und Chat-Agenten vorgestellt, inklusive Richtlinien, Guardrails und Eskalationsregeln.",
+          "more": "Presence bündelt Freigabeprozesse, Simulationen und Evaluationswerkzeuge und wird zunächst nur begleitet durch OpenAIs eigene Deployment-Teams ausgerollt, nicht als Self-Service. Der Schritt zeigt, wie OpenAI von reinem Modellzugang zu verwalteten, produktionsreifen Agentensystemen für Firmenkunden übergeht.",
+          "url": "https://openai.com/index/introducing-openai-presence/"
         },
         {
-          "title": "Alibaba Cloud launcht 'Agent Native Cloud' mit AgentTeams",
-          "source": "Alibaba Cloud",
-          "date": "18.07.2026",
+          "title": "Ushur launcht Agentic Platform für durchgängige Kundenprozesse",
+          "source": "GlobeNewswire / Ushur",
+          "date": "22.07.2026",
           "image": "",
-          "teaser": "Auf der WAIC 2026 in Shanghai hat Alibaba Cloud seine 'Agent Native Cloud' vorgestellt, eine Infrastruktur speziell für den Betrieb vieler koordinierter KI-Agenten im Unternehmenseinsatz.",
-          "more": "Kernstücke sind AgentTeams zur Orchestrierung spezialisierter Agenten sowie 'Agentic Computer' für sichere, isolierte Ausführung in der Cloud, ergänzt um native Sandbox-Umgebungen, elastische Skalierung und Enterprise-Identitätsanbindung. Der Schritt zeigt, wie chinesische Cloud-Anbieter gezielt auf agentische Workloads statt einzelner Modelle setzen.",
-          "url": "https://www.alibabacloud.com/en/press-room/alibaba-cloud-unveil-advanced-agentic-ai-ecosystem"
+          "teaser": "Ushur hat die Ushur Agentic Platform (UAP) vorgestellt, mit der KI-Agenten komplette Kundenanliegen über SMS, E-Mail, Web, Chat und Sprache hinweg bis zum Abschluss bearbeiten.",
+          "more": "Anliegen können kanalübergreifend fortgesetzt werden, etwa vom Text-Erstkontakt bis zum abschliessenden Telefonat mit vollem Kontext. Erste Einsatzfelder sind Versicherungs- und Gesundheitsprozesse; ein selbstbedienbarer Testzugang senkt die Einstiegshürde für Unternehmen ohne langfristigen Vertrag.",
+          "url": "https://www.globenewswire.com/news-release/2026/07/22/3331397/0/en/ushur-launches-the-ushur-agentic-platform-ai-agents-that-finish-the-job.html"
         }
       ]
     },
@@ -45,22 +54,22 @@
       "title": "Dev & Automatisierung",
       "items": [
         {
-          "title": "Claude Code: Live-MCP-Daten in Artifacts und neue Team-Freigaben",
+          "title": "Claude Code führt Opus 5 als Standard und neue Sicherheitsoptionen ein",
           "source": "Anthropic / Claude Code Changelog",
-          "date": "17.07.2026",
+          "date": "24.07.2026",
           "image": "",
-          "teaser": "Claude Code kann veröffentlichte Artifacts nun bei jedem Aufruf live über MCP-Connectoren mit aktuellen Daten befüllen, statt nur einen Snapshot vom Erstellungszeitpunkt zu zeigen. Dazu kommen ein Screenreader-Modus und neue Freigabeoptionen für Team/Enterprise.",
-          "more": "Ein Dashboard-Artifact kann so bei jedem Öffnen frische Daten abrufen und sogar Aktionen auslösen. Zusätzlich wurden Subagent-Workflows, Hintergrund-Sessions und Berechtigungen weiter gehärtet. Für Entwicklerteams heisst das: Artifacts werden von statischen Snapshots zu echten, wiederverwendbaren Mini-Apps.",
+          "teaser": "Mit Version 2.1.219 macht Claude Code Opus 5 zum Standardmodell und ergänzt eine strikte Netzwerk-Allowlist für Sandboxes sowie einen neuen Hook, der beim Hinzufügen von Arbeitsverzeichnissen greift.",
+          "more": "Zusätzlich werden verschachtelte Subagenten jetzt bis Tiefe 3 im Stream-Output sichtbar, und MCP-Verbindungsfehler werden klarer angezeigt. Die Änderungen zielen vor allem auf mehr Kontrolle und Nachvollziehbarkeit beim Einsatz vieler paralleler Agenten in Entwicklerteams.",
           "url": "https://code.claude.com/docs/en/changelog"
         },
         {
-          "title": "n8n schliesst grosses Stabilitäts-Update für KI-Workflows ab",
-          "source": "n8n",
-          "date": "15.07.2026",
+          "title": "n8n härtet MCP-Anbindung und behebt zahlreiche Stabilitätsfehler",
+          "source": "n8n Release Notes",
+          "date": "23.07.2026",
           "image": "",
-          "teaser": "n8n hat ein breites Stabilitäts-Update ausgeliefert, das Fehler im AI Builder, im Editor, in der Core-Runtime und in zahlreichen Nodes behebt.",
-          "more": "Verbessert wurden unter anderem Credential-Handling, Workflow-Erstellung sowie Webhook- und Ausführungs-Zuverlässigkeit, zudem wurden Sicherheits-Abhängigkeiten aktualisiert. Für Teams, die n8n mit Claude oder anderen Modellen über MCP verbinden, sinkt damit das Risiko flackernder Automatisierungen im Alltagsbetrieb.",
-          "url": "https://blog.n8n.io/"
+          "teaser": "n8n hat in einem breiten Update sicherheitsrelevante Lücken in Abhängigkeiten geschlossen und die MCP-Anbindung abgesichert, unter anderem durch OAuth-Support für den MCP Client Tool.",
+          "more": "Zudem werden geheime, issuer-artige Werte jetzt aus MCP-Tool-Ausgaben entfernt, und mehrere Fehler in Editor, AI Builder und Core-Runtime wurden behoben. Für Teams, die n8n mit Claude oder anderen Modellen via MCP verbinden, sinkt damit das Risiko von Datenlecks und flackernden Workflows.",
+          "url": "https://docs.n8n.io/release-notes"
         }
       ]
     },
@@ -69,13 +78,22 @@
       "title": "Marketing-AI (Bild & Video)",
       "items": [
         {
-          "title": "Tec-Do launcht Navos 2.0: Multi-Agenten-System für globales Marketing",
-          "source": "PR Newswire / Tec-Do",
-          "date": "17.07.2026",
+          "title": "PropellerAds bringt MCP-Connector für KI-gesteuerte Werbekampagnen",
+          "source": "PR Newswire / PropellerAds",
+          "date": "24.07.2026",
           "image": "",
-          "teaser": "Auf der WAIC 2026 hat Tec-Do mit Navos 2.0 ein Multi-Agenten-System vorgestellt, das Marktanalyse, Creative-Produktion und Influencer-Ansprache in einem Workflow bündelt.",
-          "more": "Spezialisierte Agenten wählen Produkte aus, erstellen automatisiert Werbemittel und stellen Kontakt zu einem Netzwerk von über 150 Millionen Creators her. Neu ist ein 'AI Desktop Assistant', der mit Freigabe auch direkt in Office-Anwendungen und Lark Aufgaben ausführt – ein Beispiel, wie Marketing-Tools von reiner Content-Erzeugung zu ausführenden Agenten übergehen.",
-          "url": "https://www.prnewswire.com/apac/news-releases/tec-do-launches-navos-2-0-at-waic-advancing-the-next-era-of-agentic-commerce-302828632.html"
+          "teaser": "PropellerAds lässt Werbetreibende ihre Kampagnen jetzt direkt über Claude, ChatGPT oder Cursor steuern – per neuem, kostenlosem MCP-Connector.",
+          "more": "Kampagnen lassen sich per Chat pausieren, anlegen oder anpassen, inklusive feiner Geo-, Geräte- und Netzwerk-Filter, ohne das Dashboard zu öffnen. Parallel wurde der hauseigene Agent NIKO zum vollwertigen Kampagnen-Co-Piloten ausgebaut – ein Beispiel, wie Werbeplattformen Agenten direkt in bestehende KI-Tools einklinken.",
+          "url": "https://www.prnewswire.com/news-releases/propellerads-launches-mcp-connector-letting-advertisers-run-campaigns-through-ai-agents-302834104.html"
+        },
+        {
+          "title": "Dstillery und Canvas Worldwide optimieren erstmals laufende Kampagne per Agent",
+          "source": "GlobeNewswire / Dstillery",
+          "date": "23.07.2026",
+          "image": "",
+          "teaser": "Dstillery und die Mediaagentur Canvas Worldwide haben die erste agentische Echtzeit-Optimierung einer laufenden programmatischen Werbekampagne umgesetzt.",
+          "more": "Die DS-1-Plattform beobachtet die Kampagne fortlaufend, erkennt starke und schwache Segmente und schlägt Trader:innen laufend Anpassungen vor, statt auf feste Reporting-Zyklen zu warten. Menschen bleiben in der Entscheidung, doch die Optimierungsgeschwindigkeit steigt spürbar – ein Signal für den breiteren Trend zu agentischem Mediaeinkauf.",
+          "url": "https://www.globenewswire.com/news-release/2026/07/23/3332167/0/en/Dstillery-and-Canvas-Worldwide-Partner-to-Bring-DS-1-Agentic-Optimization-to-Live-Campaigns.html"
         }
       ]
     },
@@ -84,22 +102,13 @@
       "title": "Regulierung & Data Sovereignty",
       "items": [
         {
-          "title": "EU-Cloud- und KI-Souveränitätsgesetz im Amtsblatt veröffentlicht",
-          "source": "Europäische Kommission",
-          "date": "15.07.2026",
+          "title": "EU-'Digital Omnibus on AI' tritt in Kraft und verschiebt Hochrisiko-Fristen",
+          "source": "EUR-Lex / Europäische Kommission",
+          "date": "27.07.2026",
           "image": "",
-          "teaser": "Der Cloud and AI Development Act, Herzstück des europäischen 'Tech Sovereignty Package', wurde am 15. Juli im EU-Amtsblatt veröffentlicht und tritt im August 2026 formell in Kraft.",
-          "more": "Die Verordnung führt ein vierstufiges Souveränitäts-Framework für Cloud- und KI-Anbieter ein, gestaffelt nach Standort, operativer Unabhängigkeit und Eigentümerstruktur. Die erste Stufe wird ab Februar 2028 verbindlich, die strengste ab August 2029 – ein zentraler Baustein für europäische Datenhoheit, der auch Schweizer Anbieter mit EU-Geschäft betrifft.",
-          "url": "https://digital-strategy.ec.europa.eu/en/policies/cloud-and-ai-development-act"
-        },
-        {
-          "title": "EU verpflichtet Google zur Öffnung von Android für KI-Konkurrenten",
-          "source": "Europäische Kommission (DMA)",
-          "date": "16.07.2026",
-          "image": "",
-          "teaser": "Die EU-Kommission hat Google unter dem Digital Markets Act verbindlich aufgefordert, Android für konkurrierende KI-Assistenten zu öffnen und Teile der Google-Suchdaten mit Wettbewerbern zu teilen.",
-          "more": "Rivalisierende Assistenten erhalten Zugriff auf elf Android-Systemfunktionen, etwa Sprachaktivierung und App-übergreifende Aktionen; das Teilen anonymisierter Suchdaten beginnt im Januar 2027, die Android-Interoperabilität muss bis Juli 2027 umgesetzt sein. Die Entscheidung zeigt, wie EU-Wettbewerbsrecht gezielt gegen die Marktmacht grosser KI-Plattformen eingesetzt wird.",
-          "url": "https://digital-markets-act.ec.europa.eu/commission-provides-guidance-google-ai-interoperability-android-and-sharing-google-search-data-under-2026-07-16_en"
+          "teaser": "Die als Verordnung (EU) 2026/1744 veröffentlichte Reform des AI Act ist am 27. Juli in Kraft getreten und verschiebt zentrale Pflichten für Hochrisiko-KI-Systeme deutlich nach hinten.",
+          "more": "Volle Hochrisiko-Pflichten für Annex-III-Systeme gelten nun erst ab Dezember 2027, für eingebettete Annex-I-Systeme ab August 2028; die Verbote nach Artikel 5, die GPAI-Regeln und die Transparenzpflichten nach Artikel 50 bleiben dagegen wie geplant ab 2. August scharf. Zusätzlich erhält das EU-KI-Büro erweiterte Aufsichtsbefugnisse, und ein neues Verbot für KI-generiertes CSAM-Material wird eingeführt.",
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng"
         }
       ]
     },
@@ -108,22 +117,22 @@
       "title": "Open-Weight-Modelle",
       "items": [
         {
-          "title": "Moonshot AI veröffentlicht Kimi K3 – grösstes Open-Weight-Modell bisher",
-          "source": "Moonshot AI",
-          "date": "16.07.2026",
+          "title": "Ant Group veröffentlicht effizientes Open-Weight-Modell Ling-3.0-flash",
+          "source": "Ant Ling (inclusionAI)",
+          "date": "23.07.2026",
           "image": "",
-          "teaser": "Moonshot AI hat mit Kimi K3 ein Mixture-of-Experts-Modell mit 2,8 Billionen Parametern und 1-Millionen-Token-Kontext vorgestellt, das in Benchmarks bereits an Claude Fable 5 und GPT-5.6 heranreicht.",
-          "more": "Das Modell ist ab sofort über Kimis Apps und API nutzbar, die vollständigen offenen Gewichte sollen bis zum 27. Juli folgen. Kimi K3 gilt als bislang grösstes je veröffentlichtes Open-Weight-Modell und unterstreicht, wie schnell chinesische Anbieter im Open-Source-Rennen zu den US-Spitzenmodellen aufschliessen.",
-          "url": "https://mlq.ai/news/moonshot-ai-releases-kimi-k3-a-28-trillion-parameter-open-weight-model-rivaling-top-us-systems/"
+          "teaser": "Ant Groups KI-Lab inclusionAI hat mit Ling-3.0-flash ein MoE-Modell mit 124 Milliarden Parametern vorgestellt, das mit nur 5,1 Milliarden aktiven Parametern pro Token das eigene 1-Billionen-Flaggschiff in den meisten Benchmarks schlägt.",
+          "more": "Möglich macht das eine hybride Aufmerksamkeits-Architektur mit nativer 256K-Kontextlänge, skalierbar bis 1 Million Token. Das Modell ist bereits über OpenRouter nutzbar, zeigt aber auch, wie chinesische Anbieter zunehmend auf Effizienz statt reiner Modellgrösse setzen.",
+          "url": "https://openrouter.ai/inclusionai/ling-3.0-flash"
         },
         {
-          "title": "Thinking Machines veröffentlicht offenes Modell 'Inkling'",
-          "source": "Thinking Machines Lab",
-          "date": "15.07.2026",
+          "title": "Kimi K3: Volle Gewichte des bislang grössten Open-Weight-Modells erscheinen",
+          "source": "Tech Times / Moonshot AI",
+          "date": "27.07.2026",
           "image": "",
-          "teaser": "Das von Ex-OpenAI-CTO Mira Murati gegründete Thinking Machines Lab hat mit Inkling sein erstes eigenes Modell veröffentlicht – als Open Weight unter Apache-2.0-Lizenz direkt auf Hugging Face verfügbar.",
-          "more": "Inkling ist ein Mixture-of-Experts-Modell mit 975 Milliarden Gesamt- und rund 41 Milliarden aktiven Parametern, unterstützt Bild, Audio und Text und ist auf agentische Aufgaben ausgelegt. Der Schritt ist bemerkenswert, weil ein prominenter Name aus der Closed-Model-Welt hier bewusst auf offene Gewichte setzt statt ein proprietäres Angebot zu starten.",
-          "url": "https://thinkingmachines.ai/news/introducing-inkling/"
+          "teaser": "Nach dem API-Start Mitte Juli veröffentlicht Moonshot AI heute die vollständigen Gewichte von Kimi K3 auf Hugging Face – rund 594 GB im MXFP4-Format unter einer modifizierten MIT-Lizenz.",
+          "more": "Damit können Organisationen mit ausreichender Infrastruktur das 2,8-Billionen-Parameter-Modell erstmals selbst hosten, anpassen und prüfen, statt nur über Moonshots API darauf zuzugreifen. Es gilt als das grösste je veröffentlichte Open-Weight-Modell und dürfte rasch Community-Quantisierungen wie BF16 oder GGUF nach sich ziehen.",
+          "url": "https://www.techtimes.com/articles/321499/20260724/kimi-k3-open-weights-drop-july-27-near-frontier-coding-undisclosed-hallucination-risk.htm"
         }
       ]
     }
