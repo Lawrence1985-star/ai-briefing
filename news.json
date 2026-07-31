@@ -1,27 +1,18 @@
 {
-  "updated": "27.07.2026",
+  "updated": "31.07.2026",
   "categories": [
     {
       "id": "models",
       "title": "Neue Modelle & Capabilities",
       "items": [
         {
-          "title": "Anthropic veröffentlicht Claude Opus 5",
-          "source": "Anthropic",
-          "date": "24.07.2026",
+          "title": "Alibaba veröffentlicht günstiges Vision-Modell Qwen3.7 Flash",
+          "source": "Alibaba Cloud / OpenRouter",
+          "date": "27.07.2026",
           "image": "",
-          "teaser": "Anthropic hat mit Opus 5 sein neues Flaggschiffmodell vorgestellt, das nahe an die Fähigkeiten von Fable 5 herankommt – zum halben Preis.",
-          "more": "Neu ist ein Effort-Regler (niedrig/mittel/hoch), mit dem Nutzende gezielt zwischen Kosten und Denktiefe abwägen können. Auf Coding- und Wissensarbeits-Benchmarks setzt Opus 5 neue Bestwerte innerhalb der Claude-5-Familie und zeigt, wie schnell Anthropic seine Modellreihe weiter verdichtet.",
-          "url": "https://www.anthropic.com/news/claude-opus-5"
-        },
-        {
-          "title": "Black Forest Labs stellt multimodales Frontier-Modell FLUX 3 vor",
-          "source": "VentureBeat / Black Forest Labs",
-          "date": "23.07.2026",
-          "image": "",
-          "teaser": "Das deutsche Labor Black Forest Labs hat mit FLUX 3 ein Modell vorgestellt, das Bild, Video (bis 20 Sekunden mit Ton) und sogar Roboter-Aktionen aus einer gemeinsamen Architektur erzeugt.",
-          "more": "Video-Zugang startet zunächst nur für ausgewählte Partner, Bildgenerierung soll in den kommenden Wochen folgen; eine offene FLUX-3-Dev-Version ist für später angekündigt. Bemerkenswert ist der Schritt in die Robotik über Partner wie mimic robotics, die das Modell bereits bei Audi testen.",
-          "url": "https://venturebeat.com/technology/black-forest-labs-launches-flux-3-capable-of-generating-images-and-20-second-video-with-audio-but-in-limited-release-to-start"
+          "teaser": "Alibaba hat mit Qwen3.7 Flash ein multimodales Modell mit Bild- und Video-Input, 1-Million-Token-Kontext und deutlich verbesserten Agenten-Fähigkeiten vorgestellt.",
+          "more": "Das Modell kostet nur 0,03 US-Dollar pro Million Input-Token und zählt damit zu den günstigsten vision-fähigen Modellen am Markt. Besonders die Fähigkeiten für Search- und Coding-Agenten sowie die Objekterkennung wurden gegenüber dem Vorgänger 3.6-Flash spürbar verbessert – ein Signal, wie günstig leistungsfähige Multimodal-Agenten inzwischen werden.",
+          "url": "https://help.aliyun.com/en/model-studio/qwen3-7-flash"
         }
       ]
     },
@@ -30,22 +21,22 @@
       "title": "Agentic AI & Tool Use",
       "items": [
         {
-          "title": "OpenAI startet Enterprise-Agentenplattform 'Presence'",
-          "source": "OpenAI",
-          "date": "22.07.2026",
+          "title": "Dynatrace bringt autonome SRE-Agenten und no-code Agent Builder",
+          "source": "Dynatrace",
+          "date": "27.07.2026",
           "image": "",
-          "teaser": "OpenAI hat mit Presence eine Plattform für den Unternehmenseinsatz von Voice- und Chat-Agenten vorgestellt, inklusive Richtlinien, Guardrails und Eskalationsregeln.",
-          "more": "Presence bündelt Freigabeprozesse, Simulationen und Evaluationswerkzeuge und wird zunächst nur begleitet durch OpenAIs eigene Deployment-Teams ausgerollt, nicht als Self-Service. Der Schritt zeigt, wie OpenAI von reinem Modellzugang zu verwalteten, produktionsreifen Agentensystemen für Firmenkunden übergeht.",
-          "url": "https://openai.com/index/introducing-openai-presence/"
+          "teaser": "Dynatrace hat autonome Agenten vorgestellt, die IT-Störungen selbstständig triagieren und beheben, sowie einen Agent Builder, mit dem Kund:innen eigene Agenten ohne Code erstellen können.",
+          "more": "Der Autonomous SRE Agent erkennt neue Probleme automatisch und ordnet sie laufenden Untersuchungen zu, während der Cloud SRE Agent Massnahmen über AWS, Azure und Google Cloud hinweg koordiniert. Beide Funktionen sollen im August verfügbar werden und zeigen den Trend zu Observability-Plattformen, die von reiner Analyse zu eigenständigem Handeln übergehen.",
+          "url": "https://www.dynatrace.com/news/press-release/autonomous-operations-enterprise-ai/"
         },
         {
-          "title": "Ushur launcht Agentic Platform für durchgängige Kundenprozesse",
-          "source": "GlobeNewswire / Ushur",
-          "date": "22.07.2026",
+          "title": "Stairwell launcht Backstory für agentische Malware-Untersuchungen",
+          "source": "Help Net Security / Stairwell",
+          "date": "29.07.2026",
           "image": "",
-          "teaser": "Ushur hat die Ushur Agentic Platform (UAP) vorgestellt, mit der KI-Agenten komplette Kundenanliegen über SMS, E-Mail, Web, Chat und Sprache hinweg bis zum Abschluss bearbeiten.",
-          "more": "Anliegen können kanalübergreifend fortgesetzt werden, etwa vom Text-Erstkontakt bis zum abschliessenden Telefonat mit vollem Kontext. Erste Einsatzfelder sind Versicherungs- und Gesundheitsprozesse; ein selbstbedienbarer Testzugang senkt die Einstiegshürde für Unternehmen ohne langfristigen Vertrag.",
-          "url": "https://www.globenewswire.com/news-release/2026/07/22/3331397/0/en/ushur-launches-the-ushur-agentic-platform-ai-agents-that-finish-the-job.html"
+          "teaser": "Stairwell hat mit Backstory eine agentische Plattform vorgestellt, die verwandte Malware-Varianten aufspürt und den vollen 'Blast Radius' eines Vorfalls in Sekunden statt Stunden kartiert.",
+          "more": "Statt bei einzelnen Alerts anzusetzen, analysiert der Agent gesammelte Endpoint-Dateien und deckt laut Stairwell im Schnitt 2,4 zusätzliche bösartige Varianten pro bekanntem Malware-Hash auf. Der Launch zeigt, wie agentische KI zunehmend in Security-Workflows vordringt, wo KI-generierte Malware die Zahl der Varianten treibt.",
+          "url": "https://www.helpnetsecurity.com/2026/07/29/stairwell-backstory-agentic-investigation/"
         }
       ]
     },
@@ -54,21 +45,21 @@
       "title": "Dev & Automatisierung",
       "items": [
         {
-          "title": "Claude Code führt Opus 5 als Standard und neue Sicherheitsoptionen ein",
-          "source": "Anthropic / Claude Code Changelog",
-          "date": "24.07.2026",
+          "title": "Model Context Protocol wird mit Spec-Version 2026-07-28 zustandslos",
+          "source": "Model Context Protocol / Anthropic",
+          "date": "28.07.2026",
           "image": "",
-          "teaser": "Mit Version 2.1.219 macht Claude Code Opus 5 zum Standardmodell und ergänzt eine strikte Netzwerk-Allowlist für Sandboxes sowie einen neuen Hook, der beim Hinzufügen von Arbeitsverzeichnissen greift.",
-          "more": "Zusätzlich werden verschachtelte Subagenten jetzt bis Tiefe 3 im Stream-Output sichtbar, und MCP-Verbindungsfehler werden klarer angezeigt. Die Änderungen zielen vor allem auf mehr Kontrolle und Nachvollziehbarkeit beim Einsatz vieler paralleler Agenten in Entwicklerteams.",
-          "url": "https://code.claude.com/docs/en/changelog"
+          "teaser": "Die neue MCP-Spezifikation 2026-07-28 baut das Protokoll von einer zustandsbehafteten auf eine zustandslose Request/Response-Architektur um – die grösste Überarbeitung seit Einführung.",
+          "more": "Damit lassen sich MCP-Server erstmals serverless und auf Edge-Infrastruktur betreiben; zugleich wird die Autorisierung per OAuth/OIDC gehärtet und es kommen offizielle Erweiterungen für UI ('Apps'), asynchrone Aufgaben ('Tasks') und Enterprise-Auth hinzu. Claude-Produkte übernehmen die neue Spec schrittweise – relevant für alle, die MCP-Server für Claude Code oder andere Clients bauen.",
+          "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28/"
         },
         {
-          "title": "n8n härtet MCP-Anbindung und behebt zahlreiche Stabilitätsfehler",
+          "title": "n8n erweitert AI Builder, Workflow-Review und MCP-Funktionen",
           "source": "n8n Release Notes",
-          "date": "23.07.2026",
+          "date": "29.07.2026",
           "image": "",
-          "teaser": "n8n hat in einem breiten Update sicherheitsrelevante Lücken in Abhängigkeiten geschlossen und die MCP-Anbindung abgesichert, unter anderem durch OAuth-Support für den MCP Client Tool.",
-          "more": "Zudem werden geheime, issuer-artige Werte jetzt aus MCP-Tool-Ausgaben entfernt, und mehrere Fehler in Editor, AI Builder und Core-Runtime wurden behoben. Für Teams, die n8n mit Claude oder anderen Modellen via MCP verbinden, sinkt damit das Risiko von Datenlecks und flackernden Workflows.",
+          "teaser": "n8n hat sein AI-Builder-Toolkit ausgebaut, eine neue Workflow-Review-Funktion eingeführt und die MCP- sowie API-Anbindung mit admin-verwalteten Credentials und OAuth abgesichert.",
+          "more": "Neu sind unter anderem Telemetrie für Agent-Publishing, eine Reviews-Seite mit Freigabe-Workflow sowie Konfigurationsoptionen für den Scheduler bei Massenausführungen. Für Teams, die n8n mit Claude oder anderen Modellen via MCP verbinden, sinkt damit weiter das Risiko unkontrollierter Agenten-Workflows.",
           "url": "https://docs.n8n.io/release-notes"
         }
       ]
@@ -78,22 +69,22 @@
       "title": "Marketing-AI (Bild & Video)",
       "items": [
         {
-          "title": "PropellerAds bringt MCP-Connector für KI-gesteuerte Werbekampagnen",
-          "source": "PR Newswire / PropellerAds",
-          "date": "24.07.2026",
+          "title": "ByteDance startet Video-Modell Seedance 2.5 zuerst in der Jimeng-App",
+          "source": "Kie.ai / ByteDance",
+          "date": "31.07.2026",
           "image": "",
-          "teaser": "PropellerAds lässt Werbetreibende ihre Kampagnen jetzt direkt über Claude, ChatGPT oder Cursor steuern – per neuem, kostenlosem MCP-Connector.",
-          "more": "Kampagnen lassen sich per Chat pausieren, anlegen oder anpassen, inklusive feiner Geo-, Geräte- und Netzwerk-Filter, ohne das Dashboard zu öffnen. Parallel wurde der hauseigene Agent NIKO zum vollwertigen Kampagnen-Co-Piloten ausgebaut – ein Beispiel, wie Werbeplattformen Agenten direkt in bestehende KI-Tools einklinken.",
-          "url": "https://www.prnewswire.com/news-releases/propellerads-launches-mcp-connector-letting-advertisers-run-campaigns-through-ai-agents-302834104.html"
+          "teaser": "ByteDance bringt sein neues Video-Modell Seedance 2.5 diese Woche zuerst über die eigene App Jimeng live – mit 30 Sekunden langen Videos aus einem Durchgang und bis zu 4K-Auflösung.",
+          "more": "Das Modell akzeptiert bis zu 50 multimodale Referenzen (Bild, Video, Audio, Text) und erlaubt regionale Bearbeitung einzelner Frame-Bereiche, ohne den ganzen Clip neu zu generieren. Der Rollout startet über Jimeng und Dreamina, weitere Plattformen und CapCut sollen in den kommenden Wochen folgen.",
+          "url": "https://kie.ai/blog/what-is-seedance-2-5"
         },
         {
-          "title": "Dstillery und Canvas Worldwide optimieren erstmals laufende Kampagne per Agent",
-          "source": "GlobeNewswire / Dstillery",
-          "date": "23.07.2026",
+          "title": "StackAdapt launcht KI-Hub 'Ivy Studio' für die Kampagnensteuerung",
+          "source": "Business Wire / StackAdapt",
+          "date": "28.07.2026",
           "image": "",
-          "teaser": "Dstillery und die Mediaagentur Canvas Worldwide haben die erste agentische Echtzeit-Optimierung einer laufenden programmatischen Werbekampagne umgesetzt.",
-          "more": "Die DS-1-Plattform beobachtet die Kampagne fortlaufend, erkennt starke und schwache Segmente und schlägt Trader:innen laufend Anpassungen vor, statt auf feste Reporting-Zyklen zu warten. Menschen bleiben in der Entscheidung, doch die Optimierungsgeschwindigkeit steigt spürbar – ein Signal für den breiteren Trend zu agentischem Mediaeinkauf.",
-          "url": "https://www.globenewswire.com/news-release/2026/07/23/3332167/0/en/Dstillery-and-Canvas-Worldwide-Partner-to-Bring-DS-1-Agentic-Optimization-to-Live-Campaigns.html"
+          "teaser": "Die Programmatic-Plattform StackAdapt hat mit Ivy Studio einen KI-first-Hub vorgestellt, über den Marketer per natürlicher Sprache Zielgruppen finden, Prognosen erstellen und Kampagnen direkt steuern können.",
+          "more": "Ivy Studio bündelt Analyse und Ausführung in einer Oberfläche, basierend auf Sprachmodellen von OpenAI, und soll den Wechsel zwischen Dashboards überflüssig machen. StackAdapt gibt an, dass eigene Mitarbeitende bereits über 15'000 KI-gestützte Workflows pro Woche nutzen – ein Beispiel für den wachsenden Trend zu agentischer Mediaplanung.",
+          "url": "https://www.morningstar.com/news/business-wire/20260728833079/stackadapt-introduces-ivy-studio-a-new-hub-for-ai-first-advertising"
         }
       ]
     },
@@ -102,13 +93,13 @@
       "title": "Regulierung & Data Sovereignty",
       "items": [
         {
-          "title": "EU-'Digital Omnibus on AI' tritt in Kraft und verschiebt Hochrisiko-Fristen",
-          "source": "EUR-Lex / Europäische Kommission",
-          "date": "27.07.2026",
+          "title": "EU-Kennzeichnungspflicht für Chatbots und Deepfakes startet am 2. August",
+          "source": "Berliner Zeitung / EU AI Act",
+          "date": "31.07.2026",
           "image": "",
-          "teaser": "Die als Verordnung (EU) 2026/1744 veröffentlichte Reform des AI Act ist am 27. Juli in Kraft getreten und verschiebt zentrale Pflichten für Hochrisiko-KI-Systeme deutlich nach hinten.",
-          "more": "Volle Hochrisiko-Pflichten für Annex-III-Systeme gelten nun erst ab Dezember 2027, für eingebettete Annex-I-Systeme ab August 2028; die Verbote nach Artikel 5, die GPAI-Regeln und die Transparenzpflichten nach Artikel 50 bleiben dagegen wie geplant ab 2. August scharf. Zusätzlich erhält das EU-KI-Büro erweiterte Aufsichtsbefugnisse, und ein neues Verbot für KI-generiertes CSAM-Material wird eingeführt.",
-          "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng"
+          "teaser": "Ab Sonntag greift Artikel 50 des EU AI Act: Chatbots müssen sich als solche zu erkennen geben, und KI-generierte Deepfakes brauchen eine maschinenlesbare Kennzeichnung.",
+          "more": "Die Offenlegung bei Chatbots muss als erste Nachricht im Dialog erfolgen und auf einen menschlichen Ansprechpartner verweisen, statt nur im Impressum zu stehen. Für Deepfakes gelten sichtbare wie technische Markierungen etwa per Wasserzeichen oder Metadaten; bestehende Systeme haben bis Dezember 2026 Zeit zur Nachrüstung. Firmen mit Chatbots oder generativen Bild-/Video-Tools sollten jetzt konkret prüfen, ob ihre Kennzeichnung compliant ist.",
+          "url": "https://www.berliner-zeitung.de/article/eu-ki-kennzeichnungspflicht-deepfakes-chatbots-texte-10243081"
         }
       ]
     },
@@ -117,22 +108,13 @@
       "title": "Open-Weight-Modelle",
       "items": [
         {
-          "title": "Ant Group veröffentlicht effizientes Open-Weight-Modell Ling-3.0-flash",
-          "source": "Ant Ling (inclusionAI)",
-          "date": "23.07.2026",
+          "title": "Amodei stellt klar: Anthropic will keine offenen Modelle verbieten",
+          "source": "Quartz / Anthropic",
+          "date": "28.07.2026",
           "image": "",
-          "teaser": "Ant Groups KI-Lab inclusionAI hat mit Ling-3.0-flash ein MoE-Modell mit 124 Milliarden Parametern vorgestellt, das mit nur 5,1 Milliarden aktiven Parametern pro Token das eigene 1-Billionen-Flaggschiff in den meisten Benchmarks schlägt.",
-          "more": "Möglich macht das eine hybride Aufmerksamkeits-Architektur mit nativer 256K-Kontextlänge, skalierbar bis 1 Million Token. Das Modell ist bereits über OpenRouter nutzbar, zeigt aber auch, wie chinesische Anbieter zunehmend auf Effizienz statt reiner Modellgrösse setzen.",
-          "url": "https://openrouter.ai/inclusionai/ling-3.0-flash"
-        },
-        {
-          "title": "Kimi K3: Volle Gewichte des bislang grössten Open-Weight-Modells erscheinen",
-          "source": "Tech Times / Moonshot AI",
-          "date": "27.07.2026",
-          "image": "",
-          "teaser": "Nach dem API-Start Mitte Juli veröffentlicht Moonshot AI heute die vollständigen Gewichte von Kimi K3 auf Hugging Face – rund 594 GB im MXFP4-Format unter einer modifizierten MIT-Lizenz.",
-          "more": "Damit können Organisationen mit ausreichender Infrastruktur das 2,8-Billionen-Parameter-Modell erstmals selbst hosten, anpassen und prüfen, statt nur über Moonshots API darauf zuzugreifen. Es gilt als das grösste je veröffentlichte Open-Weight-Modell und dürfte rasch Community-Quantisierungen wie BF16 oder GGUF nach sich ziehen.",
-          "url": "https://www.techtimes.com/articles/321499/20260724/kimi-k3-open-weights-drop-july-27-near-frontier-coding-undisclosed-hallucination-risk.htm"
+          "teaser": "Nach dem Vollgewichts-Release von Kimi K3 hat Anthropic-CEO Dario Amodei betont, nie ein Verbot offener Modelle gefordert zu haben – ungefährliche Open-Weight-Modelle seien ein 'öffentliches Gut'.",
+          "more": "Amodei reagierte damit auf Druck, weil Anthropic einen Branchenbrief von über 50 Firmen (u. a. Nvidia, Microsoft, Meta) gegen pauschale Beschränkungen offener Modelle nicht mitunterzeichnet hatte. Er fordert stattdessen weiterhin Chip-Exportkontrollen, Massnahmen gegen Modell-Distillation und verpflichtende Sicherheitstests – die eigentliche Gefahr sieht er nicht in offenen Gewichten selbst, sondern in geschlossenen Modellen in den Händen autoritärer Staaten.",
+          "url": "https://qz.com/anthropic-dario-amodei-open-weight-ai-ban-safety-testing-072826"
         }
       ]
     }
