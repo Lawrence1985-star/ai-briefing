@@ -1,18 +1,18 @@
 {
-  "updated": "31.07.2026",
+  "updated": "03.08.2026",
   "categories": [
     {
       "id": "models",
       "title": "Neue Modelle & Capabilities",
       "items": [
         {
-          "title": "Alibaba veröffentlicht günstiges Vision-Modell Qwen3.7 Flash",
-          "source": "Alibaba Cloud / OpenRouter",
-          "date": "27.07.2026",
+          "title": "DeepSeek veröffentlicht V4-Flash-0731 mit grossen Agenten- und Coding-Verbesserungen",
+          "source": "DeepSeek / MarkTechPost",
+          "date": "31.07.2026",
           "image": "",
-          "teaser": "Alibaba hat mit Qwen3.7 Flash ein multimodales Modell mit Bild- und Video-Input, 1-Million-Token-Kontext und deutlich verbesserten Agenten-Fähigkeiten vorgestellt.",
-          "more": "Das Modell kostet nur 0,03 US-Dollar pro Million Input-Token und zählt damit zu den günstigsten vision-fähigen Modellen am Markt. Besonders die Fähigkeiten für Search- und Coding-Agenten sowie die Objekterkennung wurden gegenüber dem Vorgänger 3.6-Flash spürbar verbessert – ein Signal, wie günstig leistungsfähige Multimodal-Agenten inzwischen werden.",
-          "url": "https://help.aliyun.com/en/model-studio/qwen3-7-flash"
+          "teaser": "DeepSeek hat sein Flash-Modell aus der Preview in die öffentliche Beta überführt: V4-Flash-0731 bringt bei unveränderter Architektur deutlich stärkere Agenten- und Coding-Fähigkeiten.",
+          "more": "Das Mixture-of-Experts-Modell mit 280 Milliarden Parametern (13 Milliarden aktiv) bietet 1 Million Token Kontext und legt im Artificial-Analysis-Intelligence-Index rund 10 Punkte gegenüber der Vorversion zu. Bei unverändertem Preis von 0,14 bzw. 0,28 US-Dollar pro Million Tokens zeigt sich, wie schnell günstige Modelle zu teuren Flaggschiffen aufschliessen.",
+          "url": "https://www.marktechpost.com/2026/07/31/deepseek-upgrades-deepseek-v4-flash-0731-with-major-agentic-and-coding-gains/"
         }
       ]
     },
@@ -21,102 +21,54 @@
       "title": "Agentic AI & Tool Use",
       "items": [
         {
-          "title": "Dynatrace bringt autonome SRE-Agenten und no-code Agent Builder",
-          "source": "Dynatrace",
-          "date": "27.07.2026",
+          "title": "Microsoft startet 'Project Perception' mit Cyber-Agenten in Public Preview",
+          "source": "Microsoft / TechGenyz",
+          "date": "03.08.2026",
           "image": "",
-          "teaser": "Dynatrace hat autonome Agenten vorgestellt, die IT-Störungen selbstständig triagieren und beheben, sowie einen Agent Builder, mit dem Kund:innen eigene Agenten ohne Code erstellen können.",
-          "more": "Der Autonomous SRE Agent erkennt neue Probleme automatisch und ordnet sie laufenden Untersuchungen zu, während der Cloud SRE Agent Massnahmen über AWS, Azure und Google Cloud hinweg koordiniert. Beide Funktionen sollen im August verfügbar werden und zeigen den Trend zu Observability-Plattformen, die von reiner Analyse zu eigenständigem Handeln übergehen.",
-          "url": "https://www.dynatrace.com/news/press-release/autonomous-operations-enterprise-ai/"
-        },
-        {
-          "title": "Stairwell launcht Backstory für agentische Malware-Untersuchungen",
-          "source": "Help Net Security / Stairwell",
-          "date": "29.07.2026",
-          "image": "",
-          "teaser": "Stairwell hat mit Backstory eine agentische Plattform vorgestellt, die verwandte Malware-Varianten aufspürt und den vollen 'Blast Radius' eines Vorfalls in Sekunden statt Stunden kartiert.",
-          "more": "Statt bei einzelnen Alerts anzusetzen, analysiert der Agent gesammelte Endpoint-Dateien und deckt laut Stairwell im Schnitt 2,4 zusätzliche bösartige Varianten pro bekanntem Malware-Hash auf. Der Launch zeigt, wie agentische KI zunehmend in Security-Workflows vordringt, wo KI-generierte Malware die Zahl der Varianten treibt.",
-          "url": "https://www.helpnetsecurity.com/2026/07/29/stairwell-backstory-agentic-investigation/"
+          "teaser": "Microsoft bringt seine agentische Sicherheitsplattform Project Perception mit spezialisierten Red-, Blue- und Green-Agenten heute in die öffentliche Preview, angetrieben vom neuen Modell MAI-Cyber-1-Flash.",
+          "more": "Die Agenten sollen Schwachstellen eigenständig aufspüren, priorisieren und Patches schreiben sowie ausrollen; Microsoft nennt 96 % Erfolgsquote im CyberGym-Benchmark bei rund halben Kosten. Der Launch zeigt, wie Security-Plattformen von reiner Erkennung zu eigenständigem Handeln übergehen – ein Muster, das sich zuletzt auch bei Dynatrace und Stairwell zeigte.",
+          "url": "https://techgenyz.com/microsoft-project-perception-ai-cybersecurity/"
         }
       ]
     },
     {
       "id": "devtools",
       "title": "Dev & Automatisierung",
-      "items": [
-        {
-          "title": "Model Context Protocol wird mit Spec-Version 2026-07-28 zustandslos",
-          "source": "Model Context Protocol / Anthropic",
-          "date": "28.07.2026",
-          "image": "",
-          "teaser": "Die neue MCP-Spezifikation 2026-07-28 baut das Protokoll von einer zustandsbehafteten auf eine zustandslose Request/Response-Architektur um – die grösste Überarbeitung seit Einführung.",
-          "more": "Damit lassen sich MCP-Server erstmals serverless und auf Edge-Infrastruktur betreiben; zugleich wird die Autorisierung per OAuth/OIDC gehärtet und es kommen offizielle Erweiterungen für UI ('Apps'), asynchrone Aufgaben ('Tasks') und Enterprise-Auth hinzu. Claude-Produkte übernehmen die neue Spec schrittweise – relevant für alle, die MCP-Server für Claude Code oder andere Clients bauen.",
-          "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28/"
-        },
-        {
-          "title": "n8n erweitert AI Builder, Workflow-Review und MCP-Funktionen",
-          "source": "n8n Release Notes",
-          "date": "29.07.2026",
-          "image": "",
-          "teaser": "n8n hat sein AI-Builder-Toolkit ausgebaut, eine neue Workflow-Review-Funktion eingeführt und die MCP- sowie API-Anbindung mit admin-verwalteten Credentials und OAuth abgesichert.",
-          "more": "Neu sind unter anderem Telemetrie für Agent-Publishing, eine Reviews-Seite mit Freigabe-Workflow sowie Konfigurationsoptionen für den Scheduler bei Massenausführungen. Für Teams, die n8n mit Claude oder anderen Modellen via MCP verbinden, sinkt damit weiter das Risiko unkontrollierter Agenten-Workflows.",
-          "url": "https://docs.n8n.io/release-notes"
-        }
-      ]
+      "items": []
     },
     {
       "id": "marketing",
       "title": "Marketing-AI (Bild & Video)",
-      "items": [
-        {
-          "title": "ByteDance startet Video-Modell Seedance 2.5 zuerst in der Jimeng-App",
-          "source": "Kie.ai / ByteDance",
-          "date": "31.07.2026",
-          "image": "",
-          "teaser": "ByteDance bringt sein neues Video-Modell Seedance 2.5 diese Woche zuerst über die eigene App Jimeng live – mit 30 Sekunden langen Videos aus einem Durchgang und bis zu 4K-Auflösung.",
-          "more": "Das Modell akzeptiert bis zu 50 multimodale Referenzen (Bild, Video, Audio, Text) und erlaubt regionale Bearbeitung einzelner Frame-Bereiche, ohne den ganzen Clip neu zu generieren. Der Rollout startet über Jimeng und Dreamina, weitere Plattformen und CapCut sollen in den kommenden Wochen folgen.",
-          "url": "https://kie.ai/blog/what-is-seedance-2-5"
-        },
-        {
-          "title": "StackAdapt launcht KI-Hub 'Ivy Studio' für die Kampagnensteuerung",
-          "source": "Business Wire / StackAdapt",
-          "date": "28.07.2026",
-          "image": "",
-          "teaser": "Die Programmatic-Plattform StackAdapt hat mit Ivy Studio einen KI-first-Hub vorgestellt, über den Marketer per natürlicher Sprache Zielgruppen finden, Prognosen erstellen und Kampagnen direkt steuern können.",
-          "more": "Ivy Studio bündelt Analyse und Ausführung in einer Oberfläche, basierend auf Sprachmodellen von OpenAI, und soll den Wechsel zwischen Dashboards überflüssig machen. StackAdapt gibt an, dass eigene Mitarbeitende bereits über 15'000 KI-gestützte Workflows pro Woche nutzen – ein Beispiel für den wachsenden Trend zu agentischer Mediaplanung.",
-          "url": "https://www.morningstar.com/news/business-wire/20260728833079/stackadapt-introduces-ivy-studio-a-new-hub-for-ai-first-advertising"
-        }
-      ]
+      "items": []
     },
     {
       "id": "regulation",
       "title": "Regulierung & Data Sovereignty",
       "items": [
         {
-          "title": "EU-Kennzeichnungspflicht für Chatbots und Deepfakes startet am 2. August",
-          "source": "Berliner Zeitung / EU AI Act",
-          "date": "31.07.2026",
+          "title": "EU-Kommission startet Durchsetzung der KI-Transparenzpflichten",
+          "source": "Europäische Kommission",
+          "date": "02.08.2026",
           "image": "",
-          "teaser": "Ab Sonntag greift Artikel 50 des EU AI Act: Chatbots müssen sich als solche zu erkennen geben, und KI-generierte Deepfakes brauchen eine maschinenlesbare Kennzeichnung.",
-          "more": "Die Offenlegung bei Chatbots muss als erste Nachricht im Dialog erfolgen und auf einen menschlichen Ansprechpartner verweisen, statt nur im Impressum zu stehen. Für Deepfakes gelten sichtbare wie technische Markierungen etwa per Wasserzeichen oder Metadaten; bestehende Systeme haben bis Dezember 2026 Zeit zur Nachrüstung. Firmen mit Chatbots oder generativen Bild-/Video-Tools sollten jetzt konkret prüfen, ob ihre Kennzeichnung compliant ist.",
-          "url": "https://www.berliner-zeitung.de/article/eu-ki-kennzeichnungspflicht-deepfakes-chatbots-texte-10243081"
+          "teaser": "Seit dem 2. August gelten die Transparenzpflichten aus Artikel 50 des EU AI Act nicht mehr nur auf dem Papier: Kommission und AI Office haben offiziell mit der Durchsetzung begonnen.",
+          "more": "Chatbots müssen sich als KI zu erkennen geben, Deepfakes und KI-generierte Inhalte brauchen eine maschinenlesbare Kennzeichnung – Verstösse können mit bis zu 15 Millionen Euro oder 3 % des weltweiten Jahresumsatzes geahndet werden. Für Unternehmen mit Chatbots oder Content-Tools endet damit die Übergangsfrist; wer noch nicht compliant ist, riskiert ab sofort eine Prüfung.",
+          "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august"
+        },
+        {
+          "title": "EU Cloud and AI Development Act tritt mit Souveränitäts-Framework in Kraft",
+          "source": "Raconteur / Europäische Kommission",
+          "date": "04.08.2026",
+          "image": "",
+          "teaser": "Am 4. August tritt der Cloud and AI Development Act formell in Kraft und schafft ein vierstufiges Klassifizierungssystem für die Datenhoheit von Cloud- und KI-Infrastruktur in der EU.",
+          "more": "Das Gesetz reicht von einer Basis-Stufe mit Selbstauskunft bis zu Stufe 4 mit voller EU-Eigentümerschaft, EU-geprüftem Personal und einem Verbot, KI-Inferenzdaten ausserhalb der EU zu verarbeiten. Die höchsten Anforderungen greifen erst gestaffelt bis 2028/2029, doch öffentliche Auftraggeber und Betreiber kritischer Infrastruktur müssen ihre Cloud-Beschaffung schon jetzt am neuen Rahmen ausrichten – ein weiterer Baustein der EU-Digitalsouveränität neben dem AI Act.",
+          "url": "https://www.raconteur.net/global-business/eu-cloud-and-ai-development-act-what-sovereign-cloud-means-in-new-laws"
         }
       ]
     },
     {
       "id": "openweight",
       "title": "Open-Weight-Modelle",
-      "items": [
-        {
-          "title": "Amodei stellt klar: Anthropic will keine offenen Modelle verbieten",
-          "source": "Quartz / Anthropic",
-          "date": "28.07.2026",
-          "image": "",
-          "teaser": "Nach dem Vollgewichts-Release von Kimi K3 hat Anthropic-CEO Dario Amodei betont, nie ein Verbot offener Modelle gefordert zu haben – ungefährliche Open-Weight-Modelle seien ein 'öffentliches Gut'.",
-          "more": "Amodei reagierte damit auf Druck, weil Anthropic einen Branchenbrief von über 50 Firmen (u. a. Nvidia, Microsoft, Meta) gegen pauschale Beschränkungen offener Modelle nicht mitunterzeichnet hatte. Er fordert stattdessen weiterhin Chip-Exportkontrollen, Massnahmen gegen Modell-Distillation und verpflichtende Sicherheitstests – die eigentliche Gefahr sieht er nicht in offenen Gewichten selbst, sondern in geschlossenen Modellen in den Händen autoritärer Staaten.",
-          "url": "https://qz.com/anthropic-dario-amodei-open-weight-ai-ban-safety-testing-072826"
-        }
-      ]
+      "items": []
     }
   ]
 }
