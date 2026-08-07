@@ -1,40 +1,49 @@
 {
-  "updated": "03.08.2026",
+  "updated": "07.08.2026",
   "categories": [
     {
       "id": "models",
       "title": "Neue Modelle & Capabilities",
       "items": [
         {
-          "title": "DeepSeek veröffentlicht V4-Flash-0731 mit grossen Agenten- und Coding-Verbesserungen",
-          "source": "DeepSeek / MarkTechPost",
-          "date": "31.07.2026",
+          "title": "Alibaba stellt Flaggschiff-Modell Qwen3.8-Max vor",
+          "source": "MarkTechPost / Alibaba Cloud",
+          "date": "03.08.2026",
           "image": "",
-          "teaser": "DeepSeek hat sein Flash-Modell aus der Preview in die öffentliche Beta überführt: V4-Flash-0731 bringt bei unveränderter Architektur deutlich stärkere Agenten- und Coding-Fähigkeiten.",
-          "more": "Das Mixture-of-Experts-Modell mit 280 Milliarden Parametern (13 Milliarden aktiv) bietet 1 Million Token Kontext und legt im Artificial-Analysis-Intelligence-Index rund 10 Punkte gegenüber der Vorversion zu. Bei unverändertem Preis von 0,14 bzw. 0,28 US-Dollar pro Million Tokens zeigt sich, wie schnell günstige Modelle zu teuren Flaggschiffen aufschliessen.",
-          "url": "https://www.marktechpost.com/2026/07/31/deepseek-upgrades-deepseek-v4-flash-0731-with-major-agentic-and-coding-gains/"
+          "teaser": "Alibaba hat mit Qwen3.8-Max sein bislang grösstes Modell vorgestellt: ein 2,4-Billionen-Parameter-MoE-System mit 1-Mio-Token-Kontext, das laut Alibaba mit Spitzenmodellen von OpenAI und Anthropic mithalten soll.",
+          "more": "Anders als bei den letzten Flaggschiffen macht Alibaba das Modell wieder offen zugänglich: Die Gewichte sollen in der Folgewoche erscheinen, es wäre der erste offene Max-Class-Qwen überhaupt. Verfügbar ist es bereits über Alibaba Cloud und die Agentenplattform QwenWork; die Ankündigung liess die Alibaba-Aktie deutlich steigen.",
+          "url": "https://www.marktechpost.com/2026/08/03/alibaba-qwen-releases-qwen3-8-max/"
+        },
+        {
+          "title": "Meta veröffentlicht Muse Spark 1.2 mit grossen Reasoning- und Tool-Use-Sprüngen",
+          "source": "Meta AI Research",
+          "date": "05.08.2026",
+          "image": "",
+          "teaser": "Meta hat sein Modell Muse Spark auf Version 1.2 aktualisiert und positioniert sich damit deutlich stärker gegen OpenAI und Anthropic im Wettbewerb um Coding- und Agenten-Fähigkeiten.",
+          "more": "Das Update bringt spürbare Fortschritte bei Tool- und Computer-Use sowie einen 1-Mio-Token-Kontext. Verfügbar ist das Modell über die Meta Model API, wahlweise auch in einer günstigeren 'Contributor'-Preisstufe gegen Datenfreigabe an Meta.",
+          "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
         }
       ]
     },
     {
       "id": "agentic",
       "title": "Agentic AI & Tool Use",
-      "items": [
-        {
-          "title": "Microsoft startet 'Project Perception' mit Cyber-Agenten in Public Preview",
-          "source": "Microsoft / TechGenyz",
-          "date": "03.08.2026",
-          "image": "",
-          "teaser": "Microsoft bringt seine agentische Sicherheitsplattform Project Perception mit spezialisierten Red-, Blue- und Green-Agenten heute in die öffentliche Preview, angetrieben vom neuen Modell MAI-Cyber-1-Flash.",
-          "more": "Die Agenten sollen Schwachstellen eigenständig aufspüren, priorisieren und Patches schreiben sowie ausrollen; Microsoft nennt 96 % Erfolgsquote im CyberGym-Benchmark bei rund halben Kosten. Der Launch zeigt, wie Security-Plattformen von reiner Erkennung zu eigenständigem Handeln übergehen – ein Muster, das sich zuletzt auch bei Dynatrace und Stairwell zeigte.",
-          "url": "https://techgenyz.com/microsoft-project-perception-ai-cybersecurity/"
-        }
-      ]
+      "items": []
     },
     {
       "id": "devtools",
       "title": "Dev & Automatisierung",
-      "items": []
+      "items": [
+        {
+          "title": "Meta startet Coding-Agent 'Muse Code' mit persistenten Hintergrund-Subagenten",
+          "source": "Meta AI Research / VentureBeat",
+          "date": "05.08.2026",
+          "image": "",
+          "teaser": "Mit Muse Code bringt Meta einen neuen Terminal-Coding-Agenten, der länger laufende Entwicklungsaufgaben eigenständig bearbeitet und dabei mehrere Subagenten parallel im Hintergrund steuern kann.",
+          "more": "Der Agent baut auf Muse Spark 1.2 auf und positioniert Meta als neuen Konkurrenten zu Claude Code, Cursor und GitHub Copilot im Markt für AI-Coding-Tools. Eine günstigere 'Contributor'-Preisstufe soll die Einstiegshürde für Entwickler senken.",
+          "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
+        }
+      ]
     },
     {
       "id": "marketing",
@@ -46,22 +55,13 @@
       "title": "Regulierung & Data Sovereignty",
       "items": [
         {
-          "title": "EU-Kommission startet Durchsetzung der KI-Transparenzpflichten",
-          "source": "Europäische Kommission",
-          "date": "02.08.2026",
+          "title": "Kaliforniens Senat entscheidet in Marathon-Sitzung über verbliebene KI-Gesetzespaket",
+          "source": "AIA California / TechTimes",
+          "date": "03.08.2026",
           "image": "",
-          "teaser": "Seit dem 2. August gelten die Transparenzpflichten aus Artikel 50 des EU AI Act nicht mehr nur auf dem Papier: Kommission und AI Office haben offiziell mit der Durchsetzung begonnen.",
-          "more": "Chatbots müssen sich als KI zu erkennen geben, Deepfakes und KI-generierte Inhalte brauchen eine maschinenlesbare Kennzeichnung – Verstösse können mit bis zu 15 Millionen Euro oder 3 % des weltweiten Jahresumsatzes geahndet werden. Für Unternehmen mit Chatbots oder Content-Tools endet damit die Übergangsfrist; wer noch nicht compliant ist, riskiert ab sofort eine Prüfung.",
-          "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august"
-        },
-        {
-          "title": "EU Cloud and AI Development Act tritt mit Souveränitäts-Framework in Kraft",
-          "source": "Raconteur / Europäische Kommission",
-          "date": "04.08.2026",
-          "image": "",
-          "teaser": "Am 4. August tritt der Cloud and AI Development Act formell in Kraft und schafft ein vierstufiges Klassifizierungssystem für die Datenhoheit von Cloud- und KI-Infrastruktur in der EU.",
-          "more": "Das Gesetz reicht von einer Basis-Stufe mit Selbstauskunft bis zu Stufe 4 mit voller EU-Eigentümerschaft, EU-geprüftem Personal und einem Verbot, KI-Inferenzdaten ausserhalb der EU zu verarbeiten. Die höchsten Anforderungen greifen erst gestaffelt bis 2028/2029, doch öffentliche Auftraggeber und Betreiber kritischer Infrastruktur müssen ihre Cloud-Beschaffung schon jetzt am neuen Rahmen ausrichten – ein weiterer Baustein der EU-Digitalsouveränität neben dem AI Act.",
-          "url": "https://www.raconteur.net/global-business/eu-cloud-and-ai-development-act-what-sovereign-cloud-means-in-new-laws"
+          "teaser": "Der kalifornische Senats-Haushaltsausschuss hat am 3. August in einer Schnelldurchlauf-Anhörung über rund 30 verbliebene KI-Gesetzesentwürfe entschieden – nur wer den Ausschuss überstand, bleibt für die Session 2026 im Rennen.",
+          "more": "Die überlebenden Bills müssen nun bis zur Sessions-Deadline am 12. September noch die volle Kammer und den Gouverneur passieren. Kalifornien übernimmt damit, kurz nach dem Start der EU-AI-Act-Durchsetzung, zunehmend die Rolle des führenden US-Regulierers für KI.",
+          "url": "https://aiacalifornia.org/advocacy-updates/legislative-update-bill-status-and-summer-recess/"
         }
       ]
     },
