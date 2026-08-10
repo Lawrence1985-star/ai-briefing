@@ -1,18 +1,27 @@
 {
-  "updated": "03.08.2026",
+  "updated": "10.08.2026",
   "categories": [
     {
       "id": "models",
       "title": "Neue Modelle & Capabilities",
       "items": [
         {
-          "title": "DeepSeek veröffentlicht V4-Flash-0731 mit grossen Agenten- und Coding-Verbesserungen",
-          "source": "DeepSeek / MarkTechPost",
-          "date": "31.07.2026",
+          "title": "Meta veröffentlicht Muse Spark 1.2 mit deutlich stärkeren Coding-Fähigkeiten",
+          "source": "Meta Superintelligence Labs",
+          "date": "05.08.2026",
           "image": "",
-          "teaser": "DeepSeek hat sein Flash-Modell aus der Preview in die öffentliche Beta überführt: V4-Flash-0731 bringt bei unveränderter Architektur deutlich stärkere Agenten- und Coding-Fähigkeiten.",
-          "more": "Das Mixture-of-Experts-Modell mit 280 Milliarden Parametern (13 Milliarden aktiv) bietet 1 Million Token Kontext und legt im Artificial-Analysis-Intelligence-Index rund 10 Punkte gegenüber der Vorversion zu. Bei unverändertem Preis von 0,14 bzw. 0,28 US-Dollar pro Million Tokens zeigt sich, wie schnell günstige Modelle zu teuren Flaggschiffen aufschliessen.",
-          "url": "https://www.marktechpost.com/2026/07/31/deepseek-upgrades-deepseek-v4-flash-0731-with-major-agentic-and-coding-gains/"
+          "teaser": "Meta hat sein Agentenmodell Muse Spark auf Version 1.2 aktualisiert und dabei gezielt in Coding-Aufgaben investiert, ohne die allgemeinen Agenten-Fähigkeiten zu schwächen.",
+          "more": "Für das Update wurde deutlich mehr Trainingsrechenleistung auf Programmieraufgaben verwendet und die Vielfalt der Trainingsumgebungen erweitert. Das Modell bildet die Grundlage für Metas neuen Coding-Agenten Muse Code und zeigt, dass Meta im Wettlauf um leistungsfähige Entwickler-Modelle nachlegt.",
+          "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
+        },
+        {
+          "title": "OpenAI verbessert GPT-5.6 Sol und führt Denk-Regler in ChatGPT ein",
+          "source": "OpenAI",
+          "date": "06.08.2026",
+          "image": "",
+          "teaser": "OpenAI hat GPT-5.6 Sol für Plus- und Pro-Nutzer überarbeitet: Das Modell soll faktisch zuverlässiger antworten und passt seine Ausführlichkeit besser an die Frage an.",
+          "more": "Laut eigenen Auswertungen enthalten Antworten rund 68 % seltener Faktenfehler als bei GPT-5.5 Instant. Neu ist zudem ein Schieberegler, mit dem Nutzer die Denktiefe von ChatGPT selbst steuern können – von schnellen Antworten bis zu tiefem Reasoning für komplexe Aufgaben. Gratis-Nutzer erhalten zudem unbegrenzten Zugang zum neuen Standardmodell GPT-5.6 Luna.",
+          "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/"
         }
       ]
     },
@@ -21,54 +30,92 @@
       "title": "Agentic AI & Tool Use",
       "items": [
         {
-          "title": "Microsoft startet 'Project Perception' mit Cyber-Agenten in Public Preview",
-          "source": "Microsoft / TechGenyz",
-          "date": "03.08.2026",
+          "title": "Cloudflare launcht Kitesurf, einen Browser exklusiv für KI-Agenten",
+          "source": "Cloudflare / TechCrunch",
+          "date": "06.08.2026",
           "image": "",
-          "teaser": "Microsoft bringt seine agentische Sicherheitsplattform Project Perception mit spezialisierten Red-, Blue- und Green-Agenten heute in die öffentliche Preview, angetrieben vom neuen Modell MAI-Cyber-1-Flash.",
-          "more": "Die Agenten sollen Schwachstellen eigenständig aufspüren, priorisieren und Patches schreiben sowie ausrollen; Microsoft nennt 96 % Erfolgsquote im CyberGym-Benchmark bei rund halben Kosten. Der Launch zeigt, wie Security-Plattformen von reiner Erkennung zu eigenständigem Handeln übergehen – ein Muster, das sich zuletzt auch bei Dynatrace und Stairwell zeigte.",
-          "url": "https://techgenyz.com/microsoft-project-perception-ai-cybersecurity/"
+          "teaser": "Im Rahmen seiner 'Agents Week' hat Cloudflare mit Kitesurf einen komplett neu geschriebenen Browser vorgestellt, der ausschliesslich für KI-Agenten statt für Menschen gedacht ist.",
+          "more": "Die in Rust geschriebene Browser-Engine läuft vollständig in V8-Isolates auf Cloudflare Workers und verzichtet auf Tabs, Erweiterungen oder Pixel-Rendering – stattdessen liefert sie maschinenlesbare Inhalte mit 3- bis 7-fach geringerem Ressourcenverbrauch als Chromium. Der Vorstoss zeigt, wie Infrastrukturanbieter Browsing zunehmend als Agenten-Werkzeug statt als Mensch-Interface denken.",
+          "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/"
+        },
+        {
+          "title": "OpenAI stellt den Agenten-Browser ChatGPT Atlas ein",
+          "source": "OpenAI / TechRepublic",
+          "date": "09.08.2026",
+          "image": "",
+          "teaser": "Keine zehn Monate nach dem Start schaltet OpenAI seinen eigenständigen Browser ChatGPT Atlas ab und verlagert die agentischen Browsing-Funktionen in die ChatGPT-Desktop-App und eine Chrome-Erweiterung.",
+          "more": "Atlas kämpfte gegen etablierte Browser wie Chrome und Edge und geriet zuletzt wegen Sicherheitslücken, etwa Anfälligkeit für Prompt-Injection-Angriffe, in die Kritik. Nutzer mussten Lesezeichen bis zum Stichtag manuell sichern; ChatGPT-Verläufe bleiben davon unberührt. Der Schritt deutet darauf hin, dass agentisches Browsing künftig eher als Feature bestehender Tools statt als eigenständiges Produkt funktioniert.",
+          "url": "https://www.techrepublic.com/article/news-chatgpt-atlas-shutdown-migration/"
         }
       ]
     },
     {
       "id": "devtools",
       "title": "Dev & Automatisierung",
-      "items": []
-    },
-    {
-      "id": "marketing",
-      "title": "Marketing-AI (Bild & Video)",
-      "items": []
-    },
-    {
-      "id": "regulation",
-      "title": "Regulierung & Data Sovereignty",
       "items": [
         {
-          "title": "EU-Kommission startet Durchsetzung der KI-Transparenzpflichten",
-          "source": "Europäische Kommission",
-          "date": "02.08.2026",
+          "title": "Claude Code erhält Gateway-Ausgabenlimits und mehrere Stabilitäts-Updates",
+          "source": "Anthropic",
+          "date": "08.08.2026",
           "image": "",
-          "teaser": "Seit dem 2. August gelten die Transparenzpflichten aus Artikel 50 des EU AI Act nicht mehr nur auf dem Papier: Kommission und AI Office haben offiziell mit der Durchsetzung begonnen.",
-          "more": "Chatbots müssen sich als KI zu erkennen geben, Deepfakes und KI-generierte Inhalte brauchen eine maschinenlesbare Kennzeichnung – Verstösse können mit bis zu 15 Millionen Euro oder 3 % des weltweiten Jahresumsatzes geahndet werden. Für Unternehmen mit Chatbots oder Content-Tools endet damit die Übergangsfrist; wer noch nicht compliant ist, riskiert ab sofort eine Prüfung.",
-          "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august"
+          "teaser": "Mit den Versionen 2.1.225 und 2.1.226 bringt Claude Code Unterstützung für Ausgabenlimits auf Gateway-Ebene sowie diverse Bugfixes für mehr Zuverlässigkeit.",
+          "more": "Die Nutzungswarnung nennt nun konkret das erreichte Limit, den Reset-Zeitpunkt und eine Nachricht des Operators, sofern ein Gateway eingerichtet ist. Ergänzt wird das Update um Fixes für transiente 401-Fehler bei OAuth-Tokens sowie Verbesserungen bei Sicherheitsprüfungen für nicht vertrauenswürdige Verzeichnisse – ein Zeichen, wie stark Anthropic aktuell an der Enterprise-Tauglichkeit von Claude Code arbeitet.",
+          "url": "https://code.claude.com/docs/en/changelog"
         },
         {
-          "title": "EU Cloud and AI Development Act tritt mit Souveränitäts-Framework in Kraft",
-          "source": "Raconteur / Europäische Kommission",
-          "date": "04.08.2026",
+          "title": "Meta bringt mit Muse Code einen Terminal-Coding-Agenten in die Beta",
+          "source": "Meta Superintelligence Labs / MarkTechPost",
+          "date": "05.08.2026",
           "image": "",
-          "teaser": "Am 4. August tritt der Cloud and AI Development Act formell in Kraft und schafft ein vierstufiges Klassifizierungssystem für die Datenhoheit von Cloud- und KI-Infrastruktur in der EU.",
-          "more": "Das Gesetz reicht von einer Basis-Stufe mit Selbstauskunft bis zu Stufe 4 mit voller EU-Eigentümerschaft, EU-geprüftem Personal und einem Verbot, KI-Inferenzdaten ausserhalb der EU zu verarbeiten. Die höchsten Anforderungen greifen erst gestaffelt bis 2028/2029, doch öffentliche Auftraggeber und Betreiber kritischer Infrastruktur müssen ihre Cloud-Beschaffung schon jetzt am neuen Rahmen ausrichten – ein weiterer Baustein der EU-Digitalsouveränität neben dem AI Act.",
-          "url": "https://www.raconteur.net/global-business/eu-cloud-and-ai-development-act-what-sovereign-cloud-means-in-new-laws"
+          "teaser": "Meta steigt mit Muse Code offiziell in die KI-Coding-Agenten-Konkurrenz ein: Der Terminal-Agent übernimmt komplexe Software-Engineering-Aufgaben in grossen Repositories.",
+          "more": "Muse Code plant Änderungen, schreibt Code und validiert Ergebnisse eigenständig und kann dafür mehrere persistente Subagenten parallel koordinieren. Angetrieben wird er vom neuen Modell Muse Spark 1.2. Damit reiht sich Meta neben Claude Code und weiteren Terminal-Agenten in den Wettbewerb um Entwickler-Workflows ein.",
+          "url": "https://www.marktechpost.com/2026/08/05/meta-superintelligence-labs-releases-muse-code/"
         }
       ]
     },
     {
+      "id": "marketing",
+      "title": "Marketing-AI (Bild & Video)",
+      "items": [
+        {
+          "title": "Startup GIGR launcht Playad Autopilot für automatisiertes Performance-Marketing",
+          "source": "GIGR / PR Newswire",
+          "date": "05.08.2026",
+          "image": "",
+          "teaser": "Das Multi-Agenten-System Playad Autopilot übernimmt für Marketingteams die komplette Kette von Wettbewerbsanalyse über Kreativproduktion bis Kampagnenoptimierung.",
+          "more": "Auf Basis von Zielen, Zielgruppe und bestehenden Performance-Daten generieren die Agenten Werbehypothesen, produzieren Creative-Varianten in Bild-, Video- und UGC-Formaten und setzen Kampagnen automatisch auf. GIGR gibt an, dass ein früher Kunde seinen wöchentlichen Marketing-Aufwand von bis zu 40 auf etwa eine Stunde reduzieren konnte – ein Beispiel für den Trend zu vollständig agentischem Ad-Management.",
+          "url": "https://www.prnewswire.com/news-releases/gigr-launches-playad-autopilot-to-automate-end-to-end-performance-marketing-302842490.html"
+        }
+      ]
+    },
+    {
+      "id": "regulation",
+      "title": "Regulierung & Data Sovereignty",
+      "items": []
+    },
+    {
       "id": "openweight",
       "title": "Open-Weight-Modelle",
-      "items": []
+      "items": [
+        {
+          "title": "MiniMax veröffentlicht offene Gewichte für das Omni-Modal-Videomodell H3",
+          "source": "MiniMax AI / Hugging Face",
+          "date": "03.08.2026",
+          "image": "",
+          "teaser": "Mit MiniMax-H3 stellt MiniMax ein 33-Milliarden-Parameter-Modell als offene Gewichte bereit, das aus Text, Bild, Video und Audio Videos mit nativem Stereo-Ton erzeugt.",
+          "more": "Die Veröffentlichung umfasst zwei Checkpoints für Text-zu-Video und Referenz-zu-Video sowie die zugehörigen Video- und Audio-VAEs. Die Community-Lizenz schliesst die kommerzielle Nutzung in den USA, der EU, Grossbritannien und Südkorea wegen laufender Urheberrechtsstreitigkeiten aus – ein Beispiel dafür, wie rechtliche Fragen offene Videomodelle zunehmend einschränken.",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3"
+        },
+        {
+          "title": "Mistral veröffentlicht Shieldstral, einen offenen Sicherheits-Klassifikator",
+          "source": "Mistral AI",
+          "date": "04.08.2026",
+          "image": "",
+          "teaser": "Mit Shieldstral bringt Mistral ein kompaktes 3-Milliarden-Parameter-Modell unter Apache-2.0-Lizenz heraus, das Inhalte in Text und Bild nach individuellen Richtlinien moderiert.",
+          "more": "Statt starrer Kategorien beantwortet das Modell Moderationsfragen policy-adaptiv und liefert kalibrierte Sicherheitswerte; es läuft bereits auf einer einzelnen 16-GB-GPU. Damit reagiert Mistral auf die wachsende Nachfrage nach selbst hostbaren, europäischen Moderationswerkzeugen abseits von US-Cloud-APIs.",
+          "url": "https://mistral.ai/news/shieldstral/"
+        }
+      ]
     }
   ]
 }
