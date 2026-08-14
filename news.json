@@ -1,27 +1,27 @@
 {
-  "updated": "10.08.2026",
+  "updated": "14.08.2026",
   "categories": [
     {
       "id": "models",
       "title": "Neue Modelle & Capabilities",
       "items": [
         {
-          "title": "Meta veröffentlicht Muse Spark 1.2 mit deutlich stärkeren Coding-Fähigkeiten",
-          "source": "Meta Superintelligence Labs",
-          "date": "05.08.2026",
+          "title": "DeepSeek stellt V4-Pro offiziell vor und verlässt die Preview-Phase",
+          "source": "Unite.AI",
+          "date": "13.08.2026",
           "image": "",
-          "teaser": "Meta hat sein Agentenmodell Muse Spark auf Version 1.2 aktualisiert und dabei gezielt in Coding-Aufgaben investiert, ohne die allgemeinen Agenten-Fähigkeiten zu schwächen.",
-          "more": "Für das Update wurde deutlich mehr Trainingsrechenleistung auf Programmieraufgaben verwendet und die Vielfalt der Trainingsumgebungen erweitert. Das Modell bildet die Grundlage für Metas neuen Coding-Agenten Muse Code und zeigt, dass Meta im Wettlauf um leistungsfähige Entwickler-Modelle nachlegt.",
-          "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2"
+          "teaser": "DeepSeek hat sein Flaggschiffmodell V4-Pro nach mehrmonatiger Preview offiziell in App, Web und API ausgerollt, mit klarem Fokus auf Agenten-Fähigkeiten.",
+          "more": "Das 1,6-Billionen-Parameter-MoE-Modell unterstützt bis zu 1 Million Tokens Kontext und punktet in Agenten-Benchmarks wie Terminal Bench und DeepSWE. Die API wurde zudem an OpenAIs Responses-Format angepasst, was die Integration in bestehende Codex-Workflows erleichtert. Ab 16. August steigen die Preise, dafür gibt es künftig günstigere Off-Peak-Tarife.",
+          "url": "https://www.unite.ai/deepseek-ships-v4-pro-as-its-flagship-model-leaves-preview/"
         },
         {
-          "title": "OpenAI verbessert GPT-5.6 Sol und führt Denk-Regler in ChatGPT ein",
+          "title": "OpenAI zeigt Ultrafast-Modus für GPT-5.6 Sol mit 14-facher Geschwindigkeit",
           "source": "OpenAI",
-          "date": "06.08.2026",
+          "date": "13.08.2026",
           "image": "",
-          "teaser": "OpenAI hat GPT-5.6 Sol für Plus- und Pro-Nutzer überarbeitet: Das Modell soll faktisch zuverlässiger antworten und passt seine Ausführlichkeit besser an die Frage an.",
-          "more": "Laut eigenen Auswertungen enthalten Antworten rund 68 % seltener Faktenfehler als bei GPT-5.5 Instant. Neu ist zudem ein Schieberegler, mit dem Nutzer die Denktiefe von ChatGPT selbst steuern können – von schnellen Antworten bis zu tiefem Reasoning für komplexe Aufgaben. Gratis-Nutzer erhalten zudem unbegrenzten Zugang zum neuen Standardmodell GPT-5.6 Luna.",
-          "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/"
+          "teaser": "Mit dem neuen Ultrafast-Modus, angetrieben von Cerebras-Hardware, läuft GPT-5.6 Sol bis zu 14-mal schneller als im Standardbetrieb.",
+          "more": "Der Modus liefert bis zu 750 Output-Tokens pro Sekunde und startet zunächst exklusiv in der API für ausgewählte Firmenkunden, etwa im Kundensupport oder für Finanzanalysen. Damit positioniert OpenAI leistungsstarke Modelle erstmals auch für zeitkritische Echtzeit-Anwendungen, ohne bei der Modellintelligenz Abstriche zu machen.",
+          "url": "https://openai.com/index/previewing-ultrafast/"
         }
       ]
     },
@@ -30,22 +30,13 @@
       "title": "Agentic AI & Tool Use",
       "items": [
         {
-          "title": "Cloudflare launcht Kitesurf, einen Browser exklusiv für KI-Agenten",
-          "source": "Cloudflare / TechCrunch",
-          "date": "06.08.2026",
+          "title": "xAI und Cursor launchen Grok Bot als always-on Agenten-App",
+          "source": "9to5Mac",
+          "date": "11.08.2026",
           "image": "",
-          "teaser": "Im Rahmen seiner 'Agents Week' hat Cloudflare mit Kitesurf einen komplett neu geschriebenen Browser vorgestellt, der ausschliesslich für KI-Agenten statt für Menschen gedacht ist.",
-          "more": "Die in Rust geschriebene Browser-Engine läuft vollständig in V8-Isolates auf Cloudflare Workers und verzichtet auf Tabs, Erweiterungen oder Pixel-Rendering – stattdessen liefert sie maschinenlesbare Inhalte mit 3- bis 7-fach geringerem Ressourcenverbrauch als Chromium. Der Vorstoss zeigt, wie Infrastrukturanbieter Browsing zunehmend als Agenten-Werkzeug statt als Mensch-Interface denken.",
-          "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/"
-        },
-        {
-          "title": "OpenAI stellt den Agenten-Browser ChatGPT Atlas ein",
-          "source": "OpenAI / TechRepublic",
-          "date": "09.08.2026",
-          "image": "",
-          "teaser": "Keine zehn Monate nach dem Start schaltet OpenAI seinen eigenständigen Browser ChatGPT Atlas ab und verlagert die agentischen Browsing-Funktionen in die ChatGPT-Desktop-App und eine Chrome-Erweiterung.",
-          "more": "Atlas kämpfte gegen etablierte Browser wie Chrome und Edge und geriet zuletzt wegen Sicherheitslücken, etwa Anfälligkeit für Prompt-Injection-Angriffe, in die Kritik. Nutzer mussten Lesezeichen bis zum Stichtag manuell sichern; ChatGPT-Verläufe bleiben davon unberührt. Der Schritt deutet darauf hin, dass agentisches Browsing künftig eher als Feature bestehender Tools statt als eigenständiges Produkt funktioniert.",
-          "url": "https://www.techrepublic.com/article/news-chatgpt-atlas-shutdown-migration/"
+          "teaser": "Nach der Fusion von SpaceXAI und Cursor bringen beide Firmen mit Grok Bot eine Beta-App für Mac und iOS, bei der jeder Agent einen eigenen Cloud-Rechner samt eigener Logins erhält.",
+          "more": "Die Agenten arbeiten Aufgaben eigenständig ab und melden sich erst zurück, wenn eine Freigabe nötig ist – auch wenn das eigene Gerät ausgeschaltet ist. Der Zugang ist vorerst auf teure Abos wie SuperGrok Heavy oder Cursor Ultra beschränkt und läuft auf Cursors Infrastruktur, Windows- und Linux-Versionen sowie Android sollen folgen.",
+          "url": "https://9to5mac.com/2026/08/11/grok-bot-is-an-all-new-iphone-and-mac-app-from-spacexai-and-cursor/"
         }
       ]
     },
@@ -54,39 +45,29 @@
       "title": "Dev & Automatisierung",
       "items": [
         {
-          "title": "Claude Code erhält Gateway-Ausgabenlimits und mehrere Stabilitäts-Updates",
+          "title": "Claude Code 2.1.231 behebt MCP-OAuth-Anmeldefehler",
           "source": "Anthropic",
-          "date": "08.08.2026",
+          "date": "13.08.2026",
           "image": "",
-          "teaser": "Mit den Versionen 2.1.225 und 2.1.226 bringt Claude Code Unterstützung für Ausgabenlimits auf Gateway-Ebene sowie diverse Bugfixes für mehr Zuverlässigkeit.",
-          "more": "Die Nutzungswarnung nennt nun konkret das erreichte Limit, den Reset-Zeitpunkt und eine Nachricht des Operators, sofern ein Gateway eingerichtet ist. Ergänzt wird das Update um Fixes für transiente 401-Fehler bei OAuth-Tokens sowie Verbesserungen bei Sicherheitsprüfungen für nicht vertrauenswürdige Verzeichnisse – ein Zeichen, wie stark Anthropic aktuell an der Enterprise-Tauglichkeit von Claude Code arbeitet.",
+          "teaser": "Das neue Claude-Code-Release schliesst einen Bug, durch den sich MCP-Server mit vorregistrierten OAuth-Clients wie Slack wegen falscher Redirect-URIs nicht mehr verbinden liessen.",
+          "more": "Der Fix betrifft vor allem Teams, die Claude Code über MCP an Unternehmensdienste anbinden. Er reiht sich in eine Serie kleinerer Stabilitäts-Updates ein, mit denen Anthropic aktuell laufend an der Zuverlässigkeit von Claude Code für Enterprise-Setups arbeitet.",
           "url": "https://code.claude.com/docs/en/changelog"
         },
         {
-          "title": "Meta bringt mit Muse Code einen Terminal-Coding-Agenten in die Beta",
-          "source": "Meta Superintelligence Labs / MarkTechPost",
-          "date": "05.08.2026",
+          "title": "n8n erweitert Agent Builder und MCP-Unterstützung",
+          "source": "n8n",
+          "date": "11.08.2026",
           "image": "",
-          "teaser": "Meta steigt mit Muse Code offiziell in die KI-Coding-Agenten-Konkurrenz ein: Der Terminal-Agent übernimmt komplexe Software-Engineering-Aufgaben in grossen Repositories.",
-          "more": "Muse Code plant Änderungen, schreibt Code und validiert Ergebnisse eigenständig und kann dafür mehrere persistente Subagenten parallel koordinieren. Angetrieben wird er vom neuen Modell Muse Spark 1.2. Damit reiht sich Meta neben Claude Code und weiteren Terminal-Agenten in den Wettbewerb um Entwickler-Workflows ein.",
-          "url": "https://www.marktechpost.com/2026/08/05/meta-superintelligence-labs-releases-muse-code/"
+          "teaser": "n8n hat ein grösseres Update veröffentlicht, das den KI-Assistenten und Agent Builder ausbaut und die MCP- sowie API-Anbindung erweitert.",
+          "more": "Neben neuen Funktionen bringt das Release zahlreiche Fixes für Task Runner, Agenten, Credentials und Node-Verhalten sowie Verbesserungen bei Stabilität und Sicherheit. Für Nutzer, die n8n zur Automatisierung von KI-Workflows via MCP einsetzen, verbessert sich damit besonders die Ausführungszuverlässigkeit.",
+          "url": "https://docs.n8n.io/changelog/release-notes-2.x"
         }
       ]
     },
     {
       "id": "marketing",
       "title": "Marketing-AI (Bild & Video)",
-      "items": [
-        {
-          "title": "Startup GIGR launcht Playad Autopilot für automatisiertes Performance-Marketing",
-          "source": "GIGR / PR Newswire",
-          "date": "05.08.2026",
-          "image": "",
-          "teaser": "Das Multi-Agenten-System Playad Autopilot übernimmt für Marketingteams die komplette Kette von Wettbewerbsanalyse über Kreativproduktion bis Kampagnenoptimierung.",
-          "more": "Auf Basis von Zielen, Zielgruppe und bestehenden Performance-Daten generieren die Agenten Werbehypothesen, produzieren Creative-Varianten in Bild-, Video- und UGC-Formaten und setzen Kampagnen automatisch auf. GIGR gibt an, dass ein früher Kunde seinen wöchentlichen Marketing-Aufwand von bis zu 40 auf etwa eine Stunde reduzieren konnte – ein Beispiel für den Trend zu vollständig agentischem Ad-Management.",
-          "url": "https://www.prnewswire.com/news-releases/gigr-launches-playad-autopilot-to-automate-end-to-end-performance-marketing-302842490.html"
-        }
-      ]
+      "items": []
     },
     {
       "id": "regulation",
@@ -98,22 +79,22 @@
       "title": "Open-Weight-Modelle",
       "items": [
         {
-          "title": "MiniMax veröffentlicht offene Gewichte für das Omni-Modal-Videomodell H3",
-          "source": "MiniMax AI / Hugging Face",
-          "date": "03.08.2026",
+          "title": "Meta veröffentlicht mit Muse Glimmer ein offenes 30B-Agentenmodell für den lokalen Einsatz",
+          "source": "Meta Superintelligence Labs",
+          "date": "10.08.2026",
           "image": "",
-          "teaser": "Mit MiniMax-H3 stellt MiniMax ein 33-Milliarden-Parameter-Modell als offene Gewichte bereit, das aus Text, Bild, Video und Audio Videos mit nativem Stereo-Ton erzeugt.",
-          "more": "Die Veröffentlichung umfasst zwei Checkpoints für Text-zu-Video und Referenz-zu-Video sowie die zugehörigen Video- und Audio-VAEs. Die Community-Lizenz schliesst die kommerzielle Nutzung in den USA, der EU, Grossbritannien und Südkorea wegen laufender Urheberrechtsstreitigkeiten aus – ein Beispiel dafür, wie rechtliche Fragen offene Videomodelle zunehmend einschränken.",
-          "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3"
+          "teaser": "Mit Muse Glimmer bringt Meta unter Apache-2.0-Lizenz ein 30-Milliarden-Parameter-Modell heraus, das komplett auf einer einzelnen Consumer-GPU läuft.",
+          "more": "Das Modell ist auf lokale, agentische Workloads wie Function Calling, Coding und lange Tool-Use-Sessions zugeschnitten und funktioniert auch offline. Es ist quasi eine offene, verkleinerte Version von Metas Closed-Source-Flaggschiff Muse Spark und Teil von Zuckerbergs Vorstoss für mehr offene KI-Modelle aus den USA.",
+          "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model"
         },
         {
-          "title": "Mistral veröffentlicht Shieldstral, einen offenen Sicherheits-Klassifikator",
-          "source": "Mistral AI",
-          "date": "04.08.2026",
+          "title": "Alibaba öffnet erstmals die Gewichte seines Max-Flaggschiffs Qwen3.8",
+          "source": "Alibaba Qwen / DataNorth",
+          "date": "13.08.2026",
           "image": "",
-          "teaser": "Mit Shieldstral bringt Mistral ein kompaktes 3-Milliarden-Parameter-Modell unter Apache-2.0-Lizenz heraus, das Inhalte in Text und Bild nach individuellen Richtlinien moderiert.",
-          "more": "Statt starrer Kategorien beantwortet das Modell Moderationsfragen policy-adaptiv und liefert kalibrierte Sicherheitswerte; es läuft bereits auf einer einzelnen 16-GB-GPU. Damit reagiert Mistral auf die wachsende Nachfrage nach selbst hostbaren, europäischen Moderationswerkzeugen abseits von US-Cloud-APIs.",
-          "url": "https://mistral.ai/news/shieldstral/"
+          "teaser": "Alibaba hat mit Qwen3.8-2.4T-A95B erstmals die Gewichte eines Max-Modells seiner Qwen-Reihe offengelegt – ein MoE-Modell mit 2,4 Billionen Gesamt- und 95 Milliarden aktiven Parametern.",
+          "more": "Das Modell unterstützt nativ 262'144 Tokens Kontext, erweiterbar auf rund 1 Million, und ist ab sofort auf Hugging Face und ModelScope verfügbar, mit Day-0-Support in vLLM und SGLang. Anders als frühere Qwen-Modelle nutzt Alibaba nicht mehr die freizügige Apache-2.0-Lizenz, sondern eine eigene Qwen3.8-Max-Lizenz mit kommerziellen Einschränkungen ab 50 Millionen Dollar Jahresumsatz.",
+          "url": "https://datanorth.ai/news/alibaba-releases-qwen3-8-max"
         }
       ]
     }
