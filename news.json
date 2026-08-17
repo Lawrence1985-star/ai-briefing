@@ -1,27 +1,27 @@
 {
-  "updated": "14.08.2026",
+  "updated": "17.08.2026",
   "categories": [
     {
       "id": "models",
       "title": "Neue Modelle & Capabilities",
       "items": [
         {
-          "title": "DeepSeek stellt V4-Pro offiziell vor und verlässt die Preview-Phase",
-          "source": "Unite.AI",
+          "title": "Google veröffentlicht Gemini 3.7 Flash als schnelles Agenten-Arbeitspferd",
+          "source": "Google",
           "date": "13.08.2026",
           "image": "",
-          "teaser": "DeepSeek hat sein Flaggschiffmodell V4-Pro nach mehrmonatiger Preview offiziell in App, Web und API ausgerollt, mit klarem Fokus auf Agenten-Fähigkeiten.",
-          "more": "Das 1,6-Billionen-Parameter-MoE-Modell unterstützt bis zu 1 Million Tokens Kontext und punktet in Agenten-Benchmarks wie Terminal Bench und DeepSWE. Die API wurde zudem an OpenAIs Responses-Format angepasst, was die Integration in bestehende Codex-Workflows erleichtert. Ab 16. August steigen die Preise, dafür gibt es künftig günstigere Off-Peak-Tarife.",
-          "url": "https://www.unite.ai/deepseek-ships-v4-pro-as-its-flagship-model-leaves-preview/"
+          "teaser": "Nur drei Wochen nach Gemini 3.6 Flash bringt Google mit 3.7 Flash ein überarbeitetes Workhorse-Modell für Coding, Web-Entwicklung und Agenten-Workflows.",
+          "more": "Statt eines Neutrainings hat Google das Modell mit algorithmischen Verbesserungen und Nutzerfeedback aktualisiert. Bei Coding- und Agenten-Benchmarks wie DeepSWE und AutomationBench gibt es deutliche Sprünge, gleichzeitig sinkt der Einstiegspreis der API um die Hälfte gegenüber dem Vorgänger. Das Flaggschiff Gemini 3.5 Pro lässt weiterhin auf sich warten.",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
         },
         {
-          "title": "OpenAI zeigt Ultrafast-Modus für GPT-5.6 Sol mit 14-facher Geschwindigkeit",
-          "source": "OpenAI",
-          "date": "13.08.2026",
+          "title": "Zhipu stellt GLM-5.3 mit Fokus auf Coding und Cyber-Security vor",
+          "source": "Zhipu AI / MLQ News",
+          "date": "14.08.2026",
           "image": "",
-          "teaser": "Mit dem neuen Ultrafast-Modus, angetrieben von Cerebras-Hardware, läuft GPT-5.6 Sol bis zu 14-mal schneller als im Standardbetrieb.",
-          "more": "Der Modus liefert bis zu 750 Output-Tokens pro Sekunde und startet zunächst exklusiv in der API für ausgewählte Firmenkunden, etwa im Kundensupport oder für Finanzanalysen. Damit positioniert OpenAI leistungsstarke Modelle erstmals auch für zeitkritische Echtzeit-Anwendungen, ohne bei der Modellintelligenz Abstriche zu machen.",
-          "url": "https://openai.com/index/previewing-ultrafast/"
+          "teaser": "Zhipu hat GLM-5.3 zunächst exklusiv über seinen Coding-Plan veröffentlicht und wirbt mit deutlich verbesserten Fähigkeiten bei Code- und Cyber-Defense-Aufgaben.",
+          "more": "Architektur und Grösse entsprechen mit rund 744 Milliarden Gesamt- und etwa 40 Milliarden aktiven Parametern weitgehend dem Vorgänger GLM-5.2, der Fortschritt stammt laut Zhipu allein aus intensiverem Post-Training. Offene Gewichte und API-Zugang folgen erst zeitversetzt nach einer Sicherheitsprüfung, unabhängige Benchmark-Bestätigungen stehen noch aus.",
+          "url": "https://mlq.ai/news/zhipu-releases-glm-53-through-its-coding-service-with-weights-still-two-weeks-away/"
         }
       ]
     },
@@ -30,13 +30,13 @@
       "title": "Agentic AI & Tool Use",
       "items": [
         {
-          "title": "xAI und Cursor launchen Grok Bot als always-on Agenten-App",
-          "source": "9to5Mac",
-          "date": "11.08.2026",
+          "title": "OpenAI gibt ChatGPT und Codex mit \"Computer History\" Zugriff auf den Mac-Kontext",
+          "source": "OpenAI / 9to5Mac",
+          "date": "13.08.2026",
           "image": "",
-          "teaser": "Nach der Fusion von SpaceXAI und Cursor bringen beide Firmen mit Grok Bot eine Beta-App für Mac und iOS, bei der jeder Agent einen eigenen Cloud-Rechner samt eigener Logins erhält.",
-          "more": "Die Agenten arbeiten Aufgaben eigenständig ab und melden sich erst zurück, wenn eine Freigabe nötig ist – auch wenn das eigene Gerät ausgeschaltet ist. Der Zugang ist vorerst auf teure Abos wie SuperGrok Heavy oder Cursor Ultra beschränkt und läuft auf Cursors Infrastruktur, Windows- und Linux-Versionen sowie Android sollen folgen.",
-          "url": "https://9to5mac.com/2026/08/11/grok-bot-is-an-all-new-iphone-and-mac-app-from-spacexai-and-cursor/"
+          "teaser": "Mit der neuen, optionalen Funktion \"Computer History\" merkt sich ChatGPT auf dem Mac Aktivitäten in freigegebenen Apps und Websites und macht sie für Chat und Codex durchsuchbar.",
+          "more": "Erfasst werden Interaktionsereignisse wie Klicks und Tastenkürzel, keine Screenshots, Bildschirmaufnahmen oder Audio; private Browser-Sitzungen bleiben aussen vor. So kann ChatGPT halbfertige Aufgaben wieder aufgreifen oder Automatisierungen vorschlagen. Der Rollout startet bei Pro-, Business- und Enterprise-Nutzern auf macOS, ist für Business-Workspaces standardmässig deaktiviert und in EWR, Schweiz und UK vorerst nicht verfügbar.",
+          "url": "https://9to5mac.com/2026/08/13/chatgpt-for-mac-adds-opt-in-computer-history-feature-replacing-chronicle/"
         }
       ]
     },
@@ -45,22 +45,22 @@
       "title": "Dev & Automatisierung",
       "items": [
         {
-          "title": "Claude Code 2.1.231 behebt MCP-OAuth-Anmeldefehler",
+          "title": "Claude Code macht Auto-Mode zur Standard-Berechtigung und bringt GitLab-Support",
           "source": "Anthropic",
-          "date": "13.08.2026",
+          "date": "14.08.2026",
           "image": "",
-          "teaser": "Das neue Claude-Code-Release schliesst einen Bug, durch den sich MCP-Server mit vorregistrierten OAuth-Clients wie Slack wegen falscher Redirect-URIs nicht mehr verbinden liessen.",
-          "more": "Der Fix betrifft vor allem Teams, die Claude Code über MCP an Unternehmensdienste anbinden. Er reiht sich in eine Serie kleinerer Stabilitäts-Updates ein, mit denen Anthropic aktuell laufend an der Zuverlässigkeit von Claude Code für Enterprise-Setups arbeitet.",
+          "teaser": "Anthropic hat den Auto-Permission-Mode in Claude Code zum Standard gemacht und unterstützt nun auch GitLab-Merge-Request-URLs im Worktree-Flag und in der Agents-Ansicht.",
+          "more": "Zusätzlich gibt es eine optionale forward_user_identity-Einstellung fürs Gateway, die die Identität angemeldeter Nutzer für Spend-Tracking weiterreicht, sowie optionale Memory-Cgroup-Limits für Bash-Befehle unter Linux, damit ausufernde Builds Sessions nicht mehr blockieren. Die Änderungen zielen vor allem auf Stabilität und Kostenkontrolle in Unternehmens-Setups.",
           "url": "https://code.claude.com/docs/en/changelog"
         },
         {
-          "title": "n8n erweitert Agent Builder und MCP-Unterstützung",
-          "source": "n8n",
-          "date": "11.08.2026",
+          "title": "DeepSeek erhöht API-Preise drastisch und führt Peak-Tarife ein",
+          "source": "DeepSeek",
+          "date": "17.08.2026",
           "image": "",
-          "teaser": "n8n hat ein grösseres Update veröffentlicht, das den KI-Assistenten und Agent Builder ausbaut und die MCP- sowie API-Anbindung erweitert.",
-          "more": "Neben neuen Funktionen bringt das Release zahlreiche Fixes für Task Runner, Agenten, Credentials und Node-Verhalten sowie Verbesserungen bei Stabilität und Sicherheit. Für Nutzer, die n8n zur Automatisierung von KI-Workflows via MCP einsetzen, verbessert sich damit besonders die Ausführungszuverlässigkeit.",
-          "url": "https://docs.n8n.io/changelog/release-notes-2.x"
+          "teaser": "Ab dem 17. August verlangt DeepSeek für V4-Pro und V4-Flash je nach Tageszeit deutlich mehr, die Aufschläge reichen von 50 bis zu 1100 Prozent gegenüber den bisherigen Flatrates.",
+          "more": "Neu gilt eine Peak/Off-Peak-Struktur: In Stosszeiten (01:00–04:00 und 06:00–10:00 UTC) kosten Output-Tokens von V4-Pro künftig 3,96 statt bisher 0,87 Dollar pro Million, ausserhalb der Peak-Zeiten die Hälfte davon. Trotz der Erhöhung bleibt DeepSeek günstiger als viele Konkurrenzangebote, Entwickler-Teams müssen ihre Kalkulationen aber neu anpassen.",
+          "url": "https://digitalphablet.com/ai/deepseek-adjusts-api-prices-off-peak-half-of-peak-starting-august-17/"
         }
       ]
     },
@@ -79,22 +79,13 @@
       "title": "Open-Weight-Modelle",
       "items": [
         {
-          "title": "Meta veröffentlicht mit Muse Glimmer ein offenes 30B-Agentenmodell für den lokalen Einsatz",
-          "source": "Meta Superintelligence Labs",
-          "date": "10.08.2026",
+          "title": "Qwen3.8-27B landet auf Platz 1 der Hacker News und läuft lokal auf Consumer-GPUs",
+          "source": "Alibaba Qwen",
+          "date": "14.08.2026",
           "image": "",
-          "teaser": "Mit Muse Glimmer bringt Meta unter Apache-2.0-Lizenz ein 30-Milliarden-Parameter-Modell heraus, das komplett auf einer einzelnen Consumer-GPU läuft.",
-          "more": "Das Modell ist auf lokale, agentische Workloads wie Function Calling, Coding und lange Tool-Use-Sessions zugeschnitten und funktioniert auch offline. Es ist quasi eine offene, verkleinerte Version von Metas Closed-Source-Flaggschiff Muse Spark und Teil von Zuckerbergs Vorstoss für mehr offene KI-Modelle aus den USA.",
-          "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model"
-        },
-        {
-          "title": "Alibaba öffnet erstmals die Gewichte seines Max-Flaggschiffs Qwen3.8",
-          "source": "Alibaba Qwen / DataNorth",
-          "date": "13.08.2026",
-          "image": "",
-          "teaser": "Alibaba hat mit Qwen3.8-2.4T-A95B erstmals die Gewichte eines Max-Modells seiner Qwen-Reihe offengelegt – ein MoE-Modell mit 2,4 Billionen Gesamt- und 95 Milliarden aktiven Parametern.",
-          "more": "Das Modell unterstützt nativ 262'144 Tokens Kontext, erweiterbar auf rund 1 Million, und ist ab sofort auf Hugging Face und ModelScope verfügbar, mit Day-0-Support in vLLM und SGLang. Anders als frühere Qwen-Modelle nutzt Alibaba nicht mehr die freizügige Apache-2.0-Lizenz, sondern eine eigene Qwen3.8-Max-Lizenz mit kommerziellen Einschränkungen ab 50 Millionen Dollar Jahresumsatz.",
-          "url": "https://datanorth.ai/news/alibaba-releases-qwen3-8-max"
+          "teaser": "Als kompakte Ergänzung zum Max-Modell hat Alibaba mit Qwen3.8-27B ein dichtes, unter Apache 2.0 lizenziertes Vision-Language-Modell veröffentlicht, das auf einer einzelnen Consumer-GPU läuft.",
+          "more": "Anders als das riesige MoE-Modell Qwen3.8-Max ist die 27B-Variante ein dichtes Modell mit Bild- und Video-Verständnis und nativ 262'144 Tokens Kontext, basierend auf der Qwen3.5-Architektur. Die Community reagierte begeistert: Auf Hugging Face und Hacker News erreichte das Modell schnell Spitzenplätze, da es echte lokale Nutzung statt reiner Rechenzentrums-Showcases ermöglicht.",
+          "url": "https://news.ycombinator.com/item?id=49272534"
         }
       ]
     }
