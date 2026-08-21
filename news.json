@@ -1,27 +1,18 @@
 {
-  "updated": "17.08.2026",
+  "updated": "21.08.2026",
   "categories": [
     {
       "id": "models",
       "title": "Neue Modelle & Capabilities",
       "items": [
         {
-          "title": "Google veröffentlicht Gemini 3.7 Flash als schnelles Agenten-Arbeitspferd",
-          "source": "Google",
-          "date": "13.08.2026",
+          "title": "OpenAI zeigt Politikern in Washington sein nächstes Modell \"Astra\"",
+          "source": "The Information / the-decoder.com",
+          "date": "19.08.2026",
           "image": "",
-          "teaser": "Nur drei Wochen nach Gemini 3.6 Flash bringt Google mit 3.7 Flash ein überarbeitetes Workhorse-Modell für Coding, Web-Entwicklung und Agenten-Workflows.",
-          "more": "Statt eines Neutrainings hat Google das Modell mit algorithmischen Verbesserungen und Nutzerfeedback aktualisiert. Bei Coding- und Agenten-Benchmarks wie DeepSWE und AutomationBench gibt es deutliche Sprünge, gleichzeitig sinkt der Einstiegspreis der API um die Hälfte gegenüber dem Vorgänger. Das Flaggschiff Gemini 3.5 Pro lässt weiterhin auf sich warten.",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
-        },
-        {
-          "title": "Zhipu stellt GLM-5.3 mit Fokus auf Coding und Cyber-Security vor",
-          "source": "Zhipu AI / MLQ News",
-          "date": "14.08.2026",
-          "image": "",
-          "teaser": "Zhipu hat GLM-5.3 zunächst exklusiv über seinen Coding-Plan veröffentlicht und wirbt mit deutlich verbesserten Fähigkeiten bei Code- und Cyber-Defense-Aufgaben.",
-          "more": "Architektur und Grösse entsprechen mit rund 744 Milliarden Gesamt- und etwa 40 Milliarden aktiven Parametern weitgehend dem Vorgänger GLM-5.2, der Fortschritt stammt laut Zhipu allein aus intensiverem Post-Training. Offene Gewichte und API-Zugang folgen erst zeitversetzt nach einer Sicherheitsprüfung, unabhängige Benchmark-Bestätigungen stehen noch aus.",
-          "url": "https://mlq.ai/news/zhipu-releases-glm-53-through-its-coding-service-with-weights-still-two-weeks-away/"
+          "teaser": "OpenAI-CEO Sam Altman hat US-Senatoren und Regierungsvertretern in Washington eine noch unveröffentlichte Modellfamilie mit dem Arbeitstitel \"Astra\" vorgeführt, die auf lange, kollaborative Multi-Agenten-Aufgaben zielt.",
+          "more": "Astra soll es mehreren KI-Agenten erlauben, über längere Zeiträume gemeinsam an schwierigen Projekten und fortgeschrittenen Matheproblemen zu arbeiten. Ob das Modell als GPT-6, GPT-5.7 oder als eigene Produktlinie neben Sol, Terra und Luna erscheint, ist laut OpenAI noch offen. Bemerkenswert ist vor allem, dass Regierungsvertreter schon vor dem öffentlichen Release eingebunden werden – ein Zeichen, wie stark Politik inzwischen bei Spitzenmodellen mitredet.",
+          "url": "https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions/"
         }
       ]
     },
@@ -30,13 +21,13 @@
       "title": "Agentic AI & Tool Use",
       "items": [
         {
-          "title": "OpenAI gibt ChatGPT und Codex mit \"Computer History\" Zugriff auf den Mac-Kontext",
-          "source": "OpenAI / 9to5Mac",
-          "date": "13.08.2026",
+          "title": "Google übergibt Agenten-Protokoll A2A an neue \"Agentic AI Foundation\"",
+          "source": "Axios",
+          "date": "17.08.2026",
           "image": "",
-          "teaser": "Mit der neuen, optionalen Funktion \"Computer History\" merkt sich ChatGPT auf dem Mac Aktivitäten in freigegebenen Apps und Websites und macht sie für Chat und Codex durchsuchbar.",
-          "more": "Erfasst werden Interaktionsereignisse wie Klicks und Tastenkürzel, keine Screenshots, Bildschirmaufnahmen oder Audio; private Browser-Sitzungen bleiben aussen vor. So kann ChatGPT halbfertige Aufgaben wieder aufgreifen oder Automatisierungen vorschlagen. Der Rollout startet bei Pro-, Business- und Enterprise-Nutzern auf macOS, ist für Business-Workspaces standardmässig deaktiviert und in EWR, Schweiz und UK vorerst nicht verfügbar.",
-          "url": "https://9to5mac.com/2026/08/13/chatgpt-for-mac-adds-opt-in-computer-history-feature-replacing-chronicle/"
+          "teaser": "Google Cloud überträgt sein Agent2Agent-Protokoll (A2A) von der Linux Foundation an die neu geschaffene Agentic AI Foundation, die künftig als herstellerneutrale Heimat für offene Agenten-Standards dienen soll.",
+          "more": "A2A ermöglicht es autonomen KI-Agenten unterschiedlicher Anbieter, sich gegenseitig zu entdecken und sicher Aufgaben sowie Daten auszutauschen. Die Agentic AI Foundation ist seit ihrem Start im Dezember 2025 von unter 40 auf über 250 Mitglieder gewachsen, darunter Google, Microsoft, Amazon, Anthropic, OpenAI, Bloomberg, Shopify und Block. Der Schritt unterstreicht den Trend zu herstellerübergreifenden Standards, damit Agenten verschiedener Plattformen künftig zusammenarbeiten können.",
+          "url": "https://www.axios.com/2026/08/17/a2a-agentic-ai-foundation-open-ai-standards"
         }
       ]
     },
@@ -45,22 +36,22 @@
       "title": "Dev & Automatisierung",
       "items": [
         {
-          "title": "Claude Code macht Auto-Mode zur Standard-Berechtigung und bringt GitLab-Support",
-          "source": "Anthropic",
-          "date": "14.08.2026",
+          "title": "Claude Code: fester Standard-Modell-Parameter und Idle-Benachrichtigungen zwischen Sessions",
+          "source": "Anthropic / Claude Code Changelog",
+          "date": "19.08.2026",
           "image": "",
-          "teaser": "Anthropic hat den Auto-Permission-Mode in Claude Code zum Standard gemacht und unterstützt nun auch GitLab-Merge-Request-URLs im Worktree-Flag und in der Agents-Ansicht.",
-          "more": "Zusätzlich gibt es eine optionale forward_user_identity-Einstellung fürs Gateway, die die Identität angemeldeter Nutzer für Spend-Tracking weiterreicht, sowie optionale Memory-Cgroup-Limits für Bash-Befehle unter Linux, damit ausufernde Builds Sessions nicht mehr blockieren. Die Änderungen zielen vor allem auf Stabilität und Kostenkontrolle in Unternehmens-Setups.",
+          "teaser": "Claude Code bekommt eine neue Umgebungsvariable, mit der sich das Startmodell neuer Sessions fest vorgeben lässt, sowie eine Opt-in-Funktion, die eine andere lokale Session benachrichtigt, sobald eine Session in den Leerlauf geht.",
+          "more": "ANTHROPIC_DEFAULT_MODEL legt das Modell fest, mit dem neue Sessions starten, wobei eine manuelle /model-Auswahl weiterhin Vorrang hat und über Neustarts hinweg erhalten bleibt. Die neue notify_when_idle-Option für session-übergreifendes SendMessage erlaubt es, sich einmalig benachrichtigen zu lassen, sobald eine andere Claude-Code-Session auf demselben Rechner untätig wird, ganz ohne Polling. Zusätzlich wurden Sandbox-Regeln unter macOS präzisiert, damit Wildcard-Leseverbote innerhalb erlaubter Bereiche zuverlässig greifen.",
           "url": "https://code.claude.com/docs/en/changelog"
         },
         {
-          "title": "DeepSeek erhöht API-Preise drastisch und führt Peak-Tarife ein",
-          "source": "DeepSeek",
-          "date": "17.08.2026",
+          "title": "Claude Code behebt Prompt-Caching bei Gateways und bringt neuen \"Concise\"-Modus",
+          "source": "Anthropic / Claude Code Changelog",
+          "date": "20.08.2026",
           "image": "",
-          "teaser": "Ab dem 17. August verlangt DeepSeek für V4-Pro und V4-Flash je nach Tageszeit deutlich mehr, die Aufschläge reichen von 50 bis zu 1100 Prozent gegenüber den bisherigen Flatrates.",
-          "more": "Neu gilt eine Peak/Off-Peak-Struktur: In Stosszeiten (01:00–04:00 und 06:00–10:00 UTC) kosten Output-Tokens von V4-Pro künftig 3,96 statt bisher 0,87 Dollar pro Million, ausserhalb der Peak-Zeiten die Hälfte davon. Trotz der Erhöhung bleibt DeepSeek günstiger als viele Konkurrenzangebote, Entwickler-Teams müssen ihre Kalkulationen aber neu anpassen.",
-          "url": "https://digitalphablet.com/ai/deepseek-adjusts-api-prices-off-peak-half-of-peak-starting-august-17/"
+          "teaser": "Ein Bugfix stellt Prompt-Caching für Sessions wieder her, die über ein LLM-Gateway oder eine eigene Base-URL laufen, und ein neuer eingebauter Output-Stil lässt Claude Code direkt mit Ergebnissen statt langer Vorrede antworten.",
+          "more": "Der neue \"Concise\"-Stil lässt sich unter /config auswählen und sorgt dafür, dass Claude zuerst das Ergebnis liefert und auf Vorrede sowie laufende Kommentare während der Arbeit verzichtet, ohne an Gründlichkeit einzubüssen. Der Caching-Fix betrifft vor allem Unternehmens-Setups, die Claude Code über ein eigenes Gateway oder eine benutzerdefinierte API-Basis-URL einbinden, wo das Caching zuvor nicht griff.",
+          "url": "https://code.claude.com/docs/en/changelog"
         }
       ]
     },
@@ -77,17 +68,7 @@
     {
       "id": "openweight",
       "title": "Open-Weight-Modelle",
-      "items": [
-        {
-          "title": "Qwen3.8-27B landet auf Platz 1 der Hacker News und läuft lokal auf Consumer-GPUs",
-          "source": "Alibaba Qwen",
-          "date": "14.08.2026",
-          "image": "",
-          "teaser": "Als kompakte Ergänzung zum Max-Modell hat Alibaba mit Qwen3.8-27B ein dichtes, unter Apache 2.0 lizenziertes Vision-Language-Modell veröffentlicht, das auf einer einzelnen Consumer-GPU läuft.",
-          "more": "Anders als das riesige MoE-Modell Qwen3.8-Max ist die 27B-Variante ein dichtes Modell mit Bild- und Video-Verständnis und nativ 262'144 Tokens Kontext, basierend auf der Qwen3.5-Architektur. Die Community reagierte begeistert: Auf Hugging Face und Hacker News erreichte das Modell schnell Spitzenplätze, da es echte lokale Nutzung statt reiner Rechenzentrums-Showcases ermöglicht.",
-          "url": "https://news.ycombinator.com/item?id=49272534"
-        }
-      ]
+      "items": []
     }
   ]
 }
