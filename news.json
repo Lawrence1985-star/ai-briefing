@@ -1,18 +1,18 @@
 {
-  "updated": "21.08.2026",
+  "updated": "24.08.2026",
   "categories": [
     {
       "id": "models",
       "title": "Neue Modelle & Capabilities",
       "items": [
         {
-          "title": "OpenAI zeigt Politikern in Washington sein nächstes Modell \"Astra\"",
-          "source": "The Information / the-decoder.com",
-          "date": "19.08.2026",
+          "title": "Rätselhaftes Stealth-Modell \"Ox Alpha\" taucht ohne Absender auf",
+          "source": "TechCrunch",
+          "date": "23.08.2026",
           "image": "",
-          "teaser": "OpenAI-CEO Sam Altman hat US-Senatoren und Regierungsvertretern in Washington eine noch unveröffentlichte Modellfamilie mit dem Arbeitstitel \"Astra\" vorgeführt, die auf lange, kollaborative Multi-Agenten-Aufgaben zielt.",
-          "more": "Astra soll es mehreren KI-Agenten erlauben, über längere Zeiträume gemeinsam an schwierigen Projekten und fortgeschrittenen Matheproblemen zu arbeiten. Ob das Modell als GPT-6, GPT-5.7 oder als eigene Produktlinie neben Sol, Terra und Luna erscheint, ist laut OpenAI noch offen. Bemerkenswert ist vor allem, dass Regierungsvertreter schon vor dem öffentlichen Release eingebunden werden – ein Zeichen, wie stark Politik inzwischen bei Spitzenmodellen mitredet.",
-          "url": "https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions/"
+          "teaser": "Ein anonymes Reasoning-Modell namens \"Ox Alpha\" ist am 20. August ohne Firmenname, Pressemitteilung oder Logo unter dem Label \"Stealth\" bei OpenRouter aufgetaucht und wird derzeit kostenlos angeboten.",
+          "more": "Das Modell bietet ein 1-Millionen-Token-Kontextfenster, Tool-Calling und ist auf Coding sowie länger laufende Agenten-Aufgaben ausgelegt. Forensische Hinweise wie identische Fehlercodes und Tokenizer-Übereinstimmungen deuten auf Zhipu AI (Z.AI) als möglichen Absender hin, offiziell bestätigt ist das aber nicht. Schon nach wenigen Tagen zählte die Plattform OpenCode rund 221'000 Nutzer und 16 Billionen verarbeitete Tokens – ein Beispiel dafür, wie schnell \"Stealth\"-Modelle derzeit Reichweite gewinnen.",
+          "url": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/"
         }
       ]
     },
@@ -21,13 +21,22 @@
       "title": "Agentic AI & Tool Use",
       "items": [
         {
-          "title": "Google übergibt Agenten-Protokoll A2A an neue \"Agentic AI Foundation\"",
-          "source": "Axios",
-          "date": "17.08.2026",
+          "title": "Claude entwirft autonom Protein-Binder – ein Agent übernimmt die komplette Pipeline",
+          "source": "Anthropic",
+          "date": "20.08.2026",
           "image": "",
-          "teaser": "Google Cloud überträgt sein Agent2Agent-Protokoll (A2A) von der Linux Foundation an die neu geschaffene Agentic AI Foundation, die künftig als herstellerneutrale Heimat für offene Agenten-Standards dienen soll.",
-          "more": "A2A ermöglicht es autonomen KI-Agenten unterschiedlicher Anbieter, sich gegenseitig zu entdecken und sicher Aufgaben sowie Daten auszutauschen. Die Agentic AI Foundation ist seit ihrem Start im Dezember 2025 von unter 40 auf über 250 Mitglieder gewachsen, darunter Google, Microsoft, Amazon, Anthropic, OpenAI, Bloomberg, Shopify und Block. Der Schritt unterstreicht den Trend zu herstellerübergreifenden Standards, damit Agenten verschiedener Plattformen künftig zusammenarbeiten können.",
-          "url": "https://www.axios.com/2026/08/17/a2a-agentic-ai-foundation-open-ai-standards"
+          "teaser": "Anthropic zeigt, dass ein einzelner Claude-Agent eigenständig eine komplette computergestützte Protein-Design-Pipeline durchlaufen und für 14 von 15 Zieltargets funktionierende Binder gefunden hat.",
+          "more": "Ohne menschliche wissenschaftliche Anleitung recherchierte der Agent Zielproteine, wählte öffentlich verfügbare Tools aus und rankte Kandidaten-Sequenzen für die Synthese. Die erzielten Trefferraten von bis zu 35% lagen deutlich über den sonst üblichen 10-15% klassischer Design-Kampagnen. Anthropic betont, dass Protein-Binder noch keine fertigen Medikamente sind, wertet die Studie aber als Meilenstein für End-to-End-Agenten in der Forschung.",
+          "url": "https://www.anthropic.com/research/Claude-accelerates-protein-design"
+        },
+        {
+          "title": "VAE veröffentlichen einheitlichen Leitfaden für Agentic AI in der Verwaltung",
+          "source": "Gulf News",
+          "date": "21.08.2026",
+          "image": "",
+          "teaser": "Das nationale Komitee der Vereinigten Arabischen Emirate für das \"National Agentic AI Project\" hat einen einheitlichen Leitfaden vorgestellt, mit dem Regierungsdienste künftig konsequent um KI-Agenten herum gestaltet werden sollen.",
+          "more": "Ziel des VAE-Programms ist es, innerhalb von zwei Jahren 50% der föderalen Regierungsleistungen auf agentenbasierte KI-Modelle umzustellen, wobei Menschen bei zentralen Entscheidungen weiterhin die Kontrolle behalten sollen. Der neue Leitfaden gibt Behörden eine gemeinsame Grundlage vor und zeigt, wie stark staatliche Institutionen Agentic AI inzwischen als strategisches Umbauprojekt begreifen statt als einzelnes Tool.",
+          "url": "https://gulfnews.com/amp/story/uae/uae-launches-unified-ai-guide-to-redesign-government-services-around-outcomes-1.500647880"
         }
       ]
     },
@@ -36,22 +45,22 @@
       "title": "Dev & Automatisierung",
       "items": [
         {
-          "title": "Claude Code: fester Standard-Modell-Parameter und Idle-Benachrichtigungen zwischen Sessions",
+          "title": "Claude Code: Kostenschätzung mit Data-Residency-Aufschlag und neuer Python-Migrationshelfer",
           "source": "Anthropic / Claude Code Changelog",
-          "date": "19.08.2026",
+          "date": "23.08.2026",
           "image": "",
-          "teaser": "Claude Code bekommt eine neue Umgebungsvariable, mit der sich das Startmodell neuer Sessions fest vorgeben lässt, sowie eine Opt-in-Funktion, die eine andere lokale Session benachrichtigt, sobald eine Session in den Leerlauf geht.",
-          "more": "ANTHROPIC_DEFAULT_MODEL legt das Modell fest, mit dem neue Sessions starten, wobei eine manuelle /model-Auswahl weiterhin Vorrang hat und über Neustarts hinweg erhalten bleibt. Die neue notify_when_idle-Option für session-übergreifendes SendMessage erlaubt es, sich einmalig benachrichtigen zu lassen, sobald eine andere Claude-Code-Session auf demselben Rechner untätig wird, ganz ohne Polling. Zusätzlich wurden Sandbox-Regeln unter macOS präzisiert, damit Wildcard-Leseverbote innerhalb erlaubter Bereiche zuverlässig greifen.",
+          "teaser": "Claude Code zeigt in Kostenschätzungen künftig den 1,1-fachen US-Only-Inference-Aufschlag für Data-Residency-Workspaces an und bringt mit /claude-api upgrade einen Helfer für die Migration von Python-Projekten auf das neue Anthropic-SDK 1.x.",
+          "more": "Zusätzlich starten Installationen auf zuvor ausgeschlossenen Plattformen wie Bedrock, Vertex und Foundry künftig automatisch im Fullscreen-Modus. Aus claude.ai synchronisierte Plugins in Cloud-Sessions werden jetzt eindeutig als \"name@synced\" gekennzeichnet und überschreiben nie mehr lokal installierte Plugins mit demselben Namen. Die Änderungen richten sich vor allem an Unternehmenskunden mit strengen Data-Residency-Anforderungen.",
           "url": "https://code.claude.com/docs/en/changelog"
         },
         {
-          "title": "Claude Code behebt Prompt-Caching bei Gateways und bringt neuen \"Concise\"-Modus",
-          "source": "Anthropic / Claude Code Changelog",
-          "date": "20.08.2026",
+          "title": "Microsoft Agent Framework 1.19.0: Session-Persistenz und längere MCP-Tasks",
+          "source": "Microsoft Agent Framework Devblog",
+          "date": "22.08.2026",
           "image": "",
-          "teaser": "Ein Bugfix stellt Prompt-Caching für Sessions wieder her, die über ein LLM-Gateway oder eine eigene Base-URL laufen, und ein neuer eingebauter Output-Stil lässt Claude Code direkt mit Ergebnissen statt langer Vorrede antworten.",
-          "more": "Der neue \"Concise\"-Stil lässt sich unter /config auswählen und sorgt dafür, dass Claude zuerst das Ergebnis liefert und auf Vorrede sowie laufende Kommentare während der Arbeit verzichtet, ohne an Gründlichkeit einzubüssen. Der Caching-Fix betrifft vor allem Unternehmens-Setups, die Claude Code über ein eigenes Gateway oder eine benutzerdefinierte API-Basis-URL einbinden, wo das Caching zuvor nicht griff.",
-          "url": "https://code.claude.com/docs/en/changelog"
+          "teaser": "Microsoft hat Version 1.19.0 seines .NET Agent Framework veröffentlicht, mit session-persistentem Chat-Routing, Azure-Blob-Storage-Sitzungsspeicherung und einem experimentellen Hook-System für Agenten.",
+          "more": "Neu ist zudem, dass Agenten-Status dauerhaft in Foundry gehostet werden kann und das Framework länger laufende MCP-Tasks besser unterstützt. Die Erweiterungen zielen auf produktionsreife, mehrstufige Agenten-Workflows, bei denen Zustand über längere Zeit erhalten bleiben muss – ein Bereich, in dem derzeit viele Agent-Frameworks nachziehen.",
+          "url": "https://devblogs.microsoft.com/agent-framework/"
         }
       ]
     },
