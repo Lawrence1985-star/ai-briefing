@@ -1,33 +1,23 @@
 {
-  "updated": "21.08.2026",
+  "updated": "28.08.2026",
   "categories": [
     {
       "id": "models",
       "title": "Neue Modelle & Capabilities",
-      "items": [
-        {
-          "title": "OpenAI zeigt Politikern in Washington sein nächstes Modell \"Astra\"",
-          "source": "The Information / the-decoder.com",
-          "date": "19.08.2026",
-          "image": "",
-          "teaser": "OpenAI-CEO Sam Altman hat US-Senatoren und Regierungsvertretern in Washington eine noch unveröffentlichte Modellfamilie mit dem Arbeitstitel \"Astra\" vorgeführt, die auf lange, kollaborative Multi-Agenten-Aufgaben zielt.",
-          "more": "Astra soll es mehreren KI-Agenten erlauben, über längere Zeiträume gemeinsam an schwierigen Projekten und fortgeschrittenen Matheproblemen zu arbeiten. Ob das Modell als GPT-6, GPT-5.7 oder als eigene Produktlinie neben Sol, Terra und Luna erscheint, ist laut OpenAI noch offen. Bemerkenswert ist vor allem, dass Regierungsvertreter schon vor dem öffentlichen Release eingebunden werden – ein Zeichen, wie stark Politik inzwischen bei Spitzenmodellen mitredet.",
-          "url": "https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions/"
-        }
-      ]
+      "items": []
     },
     {
       "id": "agentic",
       "title": "Agentic AI & Tool Use",
       "items": [
         {
-          "title": "Google übergibt Agenten-Protokoll A2A an neue \"Agentic AI Foundation\"",
-          "source": "Axios",
-          "date": "17.08.2026",
+          "title": "AccuKnox launcht AgentZ für Bau, Betrieb und Governance von Unternehmens-Agenten",
+          "source": "GlobeNewswire",
+          "date": "27.08.2026",
           "image": "",
-          "teaser": "Google Cloud überträgt sein Agent2Agent-Protokoll (A2A) von der Linux Foundation an die neu geschaffene Agentic AI Foundation, die künftig als herstellerneutrale Heimat für offene Agenten-Standards dienen soll.",
-          "more": "A2A ermöglicht es autonomen KI-Agenten unterschiedlicher Anbieter, sich gegenseitig zu entdecken und sicher Aufgaben sowie Daten auszutauschen. Die Agentic AI Foundation ist seit ihrem Start im Dezember 2025 von unter 40 auf über 250 Mitglieder gewachsen, darunter Google, Microsoft, Amazon, Anthropic, OpenAI, Bloomberg, Shopify und Block. Der Schritt unterstreicht den Trend zu herstellerübergreifenden Standards, damit Agenten verschiedener Plattformen künftig zusammenarbeiten können.",
-          "url": "https://www.axios.com/2026/08/17/a2a-agentic-ai-foundation-open-ai-standards"
+          "teaser": "AccuKnox hat mit AgentZ eine Plattform vorgestellt, die Agenten, Ausführungsumgebung, Tools, Workflows und Berechtigungen in einem einzigen System bündelt, damit Unternehmen KI-Agenten vom Experiment in den produktiven Einsatz bringen können.",
+          "more": "AgentZ ist modellagnostisch – es unterstützt unter anderem OpenAI-, Claude- und Grok-Modelle – und läuft wahlweise als SaaS, On-Premise oder Air-Gapped. Im Zentrum stehen Zero-Trust-Kontrollen, Tool-Level-Berechtigungen und Sandbox-Ausführung, was angesichts wachsender Sorgen um unkontrollierten \"Agent Sprawl\" und Rechtevergabe bei autonomen Agenten in Unternehmen an Bedeutung gewinnt.",
+          "url": "https://www.globenewswire.com/news-release/2026/08/27/3351759/0/en/accuknox-launches-agentz-to-help-enterprises-build-run-and-govern-ai-agents-at-scale.html"
         }
       ]
     },
@@ -36,29 +26,39 @@
       "title": "Dev & Automatisierung",
       "items": [
         {
-          "title": "Claude Code: fester Standard-Modell-Parameter und Idle-Benachrichtigungen zwischen Sessions",
+          "title": "Claude Code 2.1.247: neues Feedback-Tool und Kosten-Optimierungs-Befehl",
           "source": "Anthropic / Claude Code Changelog",
-          "date": "19.08.2026",
+          "date": "26.08.2026",
           "image": "",
-          "teaser": "Claude Code bekommt eine neue Umgebungsvariable, mit der sich das Startmodell neuer Sessions fest vorgeben lässt, sowie eine Opt-in-Funktion, die eine andere lokale Session benachrichtigt, sobald eine Session in den Leerlauf geht.",
-          "more": "ANTHROPIC_DEFAULT_MODEL legt das Modell fest, mit dem neue Sessions starten, wobei eine manuelle /model-Auswahl weiterhin Vorrang hat und über Neustarts hinweg erhalten bleibt. Die neue notify_when_idle-Option für session-übergreifendes SendMessage erlaubt es, sich einmalig benachrichtigen zu lassen, sobald eine andere Claude-Code-Session auf demselben Rechner untätig wird, ganz ohne Polling. Zusätzlich wurden Sandbox-Regeln unter macOS präzisiert, damit Wildcard-Leseverbote innerhalb erlaubter Bereiche zuverlässig greifen.",
+          "teaser": "Anthropic hat Claude Code um ein SendFeedback-Tool erweitert, mit dem sich Problemberichte direkt aus einer Session heraus entwerfen und über /feedback versenden lassen.",
+          "more": "Neu ist zudem der Befehl /claude-api cost-optimize, der den API-Verbrauch eines bestehenden Projekts analysiert und schrittweise Stellschrauben wie Caching, Token-Sparsamkeit, Batch-Verarbeitung und Modellwahl durchgeht. Bash-Berechtigungsabfragen weisen jetzt zudem direkt auf den Auto-Modus hin, dazu kommen diverse Detailverbesserungen bei MCP-Handling, Remote Control und Markdown-Rendering.",
           "url": "https://code.claude.com/docs/en/changelog"
         },
         {
-          "title": "Claude Code behebt Prompt-Caching bei Gateways und bringt neuen \"Concise\"-Modus",
-          "source": "Anthropic / Claude Code Changelog",
-          "date": "20.08.2026",
+          "title": "Model Context Protocol veröffentlicht neue Roadmap für Governance und Enterprise-Reife",
+          "source": "Model Context Protocol Blog",
+          "date": "22.08.2026",
           "image": "",
-          "teaser": "Ein Bugfix stellt Prompt-Caching für Sessions wieder her, die über ein LLM-Gateway oder eine eigene Base-URL laufen, und ein neuer eingebauter Output-Stil lässt Claude Code direkt mit Ergebnissen statt langer Vorrede antworten.",
-          "more": "Der neue \"Concise\"-Stil lässt sich unter /config auswählen und sorgt dafür, dass Claude zuerst das Ergebnis liefert und auf Vorrede sowie laufende Kommentare während der Arbeit verzichtet, ohne an Gründlichkeit einzubüssen. Der Caching-Fix betrifft vor allem Unternehmens-Setups, die Claude Code über ein eigenes Gateway oder eine benutzerdefinierte API-Basis-URL einbinden, wo das Caching zuvor nicht griff.",
-          "url": "https://code.claude.com/docs/en/changelog"
+          "teaser": "Die Kernbetreuer des Model Context Protocol (MCP) haben eine aktualisierte Roadmap veröffentlicht, die die nächste Spezifikationsversion und die Weiterentwicklung des Standards für den produktiven Unternehmenseinsatz skizziert.",
+          "more": "Schwerpunkte sind bessere Transport-Skalierbarkeit, robustere Agent-zu-Agent-Kommunikation, reifere Governance-Strukturen sowie Enterprise-Tauglichkeit. Zusätzlich wachsen die Maintainer-Reihen: Clare Liguori und Den Delimarsky übernehmen leitende Rollen. Das unterstreicht, wie sich MCP – zentral etwa für Claude Code und n8n-Integrationen – vom Nischenstandard zur zentralen Infrastruktur für Tool-Nutzung durch KI-Agenten entwickelt.",
+          "url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/"
         }
       ]
     },
     {
       "id": "marketing",
       "title": "Marketing-AI (Bild & Video)",
-      "items": []
+      "items": [
+        {
+          "title": "Google Gemini Omni 1.1 Flash: längere KI-Videos mit mehr kreativer Kontrolle",
+          "source": "Digital Trends",
+          "date": "27.08.2026",
+          "image": "",
+          "teaser": "Google hat Gemini Omni 1.1 Flash veröffentlicht, das KI-generierte Videoszenen auf bis zu 40 Sekunden verlängert und Ergebnisse auf 4K hochskaliert.",
+          "more": "Neu sind \"Regie\"-Funktionen wie das gezielte Setzen von Start- und Endbild für kontrollierte Kamerafahrten sowie ein günstiger 360p-Vorschaumodus zum schnellen Testen vor dem finalen Rendering. Für Marketingteams senkt das Kosten und Iterationszeit bei der Produktion von Werbevideos spürbar – auch wenn die 4K-Ausgabe technisch hochskaliert statt nativ erzeugt wird.",
+          "url": "https://www.digitaltrends.com/cool-tech/gemini-omni-can-now-extend-videos-to-40-seconds-and-upscale-them-to-4k/"
+        }
+      ]
     },
     {
       "id": "regulation",
@@ -68,7 +68,17 @@
     {
       "id": "openweight",
       "title": "Open-Weight-Modelle",
-      "items": []
+      "items": [
+        {
+          "title": "Z.ai veröffentlicht GLM-5.3-Flash als offenes Modell unter MIT-Lizenz",
+          "source": "SiliconANGLE",
+          "date": "26.08.2026",
+          "image": "",
+          "teaser": "Z.ai hat sein bislang unter dem Decknamen \"Ox Alpha\" auf OpenRouter getestetes Mystery-Modell offiziell als GLM-5.3-Flash veröffentlicht – mit frei verfügbaren Gewichten unter MIT-Lizenz.",
+          "more": "Das Modell hat 320 Milliarden Parameter, von denen pro Anfrage nur 18 Milliarden aktiv sind, ist nativ multimodal (Text, Bild, Video) und bietet ein Kontextfenster von 1 Million Tokens. Laut Z.ai übertrifft es den Vorgänger GLM-5.2 bei rund einem Zehntel der Kosten – ein weiteres Beispiel dafür, wie schnell chinesische Anbieter bei offenen Spitzenmodellen aufholen.",
+          "url": "https://siliconangle.com/2026/08/26/z-ai-open-sources-ox-alpha-model-as-glm-5-3-flash/"
+        }
+      ]
     }
   ]
 }
