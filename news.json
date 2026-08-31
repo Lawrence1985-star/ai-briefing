@@ -1,5 +1,5 @@
 {
-  "updated": "28.08.2026",
+  "updated": "31.08.2026",
   "categories": [
     {
       "id": "models",
@@ -9,56 +9,36 @@
     {
       "id": "agentic",
       "title": "Agentic AI & Tool Use",
-      "items": [
-        {
-          "title": "AccuKnox launcht AgentZ für Bau, Betrieb und Governance von Unternehmens-Agenten",
-          "source": "GlobeNewswire",
-          "date": "27.08.2026",
-          "image": "",
-          "teaser": "AccuKnox hat mit AgentZ eine Plattform vorgestellt, die Agenten, Ausführungsumgebung, Tools, Workflows und Berechtigungen in einem einzigen System bündelt, damit Unternehmen KI-Agenten vom Experiment in den produktiven Einsatz bringen können.",
-          "more": "AgentZ ist modellagnostisch – es unterstützt unter anderem OpenAI-, Claude- und Grok-Modelle – und läuft wahlweise als SaaS, On-Premise oder Air-Gapped. Im Zentrum stehen Zero-Trust-Kontrollen, Tool-Level-Berechtigungen und Sandbox-Ausführung, was angesichts wachsender Sorgen um unkontrollierten \"Agent Sprawl\" und Rechtevergabe bei autonomen Agenten in Unternehmen an Bedeutung gewinnt.",
-          "url": "https://www.globenewswire.com/news-release/2026/08/27/3351759/0/en/accuknox-launches-agentz-to-help-enterprises-build-run-and-govern-ai-agents-at-scale.html"
-        }
-      ]
+      "items": []
     },
     {
       "id": "devtools",
       "title": "Dev & Automatisierung",
       "items": [
         {
-          "title": "Claude Code 2.1.247: neues Feedback-Tool und Kosten-Optimierungs-Befehl",
-          "source": "Anthropic / Claude Code Changelog",
-          "date": "26.08.2026",
+          "title": "OpenAI kappt Cursor die Modell-Anbindung nach SpaceX-Übernahme",
+          "source": "OpenAI",
+          "date": "28.08.2026",
           "image": "",
-          "teaser": "Anthropic hat Claude Code um ein SendFeedback-Tool erweitert, mit dem sich Problemberichte direkt aus einer Session heraus entwerfen und über /feedback versenden lassen.",
-          "more": "Neu ist zudem der Befehl /claude-api cost-optimize, der den API-Verbrauch eines bestehenden Projekts analysiert und schrittweise Stellschrauben wie Caching, Token-Sparsamkeit, Batch-Verarbeitung und Modellwahl durchgeht. Bash-Berechtigungsabfragen weisen jetzt zudem direkt auf den Auto-Modus hin, dazu kommen diverse Detailverbesserungen bei MCP-Handling, Remote Control und Markdown-Rendering.",
-          "url": "https://code.claude.com/docs/en/changelog"
+          "teaser": "OpenAI hat angekündigt, den Vertrag mit dem Cursor-Entwickler Anysphere aufzulösen, nachdem SpaceX das Unternehmen für rund 60 Milliarden Dollar übernommen hat. Der Zugang zu OpenAI-Modellen in Cursor soll zum 12. November 2026 enden.",
+          "more": "OpenAI begründet den Schritt damit, nicht sicherstellen zu können, dass SpaceX die Modelle im Rahmen der Nutzungsbedingungen einsetzt. OpenAI-Modelle machen laut Cursor nur rund 5 Prozent des Traffics aus, dennoch zeigt der Fall, wie geopolitische und geschäftliche Rivalitäten zwischen KI-Anbietern zunehmend direkt auf Developer-Tools durchschlagen.",
+          "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/"
         },
         {
-          "title": "Model Context Protocol veröffentlicht neue Roadmap für Governance und Enterprise-Reife",
-          "source": "Model Context Protocol Blog",
-          "date": "22.08.2026",
+          "title": "Claude Code: neue Hooks für Modellwechsel und mehr Kostentransparenz",
+          "source": "Anthropic / Claude Code Changelog",
+          "date": "29.08.2026",
           "image": "",
-          "teaser": "Die Kernbetreuer des Model Context Protocol (MCP) haben eine aktualisierte Roadmap veröffentlicht, die die nächste Spezifikationsversion und die Weiterentwicklung des Standards für den produktiven Unternehmenseinsatz skizziert.",
-          "more": "Schwerpunkte sind bessere Transport-Skalierbarkeit, robustere Agent-zu-Agent-Kommunikation, reifere Governance-Strukturen sowie Enterprise-Tauglichkeit. Zusätzlich wachsen die Maintainer-Reihen: Clare Liguori und Den Delimarsky übernehmen leitende Rollen. Das unterstreicht, wie sich MCP – zentral etwa für Claude Code und n8n-Integrationen – vom Nischenstandard zur zentralen Infrastruktur für Tool-Nutzung durch KI-Agenten entwickelt.",
-          "url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/"
+          "teaser": "Anthropic hat Claude Code um PreModelSwitch- und PostModelSwitch-Hooks erweitert, mit denen sich Modellwechsel blockieren, bestätigen oder protokollieren lassen, dazu eine neue Spend-Limit-Anzeige in /usage.",
+          "more": "Zusätzlich starten CLI-Sessions jetzt vor dem Laden der Sandbox, der Linux-Download wurde deutlich verkleinert, und /cost, /usage sowie /tasks liefern detailliertere Token-Angaben. Die Änderungen richten sich vor allem an Teams, die Claude Code in Unternehmensumgebungen mit Ausgabenlimits und Governance-Anforderungen betreiben.",
+          "url": "https://code.claude.com/docs/en/changelog"
         }
       ]
     },
     {
       "id": "marketing",
       "title": "Marketing-AI (Bild & Video)",
-      "items": [
-        {
-          "title": "Google Gemini Omni 1.1 Flash: längere KI-Videos mit mehr kreativer Kontrolle",
-          "source": "Digital Trends",
-          "date": "27.08.2026",
-          "image": "",
-          "teaser": "Google hat Gemini Omni 1.1 Flash veröffentlicht, das KI-generierte Videoszenen auf bis zu 40 Sekunden verlängert und Ergebnisse auf 4K hochskaliert.",
-          "more": "Neu sind \"Regie\"-Funktionen wie das gezielte Setzen von Start- und Endbild für kontrollierte Kamerafahrten sowie ein günstiger 360p-Vorschaumodus zum schnellen Testen vor dem finalen Rendering. Für Marketingteams senkt das Kosten und Iterationszeit bei der Produktion von Werbevideos spürbar – auch wenn die 4K-Ausgabe technisch hochskaliert statt nativ erzeugt wird.",
-          "url": "https://www.digitaltrends.com/cool-tech/gemini-omni-can-now-extend-videos-to-40-seconds-and-upscale-them-to-4k/"
-        }
-      ]
+      "items": []
     },
     {
       "id": "regulation",
@@ -68,17 +48,7 @@
     {
       "id": "openweight",
       "title": "Open-Weight-Modelle",
-      "items": [
-        {
-          "title": "Z.ai veröffentlicht GLM-5.3-Flash als offenes Modell unter MIT-Lizenz",
-          "source": "SiliconANGLE",
-          "date": "26.08.2026",
-          "image": "",
-          "teaser": "Z.ai hat sein bislang unter dem Decknamen \"Ox Alpha\" auf OpenRouter getestetes Mystery-Modell offiziell als GLM-5.3-Flash veröffentlicht – mit frei verfügbaren Gewichten unter MIT-Lizenz.",
-          "more": "Das Modell hat 320 Milliarden Parameter, von denen pro Anfrage nur 18 Milliarden aktiv sind, ist nativ multimodal (Text, Bild, Video) und bietet ein Kontextfenster von 1 Million Tokens. Laut Z.ai übertrifft es den Vorgänger GLM-5.2 bei rund einem Zehntel der Kosten – ein weiteres Beispiel dafür, wie schnell chinesische Anbieter bei offenen Spitzenmodellen aufholen.",
-          "url": "https://siliconangle.com/2026/08/26/z-ai-open-sources-ox-alpha-model-as-glm-5-3-flash/"
-        }
-      ]
+      "items": []
     }
   ]
 }
