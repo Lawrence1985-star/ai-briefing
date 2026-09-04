@@ -1,10 +1,29 @@
 {
-  "updated": "31.08.2026",
+  "updated": "04.09.2026",
   "categories": [
     {
       "id": "models",
       "title": "Neue Modelle & Capabilities",
-      "items": []
+      "items": [
+        {
+          "title": "Anthropic veröffentlicht Claude Fable 5.1 und Mythos 5.1",
+          "source": "Anthropic",
+          "date": "01.09.2026",
+          "image": "",
+          "teaser": "Anthropic hat mit Claude Fable 5.1 und Claude Mythos 5.1 zwei neue Modellvarianten für Coding und Wissensarbeit vorgestellt. Fable 5.1 ist frei verfügbar, Mythos 5.1 nur über Trusted-Access-Programme.",
+          "more": "Laut Anthropic erzielt Fable 5.1 auf Terminal-Bench-Science deutlich bessere Werte als der Vorgänger Fable 5 und soll seltener oberflächliche Abkürzungen statt echter Fehlerbehebung liefern. Die Input-/Output-Preise bleiben unverändert, Cache-Reads werden von 1 auf 0,25 Dollar je Million Tokens günstiger, was Entwicklerteams mit hohem Wiederholungsanteil direkt entlastet.",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+        },
+        {
+          "title": "Google bringt Gemini 3.8 Flash und die Sicherheits-Variante Flash Cyber",
+          "source": "Google",
+          "date": "02.09.2026",
+          "image": "",
+          "teaser": "Google hat mit Gemini 3.8 Flash bereits das dritte Flash-Modell binnen sechs Wochen veröffentlicht, mit spürbaren Fortschritten bei Softwareentwicklung, agentischen Aufgaben und mehrstufigem Reasoning.",
+          "more": "Parallel erscheint Gemini 3.8 Flash Cyber, eine Variante mit bewusst gelockerten Schutzmechanismen für Sicherheitsforschung, die über das neue Fairwind-Programm nur vertrauenswürdigen Verteidigungsteams zugänglich ist. Der Einführungspreis bleibt bis Januar 2027 auf dem Niveau von 3.7 Flash, danach verdoppeln sich die Tokenkosten.",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+        }
+      ]
     },
     {
       "id": "agentic",
@@ -16,21 +35,21 @@
       "title": "Dev & Automatisierung",
       "items": [
         {
-          "title": "OpenAI kappt Cursor die Modell-Anbindung nach SpaceX-Übernahme",
-          "source": "OpenAI",
-          "date": "28.08.2026",
+          "title": "Claude Code: zentrale MCP-Verwaltung und GitLab-Merge-Request-Support",
+          "source": "Anthropic / Claude Code Changelog",
+          "date": "02.09.2026",
           "image": "",
-          "teaser": "OpenAI hat angekündigt, den Vertrag mit dem Cursor-Entwickler Anysphere aufzulösen, nachdem SpaceX das Unternehmen für rund 60 Milliarden Dollar übernommen hat. Der Zugang zu OpenAI-Modellen in Cursor soll zum 12. November 2026 enden.",
-          "more": "OpenAI begründet den Schritt damit, nicht sicherstellen zu können, dass SpaceX die Modelle im Rahmen der Nutzungsbedingungen einsetzt. OpenAI-Modelle machen laut Cursor nur rund 5 Prozent des Traffics aus, dennoch zeigt der Fall, wie geopolitische und geschäftliche Rivalitäten zwischen KI-Anbietern zunehmend direkt auf Developer-Tools durchschlagen.",
-          "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/"
+          "teaser": "Claude Code 2.1.259 führt die Managed-Setting managedMcpServers ein, mit der Organisationen allen Nutzern zentral HTTP/SSE-MCP-Server bereitstellen können, sowie eine strikte --permission-prompts-none-Option für unbeaufsichtigte Headless-Hosts.",
+          "more": "Zusätzlich erkennt Claude Code jetzt GitLab-Merge-Requests über glab-Befehle und zeigt sie kompakt als MR-Badge an. Die Änderungen zielen klar auf Enterprise-Rollouts, bei denen MCP-Zugriffe zentral gesteuert und automatisierte Umgebungen ohne interaktive Freigaben betrieben werden müssen.",
+          "url": "https://code.claude.com/docs/en/changelog"
         },
         {
-          "title": "Claude Code: neue Hooks für Modellwechsel und mehr Kostentransparenz",
+          "title": "Claude Code erhält Diff-Panel und bessere Prompt-Cache-Diagnose",
           "source": "Anthropic / Claude Code Changelog",
-          "date": "29.08.2026",
+          "date": "03.09.2026",
           "image": "",
-          "teaser": "Anthropic hat Claude Code um PreModelSwitch- und PostModelSwitch-Hooks erweitert, mit denen sich Modellwechsel blockieren, bestätigen oder protokollieren lassen, dazu eine neue Spend-Limit-Anzeige in /usage.",
-          "more": "Zusätzlich starten CLI-Sessions jetzt vor dem Laden der Sandbox, der Linux-Download wurde deutlich verkleinert, und /cost, /usage sowie /tasks liefern detailliertere Token-Angaben. Die Änderungen richten sich vor allem an Teams, die Claude Code in Unternehmensumgebungen mit Ausgabenlimits und Governance-Anforderungen betreiben.",
+          "teaser": "Ein neues Fullscreen-Diff-Panel (Aufruf per /diff) zeigt uncommittete Änderungen direkt neben dem Gesprächsverlauf, während /cost jetzt genauer erklärt, warum Prompt-Cache-Treffer ausbleiben.",
+          "more": "Die Neuerungen erleichtern es, Claude Codes Änderungen am Code nachzuvollziehen, ohne den Editor zu wechseln, und helfen Teams, ineffiziente Cache-Nutzung und damit unnötige Kosten schneller zu erkennen.",
           "url": "https://code.claude.com/docs/en/changelog"
         }
       ]
