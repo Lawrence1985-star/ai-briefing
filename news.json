@@ -1,63 +1,92 @@
 {
-  "updated": "04.09.2026",
+  "updated": "07.09.2026",
   "categories": [
     {
       "id": "models",
       "title": "Neue Modelle & Capabilities",
       "items": [
         {
-          "title": "Anthropic veröffentlicht Claude Fable 5.1 und Mythos 5.1",
-          "source": "Anthropic",
-          "date": "01.09.2026",
+          "title": "OpenAI veröffentlicht GPT-6 Astra",
+          "source": "OpenAI",
+          "date": "03.09.2026",
           "image": "",
-          "teaser": "Anthropic hat mit Claude Fable 5.1 und Claude Mythos 5.1 zwei neue Modellvarianten für Coding und Wissensarbeit vorgestellt. Fable 5.1 ist frei verfügbar, Mythos 5.1 nur über Trusted-Access-Programme.",
-          "more": "Laut Anthropic erzielt Fable 5.1 auf Terminal-Bench-Science deutlich bessere Werte als der Vorgänger Fable 5 und soll seltener oberflächliche Abkürzungen statt echter Fehlerbehebung liefern. Die Input-/Output-Preise bleiben unverändert, Cache-Reads werden von 1 auf 0,25 Dollar je Million Tokens günstiger, was Entwicklerteams mit hohem Wiederholungsanteil direkt entlastet.",
-          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+          "teaser": "OpenAI hat mit GPT-6 Astra ein neues Flaggschiffmodell vorgestellt, das laut eigenen Angaben in Bereichen wie Softwareentwicklung, Computer-Nutzung und Cybersicherheit neue Bestwerte erreicht. Der Rollout erfolgt zunächst limitiert für vertrauenswürdige Partner.",
+          "more": "Astra soll laut OpenAI unter anderem bei FrontierMath und ARC-AGI-3 nahezu perfekte Ergebnisse liefern und wird stufenweise über ChatGPT Plus/Pro/Business/Enterprise sowie die API ausgerollt. Nach dem Hugging-Face-Sicherheitsvorfall im Juli hatte OpenAI die Veröffentlichung verzögert, um zusätzliche Schutzmassnahmen einzubauen.",
+          "url": "https://openai.com/index/gpt-6-astra/"
         },
         {
-          "title": "Google bringt Gemini 3.8 Flash und die Sicherheits-Variante Flash Cyber",
-          "source": "Google",
+          "title": "Alibaba aktualisiert Qwen3.8-Max auf Version 0902",
+          "source": "TechNode",
           "date": "02.09.2026",
           "image": "",
-          "teaser": "Google hat mit Gemini 3.8 Flash bereits das dritte Flash-Modell binnen sechs Wochen veröffentlicht, mit spürbaren Fortschritten bei Softwareentwicklung, agentischen Aufgaben und mehrstufigem Reasoning.",
-          "more": "Parallel erscheint Gemini 3.8 Flash Cyber, eine Variante mit bewusst gelockerten Schutzmechanismen für Sicherheitsforschung, die über das neue Fairwind-Programm nur vertrauenswürdigen Verteidigungsteams zugänglich ist. Der Einführungspreis bleibt bis Januar 2027 auf dem Niveau von 3.7 Flash, danach verdoppeln sich die Tokenkosten.",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+          "teaser": "Alibaba hat mit Qwen3.8-Max-0902 ein nachtrainiertes Update seines 2,4-Billionen-Parameter-Modells veröffentlicht, das gezielt Coding- und autonome Agenten-Aufgaben verbessert.",
+          "more": "Laut Alibaba steigt der CodeArena-Wert des Modells um 22 Punkte auf Platz 1 des Leaderboards, knapp vor Claude Opus 5 Max. Architektur, Kontextfenster (1 Mio. Token) und Preise bleiben unverändert, offene Gewichte gibt es für die Max-Variante bislang nicht.",
+          "url": "https://technode.com/2026/09/02/alibaba-upgrades-qwen38-max-with-new-0902-snapshot/"
         }
       ]
     },
     {
       "id": "agentic",
       "title": "Agentic AI & Tool Use",
-      "items": []
+      "items": [
+        {
+          "title": "Google bringt agentische KI-Steuerung in Google Photos",
+          "source": "TechCrunch",
+          "date": "04.09.2026",
+          "image": "",
+          "teaser": "Mit Gemini Spark können Nutzer von Google AI Pro/Ultra ihre Google-Photos-Bibliothek jetzt per Prompt durchsuchen, bearbeiten und organisieren lassen, inklusive automatisch erstellter Alben.",
+          "more": "Spark kann laut Google auch wiederkehrende Hintergrund-Workflows übernehmen, etwa wöchentliche Foto-Highlights in ein geteiltes Album zu kompilieren und eine Zusammenfassung zu verschicken. Der Rollout startet zunächst in den USA auf Englisch für berechtigte Abonnenten.",
+          "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/"
+        }
+      ]
     },
     {
       "id": "devtools",
       "title": "Dev & Automatisierung",
       "items": [
         {
-          "title": "Claude Code: zentrale MCP-Verwaltung und GitLab-Merge-Request-Support",
+          "title": "Claude Code: /skill-doctor, grössere Output-Limits und Policy-Transparenz",
           "source": "Anthropic / Claude Code Changelog",
-          "date": "02.09.2026",
+          "date": "05.09.2026",
           "image": "",
-          "teaser": "Claude Code 2.1.259 führt die Managed-Setting managedMcpServers ein, mit der Organisationen allen Nutzern zentral HTTP/SSE-MCP-Server bereitstellen können, sowie eine strikte --permission-prompts-none-Option für unbeaufsichtigte Headless-Hosts.",
-          "more": "Zusätzlich erkennt Claude Code jetzt GitLab-Merge-Requests über glab-Befehle und zeigt sie kompakt als MR-Badge an. Die Änderungen zielen klar auf Enterprise-Rollouts, bei denen MCP-Zugriffe zentral gesteuert und automatisierte Umgebungen ohne interaktive Freigaben betrieben werden müssen.",
+          "teaser": "Claude Code erhält mit /skill-doctor ein neues Diagnose-Kommando, das ungenutzte Skills und deren Kontext-Kosten anzeigt, sowie deutlich höhere Limits für Command- und Task-Output.",
+          "more": "Die Settings bashOutputMaxChars und taskOutputMaxChars erlauben jetzt bis zu 128.000 Zeichen Inline-Ausgabe, zudem zeigen /status und claude doctor an, warum eine Organisationsrichtlinie nicht geladen werden konnte. Das erleichtert Debugging in Enterprise-Setups mit zentral verwalteten Policies.",
           "url": "https://code.claude.com/docs/en/changelog"
         },
         {
-          "title": "Claude Code erhält Diff-Panel und bessere Prompt-Cache-Diagnose",
-          "source": "Anthropic / Claude Code Changelog",
+          "title": "GitHub Copilot integriert Gemini 3.8 Flash und Claude Fable 5.1",
+          "source": "GitHub Changelog",
           "date": "03.09.2026",
           "image": "",
-          "teaser": "Ein neues Fullscreen-Diff-Panel (Aufruf per /diff) zeigt uncommittete Änderungen direkt neben dem Gesprächsverlauf, während /cost jetzt genauer erklärt, warum Prompt-Cache-Treffer ausbleiben.",
-          "more": "Die Neuerungen erleichtern es, Claude Codes Änderungen am Code nachzuvollziehen, ohne den Editor zu wechseln, und helfen Teams, ineffiziente Cache-Nutzung und damit unnötige Kosten schneller zu erkennen.",
-          "url": "https://code.claude.com/docs/en/changelog"
+          "teaser": "GitHub hat Gemini 3.8 Flash und Claude Fable 5.1 als neue Modelloptionen in Copilot aufgenommen, verfügbar in App, CLI und Visual Studio Code.",
+          "more": "Laut ersten Tests von GitHub zeigt Gemini 3.8 Flash starke Ergebnisse bei komplexen Terminal-Coding-Aufgaben und robuster Fehlerbehebung. Der Rollout erfolgt schrittweise für Pro-, Pro+-, Business- und Enterprise-Nutzer zu Einführungspreisen bis Ende Dezember 2026.",
+          "url": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot/"
         }
       ]
     },
     {
       "id": "marketing",
       "title": "Marketing-AI (Bild & Video)",
-      "items": []
+      "items": [
+        {
+          "title": "Comscore misst erstmals gesponserte Werbung in KI-Chats",
+          "source": "Comscore",
+          "date": "03.09.2026",
+          "image": "",
+          "teaser": "Comscore erweitert sein AI-Intelligence-Produkt um die Messung gesponserter Anzeigen in Chat-Antworten von Tools wie ChatGPT und verknüpft sie mit nachgelagertem Nutzerverhalten.",
+          "more": "Die neue Funktion ist Teil der monatlichen Reporting-Pipeline und soll Marken helfen, KI-Chats als eigenständigen Werbekanal neben klassischen Medien zu bewerten. Comscore verweist auf einen Anstieg gesponserter Platzierungen bei Hotel-Suchen in ChatGPT von 6 % im März auf 24 % im Mai 2026.",
+          "url": "https://www.comscore.com/Insights/Press-Releases/2026/9/Comscore-Expands-Its-AI-Intelligence-to-Measure-Sponsored-Chat-Advertising-and-Its-Business-Impact"
+        },
+        {
+          "title": "Videowise macht UGC-Videos für KI-Suchmaschinen auffindbar",
+          "source": "Businesswire",
+          "date": "03.09.2026",
+          "image": "",
+          "teaser": "Die E-Commerce-Videoplattform Videowise launcht 'AI Visibility' für Shopify-Marken, mit dem nutzergenerierte Videoinhalte für ChatGPT, Perplexity und Gemini zitierbar gemacht werden.",
+          "more": "Das Paket aus Answer-Engine-Optimization (AEO) und YouTube-GEO analysiert Ton und Bild von TikTok-, Instagram- und Kunden-Videos frame-genau und baut daraus strukturierte Frage-Antwort-Inhalte für Sprachmodelle. Videowise wird nach eigenen Angaben von über 4.000 Marken genutzt.",
+          "url": "https://businesswire.com/news/home/20260903764160/en/Videowise-Launches-AI-Visibility-to-Make-User-Generated-Content-Visible-to-AI"
+        }
+      ]
     },
     {
       "id": "regulation",
@@ -67,7 +96,17 @@
     {
       "id": "openweight",
       "title": "Open-Weight-Modelle",
-      "items": []
+      "items": [
+        {
+          "title": "Nvidia übernimmt Hugging Face für 12,9 Milliarden Dollar",
+          "source": "NVIDIA Blog",
+          "date": "03.09.2026",
+          "image": "",
+          "teaser": "Nvidia kauft die Open-Weight-Plattform Hugging Face für rund 12,9 Milliarden Dollar und übernimmt damit die zentrale Anlaufstelle für offene KI-Modelle mit über 18 Millionen Entwicklern und mehr als 3 Millionen gehosteten Modellen.",
+          "more": "Nvidia betont, Hugging Face solle eine offene Plattform für das gesamte KI-Ökosystem bleiben, Nvidia-Hardware sei für Nutzung oder Deployment nicht Voraussetzung. Die Übernahme unterstreicht die strategische Bedeutung offener Modellgewichte, gerade da chinesische Anbieter wie Alibabas Qwen-Familie dort die Download-Charts anführen.",
+          "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/"
+        }
+      ]
     }
   ]
 }
