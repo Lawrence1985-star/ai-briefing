@@ -1,27 +1,27 @@
 {
-  "updated": "07.09.2026",
+  "updated": "11.09.2026",
   "categories": [
     {
       "id": "models",
       "title": "Neue Modelle & Capabilities",
       "items": [
         {
-          "title": "OpenAI veröffentlicht GPT-6 Astra",
-          "source": "OpenAI",
-          "date": "03.09.2026",
+          "title": "Apple bringt Siri AI und neue Foundation Models mit iPhone 18",
+          "source": "Apple Newsroom",
+          "date": "09.09.2026",
           "image": "",
-          "teaser": "OpenAI hat mit GPT-6 Astra ein neues Flaggschiffmodell vorgestellt, das laut eigenen Angaben in Bereichen wie Softwareentwicklung, Computer-Nutzung und Cybersicherheit neue Bestwerte erreicht. Der Rollout erfolgt zunächst limitiert für vertrauenswürdige Partner.",
-          "more": "Astra soll laut OpenAI unter anderem bei FrontierMath und ARC-AGI-3 nahezu perfekte Ergebnisse liefern und wird stufenweise über ChatGPT Plus/Pro/Business/Enterprise sowie die API ausgerollt. Nach dem Hugging-Face-Sicherheitsvorfall im Juli hatte OpenAI die Veröffentlichung verzögert, um zusätzliche Schutzmassnahmen einzubauen.",
-          "url": "https://openai.com/index/gpt-6-astra/"
+          "teaser": "Zum iPhone-18-Launch hat Apple Siri grundlegend überarbeitet: Die neue Siri AI führt konversationelle Mehrschritt-Dialoge und kann app-übergreifend Aufgaben erledigen, basierend auf neuen, mit Google entwickelten Apple Foundation Models.",
+          "more": "Siri AI startet als Beta mit iOS 27 am 14. September zunächst auf Englisch, weitere Sprachen folgen im Oktober. In der EU und China ist die Funktion vorerst nicht verfügbar. Die Foundation Models laufen laut Apple sowohl on-device als auch über Private Cloud Compute.",
+          "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/"
         },
         {
-          "title": "Alibaba aktualisiert Qwen3.8-Max auf Version 0902",
-          "source": "TechNode",
-          "date": "02.09.2026",
+          "title": "FrontierMath Tier 4 gilt als vollständig gelöst",
+          "source": "Epoch AI",
+          "date": "10.09.2026",
           "image": "",
-          "teaser": "Alibaba hat mit Qwen3.8-Max-0902 ein nachtrainiertes Update seines 2,4-Billionen-Parameter-Modells veröffentlicht, das gezielt Coding- und autonome Agenten-Aufgaben verbessert.",
-          "more": "Laut Alibaba steigt der CodeArena-Wert des Modells um 22 Punkte auf Platz 1 des Leaderboards, knapp vor Claude Opus 5 Max. Architektur, Kontextfenster (1 Mio. Token) und Preise bleiben unverändert, offene Gewichte gibt es für die Max-Variante bislang nicht.",
-          "url": "https://technode.com/2026/09/02/alibaba-upgrades-qwen38-max-with-new-0902-snapshot/"
+          "teaser": "Epoch AI meldet, dass mit GPT-6 Astra nun das letzte offene Problem des schwersten Mathe-Benchmarks FrontierMath Tier 4 gelöst wurde – der Top-Score stieg damit innerhalb von 14 Monaten von 5 auf 98 Prozent.",
+          "more": "Der Benchmark gilt damit als gesättigt und taugt kaum noch zur Differenzierung von Spitzenmodellen. Epoch AI weist zugleich darauf hin, dass OpenAI Teile der Entwicklung mitfinanziert und exklusiven Zugriff auf Teile des Datensatzes hat, was bei der Einordnung der Ergebnisse zu berücksichtigen ist.",
+          "url": "https://epoch.ai/benchmarks/frontiermath-tier-4-v2"
         }
       ]
     },
@@ -30,13 +30,22 @@
       "title": "Agentic AI & Tool Use",
       "items": [
         {
-          "title": "Google bringt agentische KI-Steuerung in Google Photos",
-          "source": "TechCrunch",
-          "date": "04.09.2026",
+          "title": "OpenAI startet Agents API in der Public Beta",
+          "source": "OpenAI",
+          "date": "10.09.2026",
           "image": "",
-          "teaser": "Mit Gemini Spark können Nutzer von Google AI Pro/Ultra ihre Google-Photos-Bibliothek jetzt per Prompt durchsuchen, bearbeiten und organisieren lassen, inklusive automatisch erstellter Alben.",
-          "more": "Spark kann laut Google auch wiederkehrende Hintergrund-Workflows übernehmen, etwa wöchentliche Foto-Highlights in ein geteiltes Album zu kompilieren und eine Zusammenfassung zu verschicken. Der Rollout startet zunächst in den USA auf Englisch für berechtigte Abonnenten.",
-          "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/"
+          "teaser": "Mit der neuen Agents API bietet OpenAI den Codex-Harness als verwalteten Dienst an: Entwickler erhalten Orchestrierung, lang laufende Sessions und automatisches Kontext-Kompaktieren, ohne diese Logik selbst zu bauen.",
+          "more": "Anwendungen liefern nur noch Tools und wählen eine Ausführungsumgebung, den Rest übernimmt OpenAI, inklusive verwalteter Sandboxes oder Partner-Infrastruktur von Cloudflare, DigitalOcean, E2B und weiteren. Frühe Nutzer berichten laut OpenAI von deutlich geringerer Latenz und Kosten pro Aufgabe.",
+          "url": "https://openai.com/index/introducing-the-agents-api/"
+        },
+        {
+          "title": "Report: Vertrauen in KI-Agenten übersteigt vorhandene Kontrollen",
+          "source": "Harness (PR Newswire)",
+          "date": "10.09.2026",
+          "image": "",
+          "teaser": "Der 'State of Agent DLC 2026'-Report von Harness zeigt eine wachsende Lücke zwischen dem Vertrauen von Unternehmen in autonome KI-Agenten und den tatsächlich vorhandenen Test-, Sicherheits- und Governance-Mechanismen.",
+          "more": "Da Agenten anders als klassische Software nicht deterministisch arbeiten, reichen laut Report bestehende Kontrollen oft nicht aus – mit spürbaren Folgen bei Produktionsvorfällen, Sicherheitsvorfällen und Budgetüberschreitungen. Der Befund unterstreicht den wachsenden Bedarf an Agent-Governance parallel zur schnellen Verbreitung agentischer Systeme.",
+          "url": "https://www.prnewswire.com/news-releases/new-harness-report-reveals-enterprise-confidence-in-ai-agents-isnt-backed-by-real-controls-302875476.html"
         }
       ]
     },
@@ -45,22 +54,22 @@
       "title": "Dev & Automatisierung",
       "items": [
         {
-          "title": "Claude Code: /skill-doctor, grössere Output-Limits und Policy-Transparenz",
+          "title": "Claude Code: maxEffortLevel und frisches System-Prompt-Rendering",
           "source": "Anthropic / Claude Code Changelog",
-          "date": "05.09.2026",
+          "date": "09.09.2026",
           "image": "",
-          "teaser": "Claude Code erhält mit /skill-doctor ein neues Diagnose-Kommando, das ungenutzte Skills und deren Kontext-Kosten anzeigt, sowie deutlich höhere Limits für Command- und Task-Output.",
-          "more": "Die Settings bashOutputMaxChars und taskOutputMaxChars erlauben jetzt bis zu 128.000 Zeichen Inline-Ausgabe, zudem zeigen /status und claude doctor an, warum eine Organisationsrichtlinie nicht geladen werden konnte. Das erleichtert Debugging in Enterprise-Setups mit zentral verwalteten Policies.",
+          "teaser": "Claude Code führt eine neue Einstellung maxEffortLevel ein, mit der sich die Reasoning-Tiefe pro Modell oder global über alle Provider hinweg (inkl. Bedrock, Vertex, Foundry) deckeln lässt.",
+          "more": "Zusätzlich erlaubt die neue Option --system-prompt-snapshot off, den System-Prompt bei jeder Anfrage frisch zu rendern statt den gespeicherten Konversationsstand zu nutzen – nützlich beim Iterieren an Prompt-Texten. Daneben wurden mehrere Bugs rund um Cowork-Cloud-Tasks, mobile Ausgabe und Workflow-Agenten behoben.",
           "url": "https://code.claude.com/docs/en/changelog"
         },
         {
-          "title": "GitHub Copilot integriert Gemini 3.8 Flash und Claude Fable 5.1",
-          "source": "GitHub Changelog",
-          "date": "03.09.2026",
+          "title": "VS Code 1.137 bringt Agent Merge und Multi-Root-Agentensitzungen",
+          "source": "Visual Studio Code Updates",
+          "date": "10.09.2026",
           "image": "",
-          "teaser": "GitHub hat Gemini 3.8 Flash und Claude Fable 5.1 als neue Modelloptionen in Copilot aufgenommen, verfügbar in App, CLI und Visual Studio Code.",
-          "more": "Laut ersten Tests von GitHub zeigt Gemini 3.8 Flash starke Ergebnisse bei komplexen Terminal-Coding-Aufgaben und robuster Fehlerbehebung. Der Rollout erfolgt schrittweise für Pro-, Pro+-, Business- und Enterprise-Nutzer zu Einführungspreisen bis Ende Dezember 2026.",
-          "url": "https://github.blog/changelog/2026-09-03-gemini-3-8-flash-is-now-available-in-github-copilot/"
+          "teaser": "Mit VS Code 1.137 löst die neue, experimentelle Funktion 'Agent Merge' automatisch Review-Feedback, fehlgeschlagene Checks und Merge-Konflikte, um Pull Requests mergefertig zu machen.",
+          "more": "Ausserdem bringen Multi-Root-Workspaces Copilot- und Claude-Agentensitzungen jetzt in jeden Ordner eines Arbeitsbereichs, und GitHub Issues/PRs lassen sich direkt im Agents-Fenster reviewen, auch ohne geöffnetes Repository. Die Neuerungen fielen mit dem GitHub Copilot Day am 10. September zusammen.",
+          "url": "https://code.visualstudio.com/updates/v1_137"
         }
       ]
     },
@@ -69,42 +78,61 @@
       "title": "Marketing-AI (Bild & Video)",
       "items": [
         {
-          "title": "Comscore misst erstmals gesponserte Werbung in KI-Chats",
-          "source": "Comscore",
-          "date": "03.09.2026",
+          "title": "OpenAI veröffentlicht ChatGPT Images 2.5",
+          "source": "OpenAI",
+          "date": "08.09.2026",
           "image": "",
-          "teaser": "Comscore erweitert sein AI-Intelligence-Produkt um die Messung gesponserter Anzeigen in Chat-Antworten von Tools wie ChatGPT und verknüpft sie mit nachgelagertem Nutzerverhalten.",
-          "more": "Die neue Funktion ist Teil der monatlichen Reporting-Pipeline und soll Marken helfen, KI-Chats als eigenständigen Werbekanal neben klassischen Medien zu bewerten. Comscore verweist auf einen Anstieg gesponserter Platzierungen bei Hotel-Suchen in ChatGPT von 6 % im März auf 24 % im Mai 2026.",
-          "url": "https://www.comscore.com/Insights/Press-Releases/2026/9/Comscore-Expands-Its-AI-Intelligence-to-Measure-Sponsored-Chat-Advertising-and-Its-Business-Impact"
+          "teaser": "ChatGPT Images 2.5 bringt schärfere Details, präzisere Mehrschritt-Bearbeitung und rund 50 Prozent kürzere Generierungszeiten gegenüber Images 2.0, verfügbar für alle ChatGPT- und Codex-Nutzer.",
+          "more": "Neu sind unter anderem eine Sketch-Funktion zum direkten Skizzieren als Bildvorlage, Vorlagen für Formate wie Flyer und Produktfotos sowie Kommentare direkt im Bild für gezieltere Edits. Für Entwickler gibt es parallel die API-Modelle GPT-Image-2.5 Flare und Sunburst mit gleichen bzw. noch präziseren Fähigkeiten.",
+          "url": "https://openai.com/index/introducing-chatgpt-images-2-5/"
         },
         {
-          "title": "Videowise macht UGC-Videos für KI-Suchmaschinen auffindbar",
-          "source": "Businesswire",
-          "date": "03.09.2026",
+          "title": "Magnite testet erste agentische Werbekampagne in Europa",
+          "source": "Magnite / GlobeNewswire",
+          "date": "08.09.2026",
           "image": "",
-          "teaser": "Die E-Commerce-Videoplattform Videowise launcht 'AI Visibility' für Shopify-Marken, mit dem nutzergenerierte Videoinhalte für ChatGPT, Perplexity und Gemini zitierbar gemacht werden.",
-          "more": "Das Paket aus Answer-Engine-Optimization (AEO) und YouTube-GEO analysiert Ton und Bild von TikTok-, Instagram- und Kunden-Videos frame-genau und baut daraus strukturierte Frage-Antwort-Inhalte für Sprachmodelle. Videowise wird nach eigenen Angaben von über 4.000 Marken genutzt.",
-          "url": "https://businesswire.com/news/home/20260903764160/en/Videowise-Launches-AI-Visibility-to-Make-User-Generated-Content-Visible-to-AI"
+          "teaser": "Magnite hat mit dem Trading Desk Amnet France die erste per Sprachbefehl gesteuerte 'agentische' CTV-Kampagne in EMEA umgesetzt und die Setup-Zeit dabei um rund 70 Prozent reduziert.",
+          "more": "Über Magnite Orchestration kommunizierte ein Buyer-Agent mit einem Seller-Agent, um passendes Premium-CTV-Inventar für einen Automobilhersteller zu identifizieren und zu aktivieren, statt Kampagnen manuell zu konfigurieren. Die Kampagne erzielte eine Video-View-Through-Rate von 95 Prozent und zeigt, wie Agentic AI ins programmatische Advertising vordringt.",
+          "url": "https://investor.magnite.com/news-releases/news-release-details/magnite-launches-first-agentic-campaign-emea-amnet-france"
         }
       ]
     },
     {
       "id": "regulation",
       "title": "Regulierung & Data Sovereignty",
-      "items": []
+      "items": [
+        {
+          "title": "EU Cyber Resilience Act: Meldepflicht für Schwachstellen greift ab heute",
+          "source": "Europäische Kommission",
+          "date": "11.09.2026",
+          "image": "",
+          "teaser": "Ab dem 11. September 2026 müssen Hersteller vernetzter Produkte mit Digitalelementen aktiv ausgenutzte Schwachstellen und schwere Sicherheitsvorfälle der EU innerhalb von 24 Stunden melden – die Pflicht betrifft auch KI-gestützte Software und Geräte.",
+          "more": "Auf die erste Frühwarnung folgt eine vollständige Meldung binnen 72 Stunden sowie ein Abschlussbericht spätestens 14 Tage nach Verfügbarkeit einer Abhilfemassnahme. Verstösse können mit Bussgeldern bis 15 Millionen Euro oder 2,5 Prozent des weltweiten Jahresumsatzes geahndet werden – relevant auch für Schweizer Anbieter, die in der EU vernetzte Produkte vertreiben.",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/cra-reporting"
+        }
+      ]
     },
     {
       "id": "openweight",
       "title": "Open-Weight-Modelle",
       "items": [
         {
-          "title": "Nvidia übernimmt Hugging Face für 12,9 Milliarden Dollar",
-          "source": "NVIDIA Blog",
-          "date": "03.09.2026",
+          "title": "DeepSeek veröffentlicht V4.1 Flash mit nativer Multimodalität",
+          "source": "DeepSeek",
+          "date": "10.09.2026",
           "image": "",
-          "teaser": "Nvidia kauft die Open-Weight-Plattform Hugging Face für rund 12,9 Milliarden Dollar und übernimmt damit die zentrale Anlaufstelle für offene KI-Modelle mit über 18 Millionen Entwicklern und mehr als 3 Millionen gehosteten Modellen.",
-          "more": "Nvidia betont, Hugging Face solle eine offene Plattform für das gesamte KI-Ökosystem bleiben, Nvidia-Hardware sei für Nutzung oder Deployment nicht Voraussetzung. Die Übernahme unterstreicht die strategische Bedeutung offener Modellgewichte, gerade da chinesische Anbieter wie Alibabas Qwen-Familie dort die Download-Charts anführen.",
-          "url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/"
+          "teaser": "DeepSeek hat V4.1 Flash offiziell veröffentlicht, das kleinste Modell einer neuen Architekturfamilie mit nativer Bildverarbeitung, das laut Hersteller V4 Pro bei Leistung, Kosten und Geschwindigkeit übertrifft.",
+          "more": "Das MoE-Modell hat rund 552 Milliarden Parameter bei nur 8-16 Milliarden aktiven Parametern pro Token, 1 Mio. Token Kontext und deutlich günstigere API-Preise. Ab dem 14. September werden alle V4-Pro-Anfragen automatisch zu V4.1-Flash-Konditionen umgeleitet, was den Preisdruck auf Konkurrenten wie Z.ai und MiniMax weiter erhöht.",
+          "url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/"
+        },
+        {
+          "title": "Cohere veröffentlicht offenes Übersetzungsmodell North Small Translate",
+          "source": "MarkTechPost",
+          "date": "10.09.2026",
+          "image": "",
+          "teaser": "Cohere Labs hat mit North Small Translate ein offenes Mixture-of-Experts-Übersetzungsmodell mit 218 Milliarden Parametern für über 50 Sprachen veröffentlicht, das laut eigenen Benchmarks DeepL und Google Translate übertrifft.",
+          "more": "Die Gewichte stehen unter CC BY-NC 4.0 auf Hugging Face für Forschung und nicht-kommerzielle Nutzung bereit, kommerzielle Lizenzen laufen über Coheres Model Vault und Partner RWS Language Weaver. Auf dem WMT26-Benchmark erreicht das Modell einen Score von 83,6 und liegt damit auch vor offenen Modellen wie GLM 5.2 und Mistral Large 3.",
+          "url": "https://www.marktechpost.com/2026/09/10/cohere-releases-north-small-translate-a-218b-moe-translation-model-that-scores-83-6-on-wmt26-across-50-languages/"
         }
       ]
     }
