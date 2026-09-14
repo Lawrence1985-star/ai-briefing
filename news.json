@@ -1,27 +1,18 @@
 {
-  "updated": "11.09.2026",
+  "updated": "14.09.2026",
   "categories": [
     {
       "id": "models",
       "title": "Neue Modelle & Capabilities",
       "items": [
         {
-          "title": "Apple bringt Siri AI und neue Foundation Models mit iPhone 18",
-          "source": "Apple Newsroom",
-          "date": "09.09.2026",
+          "title": "Sakana AI veröffentlicht Orchestrierungsmodelle Fugu Max und Fugu Ultra v2",
+          "source": "Sakana AI",
+          "date": "11.09.2026",
           "image": "",
-          "teaser": "Zum iPhone-18-Launch hat Apple Siri grundlegend überarbeitet: Die neue Siri AI führt konversationelle Mehrschritt-Dialoge und kann app-übergreifend Aufgaben erledigen, basierend auf neuen, mit Google entwickelten Apple Foundation Models.",
-          "more": "Siri AI startet als Beta mit iOS 27 am 14. September zunächst auf Englisch, weitere Sprachen folgen im Oktober. In der EU und China ist die Funktion vorerst nicht verfügbar. Die Foundation Models laufen laut Apple sowohl on-device als auch über Private Cloud Compute.",
-          "url": "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/"
-        },
-        {
-          "title": "FrontierMath Tier 4 gilt als vollständig gelöst",
-          "source": "Epoch AI",
-          "date": "10.09.2026",
-          "image": "",
-          "teaser": "Epoch AI meldet, dass mit GPT-6 Astra nun das letzte offene Problem des schwersten Mathe-Benchmarks FrontierMath Tier 4 gelöst wurde – der Top-Score stieg damit innerhalb von 14 Monaten von 5 auf 98 Prozent.",
-          "more": "Der Benchmark gilt damit als gesättigt und taugt kaum noch zur Differenzierung von Spitzenmodellen. Epoch AI weist zugleich darauf hin, dass OpenAI Teile der Entwicklung mitfinanziert und exklusiven Zugriff auf Teile des Datensatzes hat, was bei der Einordnung der Ergebnisse zu berücksichtigen ist.",
-          "url": "https://epoch.ai/benchmarks/frontiermath-tier-4-v2"
+          "teaser": "Sakana AI hat mit Fugu Max und Fugu Ultra v2 zwei neue Modelle vorgestellt, die Anfragen nicht selbst beantworten, sondern automatisch an das jeweils passende, günstigste Modell aus einem Modellpool weiterleiten.",
+          "more": "Laut Sakana übertrifft Fugu Ultra v2 im visuellen Reasoning-Benchmark Chartography sowohl Anthropics Opus 5 als auch Fable 5, während Fugu Max bei den Output-Kosten 40-60 Prozent günstiger sein soll als Sonnet 5 und GPT-5.6 Terra. Beide Modelle laufen ausschliesslich als gehostete API und sind in der EU und im EWR nicht verfügbar.",
+          "url": "https://sakana.ai/fugu-max-release/"
         }
       ]
     },
@@ -30,22 +21,13 @@
       "title": "Agentic AI & Tool Use",
       "items": [
         {
-          "title": "OpenAI startet Agents API in der Public Beta",
-          "source": "OpenAI",
-          "date": "10.09.2026",
+          "title": "Salesforce gibt Agentforce-Agenten Namen, Jobrollen und Langzeitgedächtnis",
+          "source": "SiliconANGLE",
+          "date": "11.09.2026",
           "image": "",
-          "teaser": "Mit der neuen Agents API bietet OpenAI den Codex-Harness als verwalteten Dienst an: Entwickler erhalten Orchestrierung, lang laufende Sessions und automatisches Kontext-Kompaktieren, ohne diese Logik selbst zu bauen.",
-          "more": "Anwendungen liefern nur noch Tools und wählen eine Ausführungsumgebung, den Rest übernimmt OpenAI, inklusive verwalteter Sandboxes oder Partner-Infrastruktur von Cloudflare, DigitalOcean, E2B und weiteren. Frühe Nutzer berichten laut OpenAI von deutlich geringerer Latenz und Kosten pro Aufgabe.",
-          "url": "https://openai.com/index/introducing-the-agents-api/"
-        },
-        {
-          "title": "Report: Vertrauen in KI-Agenten übersteigt vorhandene Kontrollen",
-          "source": "Harness (PR Newswire)",
-          "date": "10.09.2026",
-          "image": "",
-          "teaser": "Der 'State of Agent DLC 2026'-Report von Harness zeigt eine wachsende Lücke zwischen dem Vertrauen von Unternehmen in autonome KI-Agenten und den tatsächlich vorhandenen Test-, Sicherheits- und Governance-Mechanismen.",
-          "more": "Da Agenten anders als klassische Software nicht deterministisch arbeiten, reichen laut Report bestehende Kontrollen oft nicht aus – mit spürbaren Folgen bei Produktionsvorfällen, Sicherheitsvorfällen und Budgetüberschreitungen. Der Befund unterstreicht den wachsenden Bedarf an Agent-Governance parallel zur schnellen Verbreitung agentischer Systeme.",
-          "url": "https://www.prnewswire.com/news-releases/new-harness-report-reveals-enterprise-confidence-in-ai-agents-isnt-backed-by-real-controls-302875476.html"
+          "teaser": "Salesforce hat sieben benannte Agentforce-Agenten vorgestellt – darunter Casey (Service), Paige (IT/HR) und Hunter (Outbound-Sales) – die jeweils auf eine feste Rolle im Unternehmen zugeschnitten sind.",
+          "more": "Sechs der Agenten sind bereits allgemein verfügbar, Hunter läuft als Pilot mit geplanter Verfügbarkeit im November 2026 und ist der erste Agent auf Salesforces neuer 'Long-Horizon-Runtime', die Ziele über Wochen statt nur innerhalb einer Chat-Session verfolgt. Der Schritt zeigt den Trend weg von generischen Assistenten hin zu spezialisierten, dauerhaft laufenden Unternehmensagenten.",
+          "url": "https://siliconangle.com/2026/09/11/salesforce-introduces-new-ai-agents-to-automate-sales-support-tasks/"
         }
       ]
     },
@@ -54,22 +36,13 @@
       "title": "Dev & Automatisierung",
       "items": [
         {
-          "title": "Claude Code: maxEffortLevel und frisches System-Prompt-Rendering",
-          "source": "Anthropic / Claude Code Changelog",
-          "date": "09.09.2026",
+          "title": "Claude Code: permanente Anhebung der Wochenlimits ab 14. September",
+          "source": "Bleeping Computer",
+          "date": "14.09.2026",
           "image": "",
-          "teaser": "Claude Code führt eine neue Einstellung maxEffortLevel ein, mit der sich die Reasoning-Tiefe pro Modell oder global über alle Provider hinweg (inkl. Bedrock, Vertex, Foundry) deckeln lässt.",
-          "more": "Zusätzlich erlaubt die neue Option --system-prompt-snapshot off, den System-Prompt bei jeder Anfrage frisch zu rendern statt den gespeicherten Konversationsstand zu nutzen – nützlich beim Iterieren an Prompt-Texten. Daneben wurden mehrere Bugs rund um Cowork-Cloud-Tasks, mobile Ausgabe und Workflow-Agenten behoben.",
-          "url": "https://code.claude.com/docs/en/changelog"
-        },
-        {
-          "title": "VS Code 1.137 bringt Agent Merge und Multi-Root-Agentensitzungen",
-          "source": "Visual Studio Code Updates",
-          "date": "10.09.2026",
-          "image": "",
-          "teaser": "Mit VS Code 1.137 löst die neue, experimentelle Funktion 'Agent Merge' automatisch Review-Feedback, fehlgeschlagene Checks und Merge-Konflikte, um Pull Requests mergefertig zu machen.",
-          "more": "Ausserdem bringen Multi-Root-Workspaces Copilot- und Claude-Agentensitzungen jetzt in jeden Ordner eines Arbeitsbereichs, und GitHub Issues/PRs lassen sich direkt im Agents-Fenster reviewen, auch ohne geöffnetes Repository. Die Neuerungen fielen mit dem GitHub Copilot Day am 10. September zusammen.",
-          "url": "https://code.visualstudio.com/updates/v1_137"
+          "teaser": "Anthropic hebt die Standard-Wochenlimits von Claude Code für Pro-, Max-, Team- und sitzbasierte Enterprise-Pläne dauerhaft um 25 Prozent gegenüber dem ursprünglichen Basiswert an.",
+          "more": "Da seit Mai ein befristeter 50-Prozent-Bonus auf die Wochenlimits galt und dieser am 13. September ausläuft, bedeutet die neue Dauerregelung für Nutzer, die zuletzt vom Bonus profitiert haben, effektiv ein Minus von rund 17 Prozent gegenüber dem aktuellen Stand. Die 5-Stunden-Limits sind von der Änderung nicht betroffen.",
+          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/"
         }
       ]
     },
@@ -78,63 +51,34 @@
       "title": "Marketing-AI (Bild & Video)",
       "items": [
         {
-          "title": "OpenAI veröffentlicht ChatGPT Images 2.5",
-          "source": "OpenAI",
-          "date": "08.09.2026",
+          "title": "Amazon Ads startet ChatGPT-Ads-Pilot mit OpenAI",
+          "source": "Digiday",
+          "date": "10.09.2026",
           "image": "",
-          "teaser": "ChatGPT Images 2.5 bringt schärfere Details, präzisere Mehrschritt-Bearbeitung und rund 50 Prozent kürzere Generierungszeiten gegenüber Images 2.0, verfügbar für alle ChatGPT- und Codex-Nutzer.",
-          "more": "Neu sind unter anderem eine Sketch-Funktion zum direkten Skizzieren als Bildvorlage, Vorlagen für Formate wie Flyer und Produktfotos sowie Kommentare direkt im Bild für gezieltere Edits. Für Entwickler gibt es parallel die API-Modelle GPT-Image-2.5 Flare und Sunburst mit gleichen bzw. noch präziseren Fähigkeiten.",
-          "url": "https://openai.com/index/introducing-chatgpt-images-2-5/"
+          "teaser": "Amazon Ads und OpenAI lassen ausgewählte US-Werbetreibende ihre Amazon-DSP-Kampagnen erstmals direkt in ChatGPT ausspielen, Delta Vacations ist erster Testkunde.",
+          "more": "Die Anzeigen erscheinen als Text- und Bildformate unterhalb organischer ChatGPT-Antworten und sind klar als Werbung gekennzeichnet; Amazon steuert Targeting und Kampagnenmanagement über seine Shopping-Daten, OpenAI entscheidet über Zeitpunkt und Platzierung im Gespräch. Parallel wurde Adform als Technologiepartner für den Europa-Rollout von ChatGPT Ads bestätigt, mit Volkswagen und Vodafone als ersten Testmarken.",
+          "url": "https://digiday.com/media-buying/amazon-brings-its-dsp-to-openais-chatgpt-ads-extending-its-supply-chasing-streak/"
         },
         {
-          "title": "Magnite testet erste agentische Werbekampagne in Europa",
-          "source": "Magnite / GlobeNewswire",
-          "date": "08.09.2026",
+          "title": "Google bringt Gemini-App mit Bild- und Videogenerierung auf Windows",
+          "source": "Google",
+          "date": "10.09.2026",
           "image": "",
-          "teaser": "Magnite hat mit dem Trading Desk Amnet France die erste per Sprachbefehl gesteuerte 'agentische' CTV-Kampagne in EMEA umgesetzt und die Setup-Zeit dabei um rund 70 Prozent reduziert.",
-          "more": "Über Magnite Orchestration kommunizierte ein Buyer-Agent mit einem Seller-Agent, um passendes Premium-CTV-Inventar für einen Automobilhersteller zu identifizieren und zu aktivieren, statt Kampagnen manuell zu konfigurieren. Die Kampagne erzielte eine Video-View-Through-Rate von 95 Prozent und zeigt, wie Agentic AI ins programmatische Advertising vordringt.",
-          "url": "https://investor.magnite.com/news-releases/news-release-details/magnite-launches-first-agentic-campaign-emea-amnet-france"
+          "teaser": "Die Gemini-Desktop-App ist ab sofort für Windows 10 und 11 verfügbar und lässt sich per Alt+Space öffnen, inklusive Bildgenerierung mit Nano Banana und Videoerstellung mit Gemini Omni.",
+          "more": "Die App bindet Gmail und Google Drive ein, um Kontext für Zusammenfassungen und länger laufende Aufgaben zu liefern, und ergänzt mit Gemini Spark einen Modus für mehrstufige Aufgaben. Für Marketing- und Content-Teams sinkt damit die Einstiegshürde für KI-gestützte Bild- und Videoproduktion direkt auf dem Desktop.",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/"
         }
       ]
     },
     {
       "id": "regulation",
       "title": "Regulierung & Data Sovereignty",
-      "items": [
-        {
-          "title": "EU Cyber Resilience Act: Meldepflicht für Schwachstellen greift ab heute",
-          "source": "Europäische Kommission",
-          "date": "11.09.2026",
-          "image": "",
-          "teaser": "Ab dem 11. September 2026 müssen Hersteller vernetzter Produkte mit Digitalelementen aktiv ausgenutzte Schwachstellen und schwere Sicherheitsvorfälle der EU innerhalb von 24 Stunden melden – die Pflicht betrifft auch KI-gestützte Software und Geräte.",
-          "more": "Auf die erste Frühwarnung folgt eine vollständige Meldung binnen 72 Stunden sowie ein Abschlussbericht spätestens 14 Tage nach Verfügbarkeit einer Abhilfemassnahme. Verstösse können mit Bussgeldern bis 15 Millionen Euro oder 2,5 Prozent des weltweiten Jahresumsatzes geahndet werden – relevant auch für Schweizer Anbieter, die in der EU vernetzte Produkte vertreiben.",
-          "url": "https://digital-strategy.ec.europa.eu/en/policies/cra-reporting"
-        }
-      ]
+      "items": []
     },
     {
       "id": "openweight",
       "title": "Open-Weight-Modelle",
-      "items": [
-        {
-          "title": "DeepSeek veröffentlicht V4.1 Flash mit nativer Multimodalität",
-          "source": "DeepSeek",
-          "date": "10.09.2026",
-          "image": "",
-          "teaser": "DeepSeek hat V4.1 Flash offiziell veröffentlicht, das kleinste Modell einer neuen Architekturfamilie mit nativer Bildverarbeitung, das laut Hersteller V4 Pro bei Leistung, Kosten und Geschwindigkeit übertrifft.",
-          "more": "Das MoE-Modell hat rund 552 Milliarden Parameter bei nur 8-16 Milliarden aktiven Parametern pro Token, 1 Mio. Token Kontext und deutlich günstigere API-Preise. Ab dem 14. September werden alle V4-Pro-Anfragen automatisch zu V4.1-Flash-Konditionen umgeleitet, was den Preisdruck auf Konkurrenten wie Z.ai und MiniMax weiter erhöht.",
-          "url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/"
-        },
-        {
-          "title": "Cohere veröffentlicht offenes Übersetzungsmodell North Small Translate",
-          "source": "MarkTechPost",
-          "date": "10.09.2026",
-          "image": "",
-          "teaser": "Cohere Labs hat mit North Small Translate ein offenes Mixture-of-Experts-Übersetzungsmodell mit 218 Milliarden Parametern für über 50 Sprachen veröffentlicht, das laut eigenen Benchmarks DeepL und Google Translate übertrifft.",
-          "more": "Die Gewichte stehen unter CC BY-NC 4.0 auf Hugging Face für Forschung und nicht-kommerzielle Nutzung bereit, kommerzielle Lizenzen laufen über Coheres Model Vault und Partner RWS Language Weaver. Auf dem WMT26-Benchmark erreicht das Modell einen Score von 83,6 und liegt damit auch vor offenen Modellen wie GLM 5.2 und Mistral Large 3.",
-          "url": "https://www.marktechpost.com/2026/09/10/cohere-releases-north-small-translate-a-218b-moe-translation-model-that-scores-83-6-on-wmt26-across-50-languages/"
-        }
-      ]
+      "items": []
     }
   ]
 }
