@@ -1,18 +1,18 @@
 {
-  "updated": "14.09.2026",
+  "updated": "18.09.2026",
   "categories": [
     {
       "id": "models",
       "title": "Neue Modelle & Capabilities",
       "items": [
         {
-          "title": "Sakana AI veröffentlicht Orchestrierungsmodelle Fugu Max und Fugu Ultra v2",
-          "source": "Sakana AI",
-          "date": "11.09.2026",
+          "title": "Google veröffentlicht Gemini 3.5 Transcribe für Spracherkennung",
+          "source": "Google",
+          "date": "17.09.2026",
           "image": "",
-          "teaser": "Sakana AI hat mit Fugu Max und Fugu Ultra v2 zwei neue Modelle vorgestellt, die Anfragen nicht selbst beantworten, sondern automatisch an das jeweils passende, günstigste Modell aus einem Modellpool weiterleiten.",
-          "more": "Laut Sakana übertrifft Fugu Ultra v2 im visuellen Reasoning-Benchmark Chartography sowohl Anthropics Opus 5 als auch Fable 5, während Fugu Max bei den Output-Kosten 40-60 Prozent günstiger sein soll als Sonnet 5 und GPT-5.6 Terra. Beide Modelle laufen ausschliesslich als gehostete API und sind in der EU und im EWR nicht verfügbar.",
-          "url": "https://sakana.ai/fugu-max-release/"
+          "teaser": "Google hat Gemini 3.5 Transcribe und Transcribe Live als eigenständige Speech-to-Text-Modelle allgemein verfügbar gemacht, die auf dem Audioverständnis von Gemini basieren.",
+          "more": "Die Modelle erkennen automatisch über 85 Sprachen, bieten Sprechererkennung, Wort-Zeitstempel und anpassbares Vokabular bei niedriger Latenz. Mit Fehlerraten von 2,6 Prozent (Batch) bzw. 4,0 Prozent (Streaming) positioniert Google die Modelle als Alternative zu spezialisierten Transkriptionsdiensten für Entwickler.",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/"
         }
       ]
     },
@@ -21,13 +21,13 @@
       "title": "Agentic AI & Tool Use",
       "items": [
         {
-          "title": "Salesforce gibt Agentforce-Agenten Namen, Jobrollen und Langzeitgedächtnis",
+          "title": "Anthropic legt erstmals Kennzahlen zu autonomen Forschungsagenten offen",
           "source": "SiliconANGLE",
-          "date": "11.09.2026",
+          "date": "17.09.2026",
           "image": "",
-          "teaser": "Salesforce hat sieben benannte Agentforce-Agenten vorgestellt – darunter Casey (Service), Paige (IT/HR) und Hunter (Outbound-Sales) – die jeweils auf eine feste Rolle im Unternehmen zugeschnitten sind.",
-          "more": "Sechs der Agenten sind bereits allgemein verfügbar, Hunter läuft als Pilot mit geplanter Verfügbarkeit im November 2026 und ist der erste Agent auf Salesforces neuer 'Long-Horizon-Runtime', die Ziele über Wochen statt nur innerhalb einer Chat-Session verfolgt. Der Schritt zeigt den Trend weg von generischen Assistenten hin zu spezialisierten, dauerhaft laufenden Unternehmensagenten.",
-          "url": "https://siliconangle.com/2026/09/11/salesforce-introduces-new-ai-agents-to-automate-sales-support-tasks/"
+          "teaser": "Anthropic berichtet, dass Claude inzwischen 26 Prozent der eigenen Modellforschung und -entwicklung eigenständig unter menschlicher Aufsicht führt, gegenüber praktisch null zu Jahresbeginn.",
+          "more": "Rund 30.000 Agenten waren im August gleichzeitig mit Forschungs- und Engineering-Aufgaben befasst, wobei jede Aktion vor Ausführung geprüft wird. Anthropic veröffentlicht die Methodik bewusst offen, damit andere Frontier-Labs Tempo und Aufsicht von KI-gestützter KI-Entwicklung vergleichbar messen können.",
+          "url": "https://siliconangle.com/2026/09/17/anthropic-details-practical-metrics-to-help-monitor-the-speed-of-ai-development/"
         }
       ]
     },
@@ -36,13 +36,13 @@
       "title": "Dev & Automatisierung",
       "items": [
         {
-          "title": "Claude Code: permanente Anhebung der Wochenlimits ab 14. September",
-          "source": "Bleeping Computer",
-          "date": "14.09.2026",
+          "title": "AGNTCon + MCPCon Europe: Model Context Protocol wird 'stateless'",
+          "source": "Linux Foundation / AAIF",
+          "date": "17.09.2026",
           "image": "",
-          "teaser": "Anthropic hebt die Standard-Wochenlimits von Claude Code für Pro-, Max-, Team- und sitzbasierte Enterprise-Pläne dauerhaft um 25 Prozent gegenüber dem ursprünglichen Basiswert an.",
-          "more": "Da seit Mai ein befristeter 50-Prozent-Bonus auf die Wochenlimits galt und dieser am 13. September ausläuft, bedeutet die neue Dauerregelung für Nutzer, die zuletzt vom Bonus profitiert haben, effektiv ein Minus von rund 17 Prozent gegenüber dem aktuellen Stand. Die 5-Stunden-Limits sind von der Änderung nicht betroffen.",
-          "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-cutting-claude-codes-current-weekly-limits-by-17-percent/"
+          "teaser": "Auf der AGNTCon + MCPCon Europe in Amsterdam stand die neue MCP-Spezifikation vom 28.07.2026 im Zentrum, die einen zustandslosen Kern für das Model Context Protocol einführt.",
+          "more": "Die Konferenz bündelt erstmals Agentic-AI-Infrastruktur (AGNTCon) und MCP-Ökosystem (MCPCon) an zwei Tagen mit rund 99 Sprechern. Ein zustandsloser MCP-Kern vereinfacht Skalierung und Deployment von Tool-Integrationen für Agenten und dürfte die Architektur vieler Dev-Tools wie Claude Code oder n8n-Anbindungen beeinflussen.",
+          "url": "https://technologyconference.com/agntcon-mcpcon-europe-opens-in-amsterdam-september-17-18-with-stateless-mcp-on-the-keynote-stage/"
         }
       ]
     },
@@ -51,22 +51,22 @@
       "title": "Marketing-AI (Bild & Video)",
       "items": [
         {
-          "title": "Amazon Ads startet ChatGPT-Ads-Pilot mit OpenAI",
-          "source": "Digiday",
-          "date": "10.09.2026",
+          "title": "OpenAI testet 'Sponsored Agents' als neues Werbeformat in ChatGPT",
+          "source": "Contentgrip",
+          "date": "16.09.2026",
           "image": "",
-          "teaser": "Amazon Ads und OpenAI lassen ausgewählte US-Werbetreibende ihre Amazon-DSP-Kampagnen erstmals direkt in ChatGPT ausspielen, Delta Vacations ist erster Testkunde.",
-          "more": "Die Anzeigen erscheinen als Text- und Bildformate unterhalb organischer ChatGPT-Antworten und sind klar als Werbung gekennzeichnet; Amazon steuert Targeting und Kampagnenmanagement über seine Shopping-Daten, OpenAI entscheidet über Zeitpunkt und Platzierung im Gespräch. Parallel wurde Adform als Technologiepartner für den Europa-Rollout von ChatGPT Ads bestätigt, mit Volkswagen und Vodafone als ersten Testmarken.",
-          "url": "https://digiday.com/media-buying/amazon-brings-its-dsp-to-openais-chatgpt-ads-extending-its-supply-chasing-streak/"
+          "teaser": "OpenAI pilotiert mit Wayfair und Angi als ersten Partnern gekennzeichnete Werbe-Agenten, die Nutzer direkt im ChatGPT-Chat statt über einen externen Link ansprechen.",
+          "more": "Statt auf eine Website zu verlinken, öffnet der Sponsored Agent ein eigenes, klar markiertes Gespräch mit dem Marken-Bot, das Produktfragen beantwortet und bis zur Kontaktaufnahme mit einem Dienstleister führt. Der Schritt macht ChatGPT selbst zur Werbeplattform und setzt den Trend zu Conversational Commerce fort, den zuletzt auch Amazon mit seinem ChatGPT-Ads-Pilot zeigte.",
+          "url": "https://www.contentgrip.com/openai-sponsored-agent-ads/"
         },
         {
-          "title": "Google bringt Gemini-App mit Bild- und Videogenerierung auf Windows",
-          "source": "Google",
-          "date": "10.09.2026",
+          "title": "Marketing-KI-Startup Profound erreicht mit 180-Mio.-Dollar-Runde Unicorn-Status",
+          "source": "TechCrunch",
+          "date": "15.09.2026",
           "image": "",
-          "teaser": "Die Gemini-Desktop-App ist ab sofort für Windows 10 und 11 verfügbar und lässt sich per Alt+Space öffnen, inklusive Bildgenerierung mit Nano Banana und Videoerstellung mit Gemini Omni.",
-          "more": "Die App bindet Gmail und Google Drive ein, um Kontext für Zusammenfassungen und länger laufende Aufgaben zu liefern, und ergänzt mit Gemini Spark einen Modus für mehrstufige Aufgaben. Für Marketing- und Content-Teams sinkt damit die Einstiegshürde für KI-gestützte Bild- und Videoproduktion direkt auf dem Desktop.",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/"
+          "teaser": "Profound hat eine Series-D-Runde über 180 Millionen Dollar bei einer Bewertung von 1,8 Milliarden Dollar abgeschlossen, angeführt von Sequoia Capital und Kleiner Perkins.",
+          "more": "Das Tool 'AI Marketer' setzt Sub-Agenten ein, die veraltete Inhalte aktualisieren, PR-Chancen erkennen und automatisch Anzeigen in ChatGPT, Google und Meta ausspielen; ein neues 'Ads Studio' erstellt gezielt Kampagnen für KI-Suchergebnisse. Profound zählt bereits über 1.000 Markenkunden und zeigt, wie schnell sich Marketing-Budgets auf Sichtbarkeit in KI-Chatbots statt klassischer Suche verlagern.",
+          "url": "https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round/"
         }
       ]
     },
