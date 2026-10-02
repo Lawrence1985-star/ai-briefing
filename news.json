@@ -1,27 +1,18 @@
 {
-  "updated": "28.09.2026",
+  "updated": "02.10.2026",
   "categories": [
     {
       "id": "models",
       "title": "Neue Modelle & Capabilities",
       "items": [
         {
-          "title": "Anthropic veroeffentlicht Claude Opus 5.5",
-          "source": "Anthropic",
-          "date": "22.09.2026",
+          "title": "OpenAI rollt GPT-6.1 Sol aus, GPT-6.1 Astra gestoppt",
+          "source": "Releasebot / Reuters-Bericht",
+          "date": "28.09.2026",
           "image": "",
-          "teaser": "Anthropic hat Claude Opus 5.5 vorgestellt: gleiche Leistungsklasse wie Fable 5.1, aber rund 40 Prozent guenstiger im Betrieb als Opus 5.",
-          "more": "Im automatisierten Verhaltens-Audit von Anthropic schneidet Opus 5.5 so gut ab wie kein bisher getestetes Modell. Ausgabetokens kosten nur noch 20 statt 25 US-Dollar pro Million. Sonnet 5.5 und Haiku 5.5 sollen in den kommenden Wochen folgen.",
-          "url": "https://www.anthropic.com/claude-opus-5-5"
-        },
-        {
-          "title": "OpenAI bringt GPT-6 Sol und GPT-6 Luna",
-          "source": "OpenAI",
-          "date": "22.09.2026",
-          "image": "",
-          "teaser": "Nur 19 Tage nach GPT-6 Astra veroeffentlicht OpenAI mit Sol und Luna zwei schnellere, guenstigere Modelle fuer Alltagsarbeit, Coding und Computer-Use.",
-          "more": "Die API-Preise sinken gegenueber der GPT-5.6-Generation um rund die Haelfte, gleichzeitig soll Sol laut OpenAI nur noch halb so viele Faktenfehler machen wie sein Vorgaenger und nahe an Astra-Niveau heranreichen. Luna richtet sich an sehr guenstige Hochvolumen-Anwendungen.",
-          "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+          "teaser": "OpenAI verzichtet laut Reuters auf GPT-6.1 Astra, weil interne Tests Sicherheitsbedenken zeigten. Stattdessen startet GPT-6.1 Sol in ChatGPT Work und Codex.",
+          "more": "Der Rollout beginnt bei Pro-Nutzern und wird auf Plus, Business, Enterprise und Edu ausgeweitet. Bemerkenswert, dass ein Anbieter ein fertiges Modell aus Alignment-Gruenden zurueckhaelt.",
+          "url": "https://blog.mean.ceo/new-ai-model-releases-news-october-2026/"
         }
       ]
     },
@@ -30,13 +21,22 @@
       "title": "Agentic AI & Tool Use",
       "items": [
         {
-          "title": "Dataiku startet Agent Management fuer Unternehmens-Agenten",
-          "source": "Dataiku",
-          "date": "24.09.2026",
+          "title": "OpenAI DevDay: 'Dots' als Always-on-Agenten",
+          "source": "Decrypt",
+          "date": "01.10.2026",
           "image": "",
-          "teaser": "Dataiku hat auf seiner Hauskonferenz 'Agent Management' vorgestellt, ein eigenstaendiges Produkt, das KI-Agenten plattformuebergreifend inventarisiert und nach Risiko einstuft.",
-          "more": "Hintergrund ist, dass laut IBM-Studie weniger als jede fuenfte Organisation ein vollstaendiges, aktuelles Inventar ihrer KI-Systeme fuehrt. Das Tool misst Business- und technische Performance von Agenten unabhaengig davon, auf welcher Plattform sie gebaut wurden, und geht im Oktober in die allgemeine Verfuegbarkeit.",
-          "url": "https://www.dataiku.com/company/news/dataiku-agent-management-general-availability"
+          "teaser": "OpenAI stellt 'Dots' vor: dauerhaft laufende Agenten mit eigenem Cloud-Computer und Browser, angetrieben von GPT-6 Astra.",
+          "more": "Jeder Agent kann sich mit ueber 4.000 Apps verbinden und lernt aus Feedback. Dazu kommt ChatGPT Space als gemeinsamer Arbeitsraum fuer Teams und Agenten. Verfuegbar fuer Pro und Business Premium in ausgewaehlten Maerkten.",
+          "url": "https://decrypt.co/379584/openai-ai-agents-computers-devday-2026-everything-announced"
+        },
+        {
+          "title": "Nvidia praesentiert Open Agent Safety Platform",
+          "source": "AI Agents Directory",
+          "date": "01.10.2026",
+          "image": "",
+          "teaser": "Nvidia startet mit ueber 100 Partnern eine offene Plattform, um ausser Kontrolle geratene KI-Agenten schnell zu isolieren.",
+          "more": "Mit der wachsenden Zahl autonomer Agenten wird Laufzeit-Kontrolle zum Thema. Die Plattform soll ein gemeinsamer Standard fuer Quarantaene und Ueberwachung werden.",
+          "url": "https://aiagentsdirectory.com/news/ai-agents-news-brief-october-1-2026"
         }
       ]
     },
@@ -45,30 +45,20 @@
       "title": "Dev & Automatisierung",
       "items": [
         {
-          "title": "GitHub Copilot CLI 1.0.88 mit Claude-Code-Regeln und neuen Modellen",
-          "source": "GitHub",
-          "date": "22.09.2026",
+          "title": "Claude Code erhaelt 'Mods' (Version 2.1.287)",
+          "source": "Anthropic / Releasebot",
+          "date": "01.10.2026",
           "image": "",
-          "teaser": "Die neue Copilot-CLI-Version unterstuetzt Claude-Code-Regeldateien aus .claude/rules und bringt Claude Opus 5.5 sowie GPT-6 Sol und Luna als waehlbare Modelle mit.",
-          "more": "Weitere Neuerungen sind Sandbox-Zugriff auf Session-Dateien und -Logs, verbesserte Rechteverwaltung im Enterprise-Modus und ein ueberarbeitetes Sidebar- und Chord-Handling im Terminal. Die Aenderungen zeigen, wie schnell sich Coding-Agents gegenseitig an Funktionsumfang und Modellwahl angleichen.",
-          "url": "https://github.com/github/copilot-cli/releases/tag/v1.0.88"
+          "teaser": "Mods erlauben, Claude Code mit TypeScript-Plugins anzupassen: eigene UI, Prompt-Umschreibung und Eingriffe in Tool-Calls.",
+          "more": "Mods koennen Tool-Aufrufe blockieren oder wiederholen, Berechtigungen entscheiden und Secrets aus Tool-Ausgaben entfernen. Sie werden ueber Plugins geteilt, was Teams mehr Kontrolle gibt. Das Release bringt zudem Verbesserungen bei MCP, Remote Control und Windows.",
+          "url": "https://releasebot.io/updates/anthropic"
         }
       ]
     },
     {
       "id": "marketing",
       "title": "Marketing-AI (Bild & Video)",
-      "items": [
-        {
-          "title": "OpenAI schaltet Sora-2-API ab",
-          "source": "OpenAI Help Center",
-          "date": "24.09.2026",
-          "image": "",
-          "teaser": "OpenAI hat die Sora-2-API planmaessig abgeschaltet, ueber die Drittanbieter Video-Generierung in eigene Apps integrieren konnten.",
-          "more": "Die Abkuendigung war bereits im Maerz mit sechs Monaten Vorlauf angekuendigt worden, nachdem Web- und App-Erlebnis von Sora schon im April eingestellt wurden. Fuer Marketing-Teams, die Sora per API in Workflows eingebunden hatten, bedeutet das einen erzwungenen Wechsel zu Alternativen wie Googles Video-Tools oder Kling AI.",
-          "url": "https://help.openai.com/en/articles/20001152-what-to-know-about-the-sora-discontinuation"
-        }
-      ]
+      "items": []
     },
     {
       "id": "regulation",
