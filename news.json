@@ -1,74 +1,22 @@
 {
-  "updated": "02.10.2026",
+  "updated": "05.10.2026",
   "categories": [
-    {
-      "id": "models",
-      "title": "Neue Modelle & Capabilities",
-      "items": [
-        {
-          "title": "OpenAI rollt GPT-6.1 Sol aus, GPT-6.1 Astra gestoppt",
-          "source": "Releasebot / Reuters-Bericht",
-          "date": "28.09.2026",
-          "image": "",
-          "teaser": "OpenAI verzichtet laut Reuters auf GPT-6.1 Astra, weil interne Tests Sicherheitsbedenken zeigten. Stattdessen startet GPT-6.1 Sol in ChatGPT Work und Codex.",
-          "more": "Der Rollout beginnt bei Pro-Nutzern und wird auf Plus, Business, Enterprise und Edu ausgeweitet. Bemerkenswert, dass ein Anbieter ein fertiges Modell aus Alignment-Gruenden zurueckhaelt.",
-          "url": "https://blog.mean.ceo/new-ai-model-releases-news-october-2026/"
-        }
-      ]
-    },
-    {
-      "id": "agentic",
-      "title": "Agentic AI & Tool Use",
-      "items": [
-        {
-          "title": "OpenAI DevDay: 'Dots' als Always-on-Agenten",
-          "source": "Decrypt",
-          "date": "01.10.2026",
-          "image": "",
-          "teaser": "OpenAI stellt 'Dots' vor: dauerhaft laufende Agenten mit eigenem Cloud-Computer und Browser, angetrieben von GPT-6 Astra.",
-          "more": "Jeder Agent kann sich mit ueber 4.000 Apps verbinden und lernt aus Feedback. Dazu kommt ChatGPT Space als gemeinsamer Arbeitsraum fuer Teams und Agenten. Verfuegbar fuer Pro und Business Premium in ausgewaehlten Maerkten.",
-          "url": "https://decrypt.co/379584/openai-ai-agents-computers-devday-2026-everything-announced"
-        },
-        {
-          "title": "Nvidia praesentiert Open Agent Safety Platform",
-          "source": "AI Agents Directory",
-          "date": "01.10.2026",
-          "image": "",
-          "teaser": "Nvidia startet mit ueber 100 Partnern eine offene Plattform, um ausser Kontrolle geratene KI-Agenten schnell zu isolieren.",
-          "more": "Mit der wachsenden Zahl autonomer Agenten wird Laufzeit-Kontrolle zum Thema. Die Plattform soll ein gemeinsamer Standard fuer Quarantaene und Ueberwachung werden.",
-          "url": "https://aiagentsdirectory.com/news/ai-agents-news-brief-october-1-2026"
-        }
-      ]
-    },
-    {
-      "id": "devtools",
-      "title": "Dev & Automatisierung",
-      "items": [
-        {
-          "title": "Claude Code erhaelt 'Mods' (Version 2.1.287)",
-          "source": "Anthropic / Releasebot",
-          "date": "01.10.2026",
-          "image": "",
-          "teaser": "Mods erlauben, Claude Code mit TypeScript-Plugins anzupassen: eigene UI, Prompt-Umschreibung und Eingriffe in Tool-Calls.",
-          "more": "Mods koennen Tool-Aufrufe blockieren oder wiederholen, Berechtigungen entscheiden und Secrets aus Tool-Ausgaben entfernen. Sie werden ueber Plugins geteilt, was Teams mehr Kontrolle gibt. Das Release bringt zudem Verbesserungen bei MCP, Remote Control und Windows.",
-          "url": "https://releasebot.io/updates/anthropic"
-        }
-      ]
-    },
-    {
-      "id": "marketing",
-      "title": "Marketing-AI (Bild & Video)",
-      "items": []
-    },
-    {
-      "id": "regulation",
-      "title": "Regulierung & Data Sovereignty",
-      "items": []
-    },
-    {
-      "id": "openweight",
-      "title": "Open-Weight-Modelle",
-      "items": []
-    }
+    { "id": "models", "title": "Neue Modelle & Capabilities", "items": [
+      { "title": "Microsoft AI veröffentlicht MAI-Voice-2.1 und MAI-Transcribe-2-Streaming", "source": "LLM Gateway Timeline", "date": "01.10.2026", "image": "", "teaser": "Microsoft AI bringt zwei Text-to-Speech-Modelle und ein Streaming-Transkriptionsmodell heraus.", "more": "Die Modelle erweitern Microsofts eigene Sprachstack-Palette. Besonders das Streaming-Transkriptionsmodell ist für Echtzeit-Anwendungen wie Meetings und Voice-Agents relevant.", "url": "https://llmgateway.io/timeline" }
+    ]},
+    { "id": "agentic", "title": "Agentic AI & Tool Use", "items": [
+      { "title": "OpenAI startet always-on \"dots\"-Agenten", "source": "AI Agents News Brief", "date": "02.10.2026", "image": "", "teaser": "OpenAI bringt dauerhaft laufende Agenten, die Ziele über mehrere Apps hinweg mit wenig Aufsicht verfolgen.", "more": "Die Agenten arbeiten laut Bericht über Slack und Teams, pflegen laufende Projekte und nutzen Codex sowie ChatGPT Work. Das verschiebt Agenten von Einzelaufgaben hin zu persistenter Teamarbeit.", "url": "https://aiagentsdirectory.com/news/ai-agents-news-brief-october-2-2026" },
+      { "title": "Manus 2.0 mit neuer Agenten-Architektur", "source": "AI Agents News Brief", "date": "03.10.2026", "image": "", "teaser": "Manus baut seine Plattform um: Orchestrierungsschicht Cascade, Cloud Computer und ereignisgesteuerte Automationen.", "more": "Die neue App Cue gibt einzelnen Agenten eigene E-Mail, Telefonnummer, Wallet und Rechner. Damit rücken autonome Agenten mit eigener Identität näher an den Alltag.", "url": "https://aiagentsdirectory.com/news/ai-agents-news-brief-october-3-2026" },
+      { "title": "Meta und Shopify: Agenten kaufen direkt ein", "source": "AI Agents News Brief", "date": "01.10.2026", "image": "", "teaser": "Metas Muse-Agenten können über Shopify Produkte suchen und per Shop Pay bezahlen; Shopify öffnet den Checkout für browserbasierte Agenten.", "more": "Agentic Commerce wird damit konkret: Agenten dürfen mit Freigabe der Käufer Warenkörbe lesen, ändern und abschicken. Für Händler entstehen neue Kanäle und Sicherheitsfragen.", "url": "https://aiagentsdirectory.com/news/ai-agents-news-brief-october-1-2026" }
+    ]},
+    { "id": "devtools", "title": "Dev & Automatisierung", "items": [
+      { "title": "Claude Code: Sonnet 5.5 als Standard, Mods und neue Agent-Funktionen", "source": "Releasebot", "date": "05.10.2026", "image": "", "teaser": "Claude Code nutzt Sonnet 5.5 als Standardmodell, bringt Mods und die Versionen 2.1.288/2.1.289 mit Verbesserungen bei Plugins, MCP und Sicherheit.", "more": "Mods erlauben TypeScript-basierte Anpassungen von UI und Verhalten in CLI und Desktop-App. Neu sind zudem agent.spawn und Agent-State-Support sowie robustere Resume-Flows.", "url": "https://releasebot.io/updates/anthropic/claude-code" }
+    ]},
+    { "id": "marketing", "title": "Marketing-AI (Bild & Video)", "items": [] },
+    { "id": "regulation", "title": "Regulierung & Data Sovereignty", "items": [] },
+    { "id": "openweight", "title": "Open-Weight-Modelle", "items": [
+      { "title": "DeepSeek-V4.1-Flash veröffentlicht", "source": "LLM Gateway Timeline", "date": "04.10.2026", "image": "", "teaser": "DeepSeek legt mit V4.1-Flash ein Update seiner effizienten V4-Flash-Linie nach.", "more": "V4-Flash gilt mit rund 284B Parametern (13B aktiv) als nahezu frontiernahes Modell für kleine GPU-Setups. Das Update dürfte die Lücke zu proprietären Modellen weiter verkleinern.", "url": "https://llmgateway.io/timeline" },
+      { "title": "Cloudflare und Amazon mit offenen Decision-Modellen", "source": "LLM Gateway Timeline", "date": "01.10.2026", "image": "", "teaser": "Cloudflare (Clef, Clef-Flash) und Amazon haben Open-Weight-Entscheidungsmodelle veröffentlicht.", "more": "Beide Anbieter öffnen spezialisierte Modelle statt Allzweck-LLMs. Interessant für Entwickler, die Modelle selbst hosten wollen.", "url": "https://llmgateway.io/timeline" }
+    ]}
   ]
 }
