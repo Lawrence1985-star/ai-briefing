@@ -1,82 +1,18 @@
 {
-  "updated": "19.10.2026",
+  "updated": "23.10.2026",
   "categories": [
-    {
-      "id": "models",
-      "title": "Neue Modelle & Capabilities",
-      "items": [
-        {
-          "title": "xAI veröffentlicht Grok Voice 3.0",
-          "source": "AF.NET / BenchLM",
-          "date": "14.10.2026",
-          "image": "",
-          "teaser": "xAI hat laut BenchLM-Übersicht am 14. Oktober Grok Voice 3.0 gestartet.",
-          "more": "Das Sprachmodell erweitert xAIs Grok-Familie um Voice-Fähigkeiten. Details zu Benchmarks sind in der Quelle nicht genannt; die Meldung stammt von einem Aggregator und sollte beim Anbieter gegengeprüft werden.",
-          "url": "https://af.net/realtime/confirmed-ai-model-releases-for-october-2026/"
-        },
-        {
-          "title": "Meta bringt Muse Spark",
-          "source": "AF.NET / BenchLM",
-          "date": "15.10.2026",
-          "image": "",
-          "teaser": "Meta hat am 15. Oktober das Modell Muse Spark veröffentlicht.",
-          "more": "Muse Spark zählt zu den 20 im Oktober bestätigten Modellreleases. Ob es offene Gewichte hat, ist laut Quellenlage unklar.",
-          "url": "https://af.net/realtime/confirmed-ai-model-releases-for-october-2026/"
-        }
-      ]
-    },
-    {
-      "id": "agentic",
-      "title": "Agentic AI & Tool Use",
-      "items": []
-    },
-    {
-      "id": "devtools",
-      "title": "Dev & Automatisierung",
-      "items": []
-    },
-    {
-      "id": "marketing",
-      "title": "Marketing-AI (Bild & Video)",
-      "items": []
-    },
-    {
-      "id": "regulation",
-      "title": "Regulierung & Data Sovereignty",
-      "items": []
-    },
-    {
-      "id": "openweight",
-      "title": "Open-Weight-Modelle",
-      "items": [
-        {
-          "title": "NVIDIA Nemotron 3.5 Super VL 120B A12B",
-          "source": "AF.NET / BenchLM",
-          "date": "15.10.2026",
-          "image": "",
-          "teaser": "NVIDIA hat am 15. Oktober das multimodale Modell Nemotron 3.5 Super VL (120B, 12B aktiv) vorgestellt.",
-          "more": "Mixture-of-Experts-Architektur mit Vision-Sprache-Fähigkeiten. NVIDIA veröffentlicht Nemotron-Modelle üblicherweise mit offenen Gewichten; Lizenz bitte prüfen.",
-          "url": "https://af.net/realtime/confirmed-ai-model-releases-for-october-2026/"
-        },
-        {
-          "title": "Liquid AI LFM2.5-24B-A2B",
-          "source": "AF.NET / BenchLM",
-          "date": "13.10.2026",
-          "image": "",
-          "teaser": "Liquid AI hat am 13. Oktober LFM2.5-24B-A2B veröffentlicht, ein effizientes MoE-Modell mit nur ca. 2B aktiven Parametern.",
-          "more": "Zielt auf ressourcenschonenden Einsatz auf lokaler Hardware. Lizenzdetails nicht verifiziert.",
-          "url": "https://af.net/realtime/confirmed-ai-model-releases-for-october-2026/"
-        },
-        {
-          "title": "IFM veröffentlicht Jais 3",
-          "source": "AF.NET / BenchLM",
-          "date": "15.10.2026",
-          "image": "",
-          "teaser": "Das arabisch-englische Modell Jais 3 von IFM erschien am 15. Oktober.",
-          "more": "Die Jais-Reihe wurde bisher mit offenen Gewichten angeboten; für Version 3 bitte die Lizenz prüfen.",
-          "url": "https://af.net/realtime/confirmed-ai-model-releases-for-october-2026/"
-        }
-      ]
-    }
+    { "id": "models", "title": "Neue Modelle & Capabilities", "items": [] },
+    { "id": "agentic", "title": "Agentic AI & Tool Use", "items": [
+      { "title": "Anthropic startet Claude Duet als proaktive Agenten-App", "source": "Releasebot", "date": "21.10.2026", "image": "", "teaser": "Anthropic hat Claude Duet in einer Research Preview gestartet, eine App mit einem proaktiven Agenten für Pro- und Max-Abonnenten.", "more": "Der Agent liefert laut Berichten Morgen-Briefings und arbeitet Aufgaben im Hintergrund ab, bei sensiblen Aktionen fragt er nach Freigabe. Zugang gibt es vorerst per Warteliste, vermutlich nur in den USA. Die Angaben stammen aus Aggregatoren und sollten mit der Anbieter-Ankündigung abgeglichen werden.", "url": "https://releasebot.io/updates/anthropic" },
+      { "title": "Notion: Agent-Harness für Aufgaben über 24 Stunden", "source": "AI Weekly", "date": "21.10.2026", "image": "", "teaser": "Notion hat laut Newsüberblick eine neue Agenten-Generation ausgerollt, die einzelne Aufgaben länger als 24 Stunden bearbeiten kann.", "more": "Langlaufende Agenten sind ein Schritt weg vom Chat hin zu autonomer Arbeit im Hintergrund. Die Meldung stammt aus einer Sammelquelle, Details zu Funktionsumfang und Verfügbarkeit sind offen.", "url": "https://aiweekly.co/ai-news-today" }
+    ]},
+    { "id": "devtools", "title": "Dev & Automatisierung", "items": [
+      { "title": "VS Code 1.137: Agent Host mit isolierten Dev Containern", "source": "AI Weekly", "date": "21.10.2026", "image": "", "teaser": "VS Code 1.137 bringt laut Bericht einen Agent Host, der Coding-Agenten in isolierten Dev Containern ausführt.", "more": "Die Isolation soll Risiken durch autonome Agenten reduzieren, etwa bei Dateizugriffen und Befehlen. Auch Chrome DevTools erhält Berichten zufolge neue Steuerungsmöglichkeiten für Agenten. Quelle ist ein Aggregator, die Release Notes sollten gegengeprüft werden.", "url": "https://aiweekly.co/ai-news-today" }
+    ]},
+    { "id": "marketing", "title": "Marketing-AI (Bild & Video)", "items": [
+      { "title": "ElevenLabs startet Chimera für Voice- und Video-Workflows", "source": "AI Weekly", "date": "21.10.2026", "image": "", "teaser": "ElevenLabs hat mit Chimera eine Plattform vorgestellt, die Sprach- und Video-Workflows für Creator, Entwickler und Unternehmen verbindet.", "more": "Für Marketing ist relevant, dass eigene Stimmen und Videoproduktion in einem Workflow zusammenlaufen. Die Meldung stammt aus einer Sammelquelle, Preise und Details sind noch nicht geprüft.", "url": "https://aiweekly.co/ai-news-today" }
+    ]},
+    { "id": "regulation", "title": "Regulierung & Data Sovereignty", "items": [] },
+    { "id": "openweight", "title": "Open-Weight-Modelle", "items": [] }
   ]
 }
