@@ -1,29 +1,10 @@
 {
-  "updated": "19.10.2026",
+  "updated": "26.10.2026",
   "categories": [
     {
       "id": "models",
       "title": "Neue Modelle & Capabilities",
-      "items": [
-        {
-          "title": "xAI veröffentlicht Grok Voice 3.0",
-          "source": "AF.NET / BenchLM",
-          "date": "14.10.2026",
-          "image": "",
-          "teaser": "xAI hat laut BenchLM-Übersicht am 14. Oktober Grok Voice 3.0 gestartet.",
-          "more": "Das Sprachmodell erweitert xAIs Grok-Familie um Voice-Fähigkeiten. Details zu Benchmarks sind in der Quelle nicht genannt; die Meldung stammt von einem Aggregator und sollte beim Anbieter gegengeprüft werden.",
-          "url": "https://af.net/realtime/confirmed-ai-model-releases-for-october-2026/"
-        },
-        {
-          "title": "Meta bringt Muse Spark",
-          "source": "AF.NET / BenchLM",
-          "date": "15.10.2026",
-          "image": "",
-          "teaser": "Meta hat am 15. Oktober das Modell Muse Spark veröffentlicht.",
-          "more": "Muse Spark zählt zu den 20 im Oktober bestätigten Modellreleases. Ob es offene Gewichte hat, ist laut Quellenlage unklar.",
-          "url": "https://af.net/realtime/confirmed-ai-model-releases-for-october-2026/"
-        }
-      ]
+      "items": []
     },
     {
       "id": "agentic",
@@ -48,35 +29,7 @@
     {
       "id": "openweight",
       "title": "Open-Weight-Modelle",
-      "items": [
-        {
-          "title": "NVIDIA Nemotron 3.5 Super VL 120B A12B",
-          "source": "AF.NET / BenchLM",
-          "date": "15.10.2026",
-          "image": "",
-          "teaser": "NVIDIA hat am 15. Oktober das multimodale Modell Nemotron 3.5 Super VL (120B, 12B aktiv) vorgestellt.",
-          "more": "Mixture-of-Experts-Architektur mit Vision-Sprache-Fähigkeiten. NVIDIA veröffentlicht Nemotron-Modelle üblicherweise mit offenen Gewichten; Lizenz bitte prüfen.",
-          "url": "https://af.net/realtime/confirmed-ai-model-releases-for-october-2026/"
-        },
-        {
-          "title": "Liquid AI LFM2.5-24B-A2B",
-          "source": "AF.NET / BenchLM",
-          "date": "13.10.2026",
-          "image": "",
-          "teaser": "Liquid AI hat am 13. Oktober LFM2.5-24B-A2B veröffentlicht, ein effizientes MoE-Modell mit nur ca. 2B aktiven Parametern.",
-          "more": "Zielt auf ressourcenschonenden Einsatz auf lokaler Hardware. Lizenzdetails nicht verifiziert.",
-          "url": "https://af.net/realtime/confirmed-ai-model-releases-for-october-2026/"
-        },
-        {
-          "title": "IFM veröffentlicht Jais 3",
-          "source": "AF.NET / BenchLM",
-          "date": "15.10.2026",
-          "image": "",
-          "teaser": "Das arabisch-englische Modell Jais 3 von IFM erschien am 15. Oktober.",
-          "more": "Die Jais-Reihe wurde bisher mit offenen Gewichten angeboten; für Version 3 bitte die Lizenz prüfen.",
-          "url": "https://af.net/realtime/confirmed-ai-model-releases-for-october-2026/"
-        }
-      ]
+      "items": []
     }
   ]
 }
