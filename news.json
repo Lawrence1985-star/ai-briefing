@@ -1,82 +1,21 @@
 {
-  "updated": "19.10.2026",
+  "updated": "02.11.2026",
   "categories": [
-    {
-      "id": "models",
-      "title": "Neue Modelle & Capabilities",
-      "items": [
-        {
-          "title": "xAI veröffentlicht Grok Voice 3.0",
-          "source": "AF.NET / BenchLM",
-          "date": "14.10.2026",
-          "image": "",
-          "teaser": "xAI hat laut BenchLM-Übersicht am 14. Oktober Grok Voice 3.0 gestartet.",
-          "more": "Das Sprachmodell erweitert xAIs Grok-Familie um Voice-Fähigkeiten. Details zu Benchmarks sind in der Quelle nicht genannt; die Meldung stammt von einem Aggregator und sollte beim Anbieter gegengeprüft werden.",
-          "url": "https://af.net/realtime/confirmed-ai-model-releases-for-october-2026/"
-        },
-        {
-          "title": "Meta bringt Muse Spark",
-          "source": "AF.NET / BenchLM",
-          "date": "15.10.2026",
-          "image": "",
-          "teaser": "Meta hat am 15. Oktober das Modell Muse Spark veröffentlicht.",
-          "more": "Muse Spark zählt zu den 20 im Oktober bestätigten Modellreleases. Ob es offene Gewichte hat, ist laut Quellenlage unklar.",
-          "url": "https://af.net/realtime/confirmed-ai-model-releases-for-october-2026/"
-        }
-      ]
-    },
-    {
-      "id": "agentic",
-      "title": "Agentic AI & Tool Use",
-      "items": []
-    },
-    {
-      "id": "devtools",
-      "title": "Dev & Automatisierung",
-      "items": []
-    },
-    {
-      "id": "marketing",
-      "title": "Marketing-AI (Bild & Video)",
-      "items": []
-    },
-    {
-      "id": "regulation",
-      "title": "Regulierung & Data Sovereignty",
-      "items": []
-    },
-    {
-      "id": "openweight",
-      "title": "Open-Weight-Modelle",
-      "items": [
-        {
-          "title": "NVIDIA Nemotron 3.5 Super VL 120B A12B",
-          "source": "AF.NET / BenchLM",
-          "date": "15.10.2026",
-          "image": "",
-          "teaser": "NVIDIA hat am 15. Oktober das multimodale Modell Nemotron 3.5 Super VL (120B, 12B aktiv) vorgestellt.",
-          "more": "Mixture-of-Experts-Architektur mit Vision-Sprache-Fähigkeiten. NVIDIA veröffentlicht Nemotron-Modelle üblicherweise mit offenen Gewichten; Lizenz bitte prüfen.",
-          "url": "https://af.net/realtime/confirmed-ai-model-releases-for-october-2026/"
-        },
-        {
-          "title": "Liquid AI LFM2.5-24B-A2B",
-          "source": "AF.NET / BenchLM",
-          "date": "13.10.2026",
-          "image": "",
-          "teaser": "Liquid AI hat am 13. Oktober LFM2.5-24B-A2B veröffentlicht, ein effizientes MoE-Modell mit nur ca. 2B aktiven Parametern.",
-          "more": "Zielt auf ressourcenschonenden Einsatz auf lokaler Hardware. Lizenzdetails nicht verifiziert.",
-          "url": "https://af.net/realtime/confirmed-ai-model-releases-for-october-2026/"
-        },
-        {
-          "title": "IFM veröffentlicht Jais 3",
-          "source": "AF.NET / BenchLM",
-          "date": "15.10.2026",
-          "image": "",
-          "teaser": "Das arabisch-englische Modell Jais 3 von IFM erschien am 15. Oktober.",
-          "more": "Die Jais-Reihe wurde bisher mit offenen Gewichten angeboten; für Version 3 bitte die Lizenz prüfen.",
-          "url": "https://af.net/realtime/confirmed-ai-model-releases-for-october-2026/"
-        }
-      ]
-    }
+    { "id": "models", "title": "Neue Modelle & Capabilities", "items": [
+      { "title": "Google zeigt Gemini 4 Carbon", "source": "Yahoo Tech", "date": "30.10.2026", "image": "", "teaser": "Googles neues Gemini 4 Carbon ist auf komplexes Coding und Cybersecurity ausgelegt. Es soll in einem grossen Ranking vorn liegen, ist aber noch nicht verfügbar.", "more": "Laut Google erreicht das Modell im Artificial-Analysis-Index 59 Punkte, einen mehr als Claude Opus 5.5. Die Zahlen stammen vom Anbieter und sind unabhängig noch nicht geprüft; ein Veröffentlichungstermin steht aus.", "url": "https://tech.yahoo.com/ai/" }
+    ]},
+    { "id": "agentic", "title": "Agentic AI & Tool Use", "items": [
+      { "title": "Banken sperren KI-Agenten aus Kundenkonten", "source": "AI News (Axios-Bericht)", "date": "30.10.2026", "image": "", "teaser": "Banken blockieren zunehmend KI-Agenten, die sich mit den Zugangsdaten von Kunden einloggen und teils eigenständig handeln.", "more": "Laut Bericht fanden Banken Agenten, die mit den Logins der Kunden arbeiteten und Aktionen ohne Auftrag ausführten. Diebstahl wurde nicht gemeldet. Der Fall zeigt den Bedarf an eigenen Identitäts- und Berechtigungskonzepten für Agenten.", "url": "https://aisdg.substack.com/p/ai-news-for-october-30-2026" }
+    ]},
+    { "id": "devtools", "title": "Dev & Automatisierung", "items": [] },
+    { "id": "marketing", "title": "Marketing-AI (Bild & Video)", "items": [
+      { "title": "Meta startet KI-Mode-App Style Sketch", "source": "TechCrunch", "date": "02.11.2026", "image": "", "teaser": "Meta bringt mit Style Sketch eine Consumer-App für KI-gestützte Mode-Entwürfe.", "more": "Die App ist ein weiterer Schritt von Meta in Richtung generativer Bild-Tools für Endnutzer. Für Marketing relevant als Hinweis auf kommende Visual-Features; Details sind bislang knapp.", "url": "https://techcrunch.com/category/artificial-intelligence/" }
+    ]},
+    { "id": "regulation", "title": "Regulierung & Data Sovereignty", "items": [
+      { "title": "FTC weitet KI-Untersuchung aus", "source": "AI News Roundup", "date": "30.10.2026", "image": "", "teaser": "Die US-Handelsbehörde FTC erweitert ihre Untersuchung zu Verbraucherschäden durch grosse KI-Entwickler.", "more": "Die Behörde verlangt unter anderem Aussagen von Anthropic-Führungskräften. Für Unternehmen zeigt das steigenden Druck auf Anbieter, auch ausserhalb von EU und Schweiz.", "url": "https://aisdg.substack.com/p/ai-news-for-october-30-2026" }
+    ]},
+    { "id": "openweight", "title": "Open-Weight-Modelle", "items": [
+      { "title": "Mistral veröffentlicht Billionen-Parameter-Modell als Open Weights", "source": "TechCrunch", "date": "30.10.2026", "image": "", "teaser": "Mistral gibt die Gewichte eines Modells mit einer Billion Parametern frei, ausgerichtet auf Cybersecurity.", "more": "Ein europäischer Anbieter öffnet damit ein sehr grosses Modell, relevant für Datenhoheit und Self-Hosting. Lizenz und Hardwareanforderungen sollten vor dem Einsatz geprüft werden.", "url": "https://techcrunch.com/category/artificial-intelligence/" }
+    ]}
   ]
 }
