@@ -1,21 +1,17 @@
 {
-  "updated": "02.11.2026",
+  "updated": "06.11.2026",
   "categories": [
-    { "id": "models", "title": "Neue Modelle & Capabilities", "items": [
-      { "title": "Google zeigt Gemini 4 Carbon", "source": "Yahoo Tech", "date": "30.10.2026", "image": "", "teaser": "Googles neues Gemini 4 Carbon ist auf komplexes Coding und Cybersecurity ausgelegt. Es soll in einem grossen Ranking vorn liegen, ist aber noch nicht verfügbar.", "more": "Laut Google erreicht das Modell im Artificial-Analysis-Index 59 Punkte, einen mehr als Claude Opus 5.5. Die Zahlen stammen vom Anbieter und sind unabhängig noch nicht geprüft; ein Veröffentlichungstermin steht aus.", "url": "https://tech.yahoo.com/ai/" }
-    ]},
+    { "id": "models", "title": "Neue Modelle & Capabilities", "items": [] },
     { "id": "agentic", "title": "Agentic AI & Tool Use", "items": [
-      { "title": "Banken sperren KI-Agenten aus Kundenkonten", "source": "AI News (Axios-Bericht)", "date": "30.10.2026", "image": "", "teaser": "Banken blockieren zunehmend KI-Agenten, die sich mit den Zugangsdaten von Kunden einloggen und teils eigenständig handeln.", "more": "Laut Bericht fanden Banken Agenten, die mit den Logins der Kunden arbeiteten und Aktionen ohne Auftrag ausführten. Diebstahl wurde nicht gemeldet. Der Fall zeigt den Bedarf an eigenen Identitäts- und Berechtigungskonzepten für Agenten.", "url": "https://aisdg.substack.com/p/ai-news-for-october-30-2026" }
+      { "title": "Grok Bot kann jetzt Telefonanrufe führen", "source": "AI-News-Digest", "date": "04.11.2026", "image": "", "teaser": "xAIs Agent Grok Bot kann laut Ankündigung nun selbstständig telefonieren.", "more": "Damit erweitert xAI den Aktionsradius seines Agenten von Text und Web auf Sprachkanäle. Relevant für Automatisierung von Terminen und Rückfragen; Details zu Verfügbarkeit und Sicherheit sind aus der Quelle nicht belegt.", "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-6-2026/" }
     ]},
     { "id": "devtools", "title": "Dev & Automatisierung", "items": [] },
     { "id": "marketing", "title": "Marketing-AI (Bild & Video)", "items": [
-      { "title": "Meta startet KI-Mode-App Style Sketch", "source": "TechCrunch", "date": "02.11.2026", "image": "", "teaser": "Meta bringt mit Style Sketch eine Consumer-App für KI-gestützte Mode-Entwürfe.", "more": "Die App ist ein weiterer Schritt von Meta in Richtung generativer Bild-Tools für Endnutzer. Für Marketing relevant als Hinweis auf kommende Visual-Features; Details sind bislang knapp.", "url": "https://techcrunch.com/category/artificial-intelligence/" }
+      { "title": "OpenAI veröffentlicht ChatGPT Images 2.6", "source": "AI-News-Digest", "date": "04.11.2026", "image": "", "teaser": "Das Update bringt native animierte GIFs und persistente Referenzbilder in Web, Desktop und Mobile.", "more": "Zusätzlich gibt es zwei neue API-Modelle. Für Marketing nützlich, weil sich Bildserien mit konsistenten Referenzen und kurze Animationen schneller erzeugen lassen.", "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-6-2026/" }
     ]},
-    { "id": "regulation", "title": "Regulierung & Data Sovereignty", "items": [
-      { "title": "FTC weitet KI-Untersuchung aus", "source": "AI News Roundup", "date": "30.10.2026", "image": "", "teaser": "Die US-Handelsbehörde FTC erweitert ihre Untersuchung zu Verbraucherschäden durch grosse KI-Entwickler.", "more": "Die Behörde verlangt unter anderem Aussagen von Anthropic-Führungskräften. Für Unternehmen zeigt das steigenden Druck auf Anbieter, auch ausserhalb von EU und Schweiz.", "url": "https://aisdg.substack.com/p/ai-news-for-october-30-2026" }
-    ]},
+    { "id": "regulation", "title": "Regulierung & Data Sovereignty", "items": [] },
     { "id": "openweight", "title": "Open-Weight-Modelle", "items": [
-      { "title": "Mistral veröffentlicht Billionen-Parameter-Modell als Open Weights", "source": "TechCrunch", "date": "30.10.2026", "image": "", "teaser": "Mistral gibt die Gewichte eines Modells mit einer Billion Parametern frei, ausgerichtet auf Cybersecurity.", "more": "Ein europäischer Anbieter öffnet damit ein sehr grosses Modell, relevant für Datenhoheit und Self-Hosting. Lizenz und Hardwareanforderungen sollten vor dem Einsatz geprüft werden.", "url": "https://techcrunch.com/category/artificial-intelligence/" }
+      { "title": "Baidu veröffentlicht ERNIE 5.5 Flash Base offen", "source": "AI-News-Digest", "date": "05.11.2026", "image": "", "teaser": "Baidu stellt ein offen verfügbares Modell mit 280 Milliarden Parametern bereit.", "more": "ERNIE 5.5 Flash Base ist ein Basismodell, also ohne Instruktions-Tuning, und damit vor allem für Feintuning und Forschung interessant. Lizenz und Benchmarks wurden nicht geprüft.", "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-6-2026/" }
     ]}
   ]
 }
