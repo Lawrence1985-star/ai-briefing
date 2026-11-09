@@ -1,17 +1,21 @@
 {
-  "updated": "06.11.2026",
+  "updated": "09.11.2026",
   "categories": [
-    { "id": "models", "title": "Neue Modelle & Capabilities", "items": [] },
-    { "id": "agentic", "title": "Agentic AI & Tool Use", "items": [
-      { "title": "Grok Bot kann jetzt Telefonanrufe führen", "source": "AI-News-Digest", "date": "04.11.2026", "image": "", "teaser": "xAIs Agent Grok Bot kann laut Ankündigung nun selbstständig telefonieren.", "more": "Damit erweitert xAI den Aktionsradius seines Agenten von Text und Web auf Sprachkanäle. Relevant für Automatisierung von Terminen und Rückfragen; Details zu Verfügbarkeit und Sicherheit sind aus der Quelle nicht belegt.", "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-6-2026/" }
+    { "id": "models", "title": "Neue Modelle & Capabilities", "items": [
+      { "title": "OpenAI veröffentlicht GPT-6 Cyber", "source": "ThursdAI Releases", "date": "05.11.2026", "image": "", "teaser": "Laut Release-Tracker hat OpenAI am 5. November das Spezialmodell GPT-6 Cyber veröffentlicht.", "more": "Das Modell steht in der Release-Liste der Woche ganz oben, zusammen mit GPT-Image 2.6 (4. November). Details zu Fähigkeiten und Verfügbarkeit sind bislang nur über Aggregatoren belegt und sollten im offiziellen OpenAI-Changelog geprüft werden.", "url": "https://thursdai.news/releases/2026-11" }
     ]},
-    { "id": "devtools", "title": "Dev & Automatisierung", "items": [] },
+    { "id": "agentic", "title": "Agentic AI & Tool Use", "items": [
+      { "title": "Cloudflare: Analytics für Agenten-Zugriffe auf Websites", "source": "AI Agents Directory", "date": "04.11.2026", "image": "", "teaser": "Cloudflare startet Analysen für persönliche KI-Agenten und feinere Zugriffsrichtlinien.", "more": "Website-Betreiber können damit erkennen, welche Agenten im Auftrag von Nutzern zugreifen, und diese gezielt steuern. Das ist relevant, weil agentischer Traffic zunehmend neben menschlichem Traffic steht.", "url": "https://aiagentsdirectory.com/news/ai-agents-news-brief-november-4-2026" }
+    ]},
+    { "id": "devtools", "title": "Dev & Automatisierung", "items": [
+      { "title": "GitHub Copilot behält Cloud-Sessions geräteübergreifend", "source": "AI Agents Directory", "date": "02.11.2026", "image": "", "teaser": "Copilot-Cloud-Sessions bleiben nun bestehen und folgen Entwicklern von Gerät zu Gerät.", "more": "Laufende Agenten-Aufgaben lassen sich so auf einem anderen Gerät fortsetzen, ohne Kontext zu verlieren. Ein Schritt hin zu langlebigen, asynchronen Coding-Agenten.", "url": "https://aiagentsdirectory.com/news/ai-agents-news-brief-november-4-2026" }
+    ]},
     { "id": "marketing", "title": "Marketing-AI (Bild & Video)", "items": [
-      { "title": "OpenAI veröffentlicht ChatGPT Images 2.6", "source": "AI-News-Digest", "date": "04.11.2026", "image": "", "teaser": "Das Update bringt native animierte GIFs und persistente Referenzbilder in Web, Desktop und Mobile.", "more": "Zusätzlich gibt es zwei neue API-Modelle. Für Marketing nützlich, weil sich Bildserien mit konsistenten Referenzen und kurze Animationen schneller erzeugen lassen.", "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-6-2026/" }
+      { "title": "ReelDo AI startet Image-to-Video-Plattform", "source": "MarTech Edge", "date": "03.11.2026", "image": "", "teaser": "ReelDo AI bringt eine Plattform auf den Markt, die aus Standbildern automatisch kurze Videos erzeugt.", "more": "Zielgruppe sind Marketer, die Produktbilder schnell in Videoformate für Social und Ads verwandeln wollen. Zu den zugrunde liegenden Modellen und Steuerungsmöglichkeiten gibt es bisher wenig Angaben.", "url": "https://martechedge.com/news/reeldo-ai-enters-image-to-video-market-with-automated-visual-creation-platform" }
     ]},
     { "id": "regulation", "title": "Regulierung & Data Sovereignty", "items": [] },
     { "id": "openweight", "title": "Open-Weight-Modelle", "items": [
-      { "title": "Baidu veröffentlicht ERNIE 5.5 Flash Base offen", "source": "AI-News-Digest", "date": "05.11.2026", "image": "", "teaser": "Baidu stellt ein offen verfügbares Modell mit 280 Milliarden Parametern bereit.", "more": "ERNIE 5.5 Flash Base ist ein Basismodell, also ohne Instruktions-Tuning, und damit vor allem für Feintuning und Forschung interessant. Lizenz und Benchmarks wurden nicht geprüft.", "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-6-2026/" }
+      { "title": "Kimi K3.1 Pro mit offenen Gewichten gelistet", "source": "ThursdAI Releases", "date": "05.11.2026", "image": "", "teaser": "Moonshots Kimi K3.1 Pro taucht in der Release-Übersicht der Woche als Open-Weights-Modell auf.", "more": "Die Liste nennt zudem SWE-2 Flash und Ripple-65B Preview. Andere Tracker datieren Kimi K3.1 Pro schon auf Ende Oktober, die Angaben sind uneinheitlich und sollten gegen Hugging Face geprüft werden.", "url": "https://thursdai.news/releases/2026-11" }
     ]}
   ]
 }
