@@ -1,13 +1,12 @@
 {
-  "updated": "23.11.2026",
+  "updated": "27.11.2026",
   "categories": [
     { "id": "models", "title": "Neue Modelle & Capabilities", "items": [] },
     { "id": "agentic", "title": "Agentic AI & Tool Use", "items": [] },
-    { "id": "devtools", "title": "Dev & Automatisierung", "items": [
-      { "title": "TestSprite 4.0 prüft KI-generierten Code auf Regressionen", "source": "Toolhype", "date": "20.11.2026", "image": "", "teaser": "TestSprite hat Version 4.0 seines Testing-Tools vorgestellt, das gezielt Regressionen in Code aufspüren soll, der mit Cursor oder Claude Code entstanden ist.", "more": "Mit dem Boom von Coding-Agents wächst die Menge an Code, den niemand Zeile für Zeile gelesen hat. Automatisierte Regressionstests als Sicherheitsnetz werden damit zum eigenen Tool-Segment. Die Angaben stammen aus einem Tool-Verzeichnis; Details sollten auf der Herstellerseite geprüft werden.", "url": "https://toolhype.dev/new" },
-      { "title": "Currents und tensorViz: Neue Helfer für Coding-Agents", "source": "Startup Corners", "date": "21.11.2026", "image": "", "teaser": "Ein Launch-Roundup nennt zwei neue Werkzeuge: Currents macht Testergebnisse für Claude und Codex sichtbar, tensorViz lässt Agents PyTorch-Modelle inspizieren.", "more": "Beide Tools folgen demselben Trend: Agents bekommen direkten Zugriff auf Kontext, den bisher nur Menschen über Dashboards sahen. tensorViz ist Open Source. Es handelt sich um frühe Launches aus einem Roundup, nicht um Releases grosser Anbieter.", "url": "https://startupcorners.com/digest/product-digest-2026-11-21" }
+    { "id": "devtools", "title": "Dev & Automatisierung", "items": [] },
+    { "id": "marketing", "title": "Marketing-AI (Bild & Video)", "items": [
+      { "title": "Sand AI stellt Videomodell MAGI-2 mit Audio vor", "source": "note.com (0x__tom)", "date": "24.11.2026", "image": "", "teaser": "Sand AI hat MAGI-2 veröffentlicht, ein 480-Milliarden-Parameter-Modell, das Videos inklusive Ton erzeugt.", "more": "Im Image-to-Video-Ranking von Artificial Analysis liegt MAGI-2 laut Bericht etwa gleichauf mit Seedance 2.5, soll aber nur rund ein Siebtel kosten. Für Marketing-Teams wäre das eine günstige Option für vertonte Kurzvideos. Die Angaben stammen bisher aus einer einzelnen Quelle und sollten vor dem Einsatz geprüft werden.", "url": "https://note.com/0x__tom/n/n9cd5aa41d76a" }
     ]},
-    { "id": "marketing", "title": "Marketing-AI (Bild & Video)", "items": [] },
     { "id": "regulation", "title": "Regulierung & Data Sovereignty", "items": [] },
     { "id": "openweight", "title": "Open-Weight-Modelle", "items": [] }
   ]
